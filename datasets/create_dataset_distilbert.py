@@ -112,8 +112,8 @@ def DistilBERT_tokenizer_tag(row):
 
 #~~~~~~~~~~~~~~~~~~~
 
-clean_and_short_file = sys.argv[0]
-tokenizer_type = sys.argv[1]
+clean_and_short_file = sys.argv[1]
+tokenizer_type = sys.argv[2]
     
 #opening file
 with open(clean_and_short_file, 'rb') as input:
@@ -123,9 +123,9 @@ if tokenizer_type == 'distilbert' or tokenizer_type == 'DistilBERT':
     tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
 else:
     print('error with input')
-    break
 
-%%time
+
+
 df = df[~df.short_text.str.startswith('cdef')]
 df = df[~df.parts.str.strip().str.startswith('#')]
 df = df.drop_duplicates()
@@ -134,7 +134,7 @@ df_bp = df.copy()
 df_bp = df_bp[df_bp.type == 'bp']
 df_bp.reset_index(inplace=True, drop=True)
 
-%%time
+
 tag_tok_results_bp = []
 for x in range(0, len(df_bp), 25000):
     df_test = df_bp.copy()
@@ -149,10 +149,10 @@ bp_attention = []
 bp_input_ids = []
 for x in tag_tok_results_bp_all:
     if len(x) == 0:
-    bp_ner_tags.append('None')
-    bp_tokens.append('None')
-    bp_attention.append('None')
-    bp_input_ids.append('None')
+        bp_ner_tags.append('None')
+        bp_tokens.append('None')
+        bp_attention.append('None')
+        bp_input_ids.append('None')
     else:
         for y in x:
             bp_ner_tags.append(y['ner_tags'])
@@ -193,7 +193,6 @@ df_final = df_final[df_final.short_text != '']
 df_final = df_final.drop(columns = ['ner_len','len_set_parts', 'parts_stripped'])
 print(df_final.cwetype.value_counts())
 
-%%time
 train, test = train_test_split(df_final, test_size=0.4, random_state=2023, shuffle = True, stratify = df_final.cwetype)
 
 print('train counts:\n', train.cwetype.value_counts())

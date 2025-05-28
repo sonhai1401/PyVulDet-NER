@@ -210,8 +210,8 @@ def change_attention(row):
 
 #~~~~~~~~~~~~~~~~~~~~~
 
-clean_and_short_file = sys.argv[0]
-tokenizer_type = sys.argv[1]
+clean_and_short_file = sys.argv[1]
+tokenizer_type = sys.argv[2]
     
 #opening file
 with open(clean_and_short_file, 'rb') as input:
