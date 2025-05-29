@@ -106,7 +106,7 @@ def main():
             all_commits[repo_name] = commits
 
     # Lưu kết quả ra file JSON
-    with open("all_commits_local.json", "w", encoding="utf-8") as f:
+    with open("all_commits.json", "w", encoding="utf-8") as f:
         json.dump(all_commits, f, indent=2, ensure_ascii=False)
 
     print(f"Scan hoàn tất. Tìm thấy tổng cộng {sum(len(v) for v in all_commits.values())} commit phù hợp.")
