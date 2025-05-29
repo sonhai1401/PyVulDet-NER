@@ -1,0 +1,5899 @@
+{
+  "Ai-Security-URL": {
+    "a66a8bb67bd6267d033d2e3313587d74bfd09696": {
+      "sha": "a66a8bb67bd6267d033d2e3313587d74bfd09696",
+      "author": "AiGptCode",
+      "date": "Sun Apr 21 06:29:27 2024 +0330",
+      "message": "Update Ai security url 2(auto generate sql and xss payload).py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "8f579767bede18bd926d963e5d79fecb9fcb7804": {
+      "sha": "8f579767bede18bd926d963e5d79fecb9fcb7804",
+      "author": "AiGptCode",
+      "date": "Fri Oct 6 21:36:09 2023 +0330",
+      "message": "Update Ai security url 2(auto generate sql and xss payload).py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "426276f267e51f0114c52f3beb547fc18cde434b": {
+      "sha": "426276f267e51f0114c52f3beb547fc18cde434b",
+      "author": "AiGptCode",
+      "date": "Sun Oct 1 08:26:35 2023 +0330",
+      "message": "Rename Ai security url 2(auto generate sql and xss payload) to Ai security url 2(auto generate sql and xss payload).py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "6a018d9f412e55419c8beffe716e3b2e6dafd0ed": {
+      "sha": "6a018d9f412e55419c8beffe716e3b2e6dafd0ed",
+      "author": "AiGptCode",
+      "date": "Sun Oct 1 08:26:10 2023 +0330",
+      "message": "Create Ai security url 2(auto generate sql and xss payload)",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "anti-XSS": {
+    "b6c960296069d1eb1b1068270272b96bd8eabd43": {
+      "sha": "b6c960296069d1eb1b1068270272b96bd8eabd43",
+      "author": "Le Wang",
+      "date": "Sun Sep 18 16:44:21 2016 +0800",
+      "message": "Merge branch 'master' of github.com:lewangbtcc/anti-XSS",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "6a1e448365e7686fa2e6e24af7ba2ba6ebad8fad": {
+      "sha": "6a1e448365e7686fa2e6e24af7ba2ba6ebad8fad",
+      "author": "lewangbtcc",
+      "date": "Thu Aug 4 09:50:09 2016 +0800",
+      "message": "Use class XssScripts",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "daf2b9b3cdab7528d6998c52ead06c709be42e41": {
+      "sha": "daf2b9b3cdab7528d6998c52ead06c709be42e41",
+      "author": "lewangbtcc",
+      "date": "Sun Jul 31 15:48:07 2016 +0800",
+      "message": "Add xsspayload",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "28f6babac3f88fa0cbecf44622f180f89e24a82a": {
+      "sha": "28f6babac3f88fa0cbecf44622f180f89e24a82a",
+      "author": "lewangbtcc",
+      "date": "Fri Jul 29 17:44:49 2016 +0800",
+      "message": "Add class XssScripts",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "b3aba5528dd404d0ed405fd48814705454f341be": {
+      "sha": "b3aba5528dd404d0ed405fd48814705454f341be",
+      "author": "lewangbtcc",
+      "date": "Wed Jul 27 10:33:45 2016 +0800",
+      "message": "Modify the checkXSS model",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "f85c73d24230b4b5d9c9187b63ff924de721a0d5": {
+      "sha": "f85c73d24230b4b5d9c9187b63ff924de721a0d5",
+      "author": "lewangbtcc",
+      "date": "Mon Jul 25 15:17:48 2016 +0800",
+      "message": "upload anti-xss",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "Automated-XSS-Finder": {
+    "a213e028d93652c0c0f2624eac0c4fc5d6417ab9": {
+      "sha": "a213e028d93652c0c0f2624eac0c4fc5d6417ab9",
+      "author": "sh4d",
+      "date": "Mon Aug 6 21:33:13 2012 +0530",
+      "message": "All the XSS payloads can be found here",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "ee67578f2fb4f8ed8ec1d9da9278a97db72b3c4c": {
+      "sha": "ee67578f2fb4f8ed8ec1d9da9278a97db72b3c4c",
+      "author": "sh4d",
+      "date": "Mon Aug 6 21:32:49 2012 +0530",
+      "message": "XSS version 1",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "AWAE-OSWE-Prep": {
+    "8145978caa489b93b105539ee0c27de45e5b65b1": {
+      "sha": "8145978caa489b93b105539ee0c27de45e5b65b1",
+      "author": "Jan Socha",
+      "date": "Sun Apr 12 17:40:55 2020 -0400",
+      "message": "Help hackthebox sql injection",
+      "keyword": [
+        "sql injection"
+      ]
+    }
+  },
+  "azure-genai-design-patterns": {
+    "774cce4dd1f0bed25f5dc7f46024970073671023": {
+      "sha": "774cce4dd1f0bed25f5dc7f46024970073671023",
+      "author": "james-tn",
+      "date": "Wed May 31 21:06:40 2023 -0700",
+      "message": "add output structure enforcement",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "badfish": {
+    "f54a36df00b912ef98da31fd24a77a152ab8876a": {
+      "sha": "f54a36df00b912ef98da31fd24a77a152ab8876a",
+      "author": "Gonzalo Rafuls",
+      "date": "Mon May 12 18:05:04 2025 +0200",
+      "message": "fix: package upload and source rpm download",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "5fea04f71b4803b57c7d05bd7f3d955b2d16e9bf": {
+      "sha": "5fea04f71b4803b57c7d05bd7f3d955b2d16e9bf",
+      "author": "Gonzalo Rafuls",
+      "date": "Fri May 9 11:58:44 2025 +0200",
+      "message": "CI: fixed source tarball",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "23ee3186a4112ce347ca357043f68828d3201b02": {
+      "sha": "23ee3186a4112ce347ca357043f68828d3201b02",
+      "author": "Gonza Rafuls",
+      "date": "Thu Mar 10 11:56:43 2022 +0100",
+      "message": "tests: added for uefi boot source override",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "2b95af3ecd68c87655abdc9666a4b43774be4c81": {
+      "sha": "2b95af3ecd68c87655abdc9666a4b43774be4c81",
+      "author": "Gonza Rafuls",
+      "date": "Wed Mar 9 16:28:35 2022 +0100",
+      "message": "feat: Added uefi boot source override",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "d11a38cfd11f2221ec5c706598d60b21941a36f6": {
+      "sha": "d11a38cfd11f2221ec5c706598d60b21941a36f6",
+      "author": "Will Foster",
+      "date": "Wed Mar 4 16:54:07 2020 +0000",
+      "message": "Document --force with --clear-jobs, add r640.",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "96eca227a08fbb5796f96bce59c905cb84c09e09": {
+      "sha": "96eca227a08fbb5796f96bce59c905cb84c09e09",
+      "author": "Gonzalo Rafuls",
+      "date": "Tue Mar 3 08:41:55 2020 -0500",
+      "message": "feat: added force optional argument for clear-jobs",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "2bf07a4e8e7f38ad92333a2d1dc2e27ea41d705d": {
+      "sha": "2bf07a4e8e7f38ad92333a2d1dc2e27ea41d705d",
+      "author": "Gonzalo Rafuls",
+      "date": "Mon Feb 25 17:27:07 2019 +0100",
+      "message": "Fixes to tests given new find_managers_resource",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "2e099850aa2c746f8d48deb0dc533bc09cb8ee84": {
+      "sha": "2e099850aa2c746f8d48deb0dc533bc09cb8ee84",
+      "author": "Gonzalo Rafuls",
+      "date": "Mon Feb 25 17:09:51 2019 +0100",
+      "message": "Added find_managers_resource for compatibility with multiple vendors.",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "fad95640e27ede03064eae36c271d442a950d093": {
+      "sha": "fad95640e27ede03064eae36c271d442a950d093",
+      "author": "Gonzalo Rafuls",
+      "date": "Sun Feb 17 19:53:36 2019 +0100",
+      "message": "Added find_systems_resource for flexibility on endpoints on multiple devices.",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "bbqsql": {
+    "91e511094e1d631a7d101e1b990ed27356949980": {
+      "sha": "91e511094e1d631a7d101e1b990ed27356949980",
+      "author": "Ben Toews",
+      "date": "Wed Jun 27 15:05:30 2012 -0500",
+      "message": "should not have private URLS in our source",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "BeeXSS": {
+    "ece96951489bec86cac3ac893464fc047a803c8d": {
+      "sha": "ece96951489bec86cac3ac893464fc047a803c8d",
+      "author": "AnonKryptiQuz",
+      "date": "Wed Dec 4 05:51:08 2024 +1400",
+      "message": "Update BeeXSS.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "e8a22654330ac0ba4c60b4cdc7fb99b09b992b2e": {
+      "sha": "e8a22654330ac0ba4c60b4cdc7fb99b09b992b2e",
+      "author": "AnonKryptiQuz",
+      "date": "Wed Dec 4 05:48:57 2024 +1400",
+      "message": "Update BeeXSS.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "Bibi-Bird": {
+    "800f7b52d74055686d9245527e74c3cd9035b267": {
+      "sha": "800f7b52d74055686d9245527e74c3cd9035b267",
+      "author": "alfredredbird",
+      "date": "Wed Sep 11 21:43:04 2024 -0700",
+      "message": "added XSS exploit detection",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "fde29422a515c1e0420b9ca0a9af9235338c6113": {
+      "sha": "fde29422a515c1e0420b9ca0a9af9235338c6113",
+      "author": "alfredredbird",
+      "date": "Tue Sep 10 14:58:44 2024 -0700",
+      "message": "added XSS options",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "38dae445d540bde5cb86f9522d0b00ec69b0b0d5": {
+      "sha": "38dae445d540bde5cb86f9522d0b00ec69b0b0d5",
+      "author": "alfredredbird",
+      "date": "Tue Sep 10 14:29:45 2024 -0700",
+      "message": "started work on XSS",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "53bf23be5bf3a2aca3e1e485ead1c059a574c27f": {
+      "sha": "53bf23be5bf3a2aca3e1e485ead1c059a574c27f",
+      "author": "alfredredbird",
+      "date": "Tue Sep 3 18:49:24 2024 -0700",
+      "message": "working on brute force url",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "BlindBrute": {
+    "d37f3e25ffcd7afeea05f6cb230becf492e1bec9": {
+      "sha": "d37f3e25ffcd7afeea05f6cb230becf492e1bec9",
+      "author": "c3llkn1ght",
+      "date": "Wed Oct 9 23:32:01 2024 -0400",
+      "message": "added a force option, cleared TODO item",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "bc1da7c95a26b84f99baf2ab24a95991f4ead3ac": {
+      "sha": "bc1da7c95a26b84f99baf2ab24a95991f4ead3ac",
+      "author": "c3llkn1ght",
+      "date": "Mon Oct 7 03:46:46 2024 -0400",
+      "message": "Delete bruteforcer.py",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "Blisqy": {
+    "f4757733e6956c6cb26acb189aabfe5b1dfcfa03": {
+      "sha": "f4757733e6956c6cb26acb189aabfe5b1dfcfa03",
+      "author": "John Troony",
+      "date": "Mon Feb 18 14:33:19 2019 +0300",
+      "message": "Add support for Fuzzing Time-based Blind SQL injection",
+      "keyword": [
+        "sql injection"
+      ]
+    }
+  },
+  "bouncy-sink": {
+    "4608d067f854b5829e1ac0752593c21bc62dff45": {
+      "sha": "4608d067f854b5829e1ac0752593c21bc62dff45",
+      "author": "tuck1s",
+      "date": "Fri Sep 17 20:26:52 2021 +0100",
+      "message": "Log exception source line number. Remove rogue files that fail initial decode",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "cced7b60cd77e54fac643b7ea02ca2a511205966": {
+      "sha": "cced7b60cd77e54fac643b7ea02ca2a511205966",
+      "author": "tuck1s",
+      "date": "Mon Jul 22 21:27:56 2019 +0100",
+      "message": "Tweak Click percentages and 14 day cycle",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "BruteXSS": {
+    "8d1c0404d841cad2ae772d7fe67e50ec330d4691": {
+      "sha": "8d1c0404d841cad2ae772d7fe67e50ec330d4691",
+      "author": "XnuxersXploitXen",
+      "date": "Sat Oct 24 06:26:55 2020 +0700",
+      "message": "Update brutexss.txt",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "46c51c411a47e133b6f1a4b615d128f4c84674d5": {
+      "sha": "46c51c411a47e133b6f1a4b615d128f4c84674d5",
+      "author": "Rajesh Majumdar",
+      "date": "Fri Mar 10 23:04:07 2017 +0530",
+      "message": "Update brutexss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "ed2567e96301543ab3bc81fc2732a652d03bd54b": {
+      "sha": "ed2567e96301543ab3bc81fc2732a652d03bd54b",
+      "author": "Rajesh Majumdar",
+      "date": "Tue Feb 28 03:50:38 2017 +0530",
+      "message": "Update brutexss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "ae9e0c58a7d5bacaae646e53bed8e0a5d3280228": {
+      "sha": "ae9e0c58a7d5bacaae646e53bed8e0a5d3280228",
+      "author": "Rajesh Majumdar",
+      "date": "Tue Feb 28 03:40:25 2017 +0530",
+      "message": "Update brutexss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "a8e95910d531cc9b110f88f9093a1f942a139cb4": {
+      "sha": "a8e95910d531cc9b110f88f9093a1f942a139cb4",
+      "author": "Rajesh Majumdar",
+      "date": "Mon Feb 27 23:38:29 2017 +0530",
+      "message": "Update brutexss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "46b960e334c5265f696fb332a2c3c9a188441e4f": {
+      "sha": "46b960e334c5265f696fb332a2c3c9a188441e4f",
+      "author": "Rajesh Majumdar",
+      "date": "Mon Feb 27 23:38:10 2017 +0530",
+      "message": "Update brutexss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "80c274d5f54f34efef2636bfc841c3081e12ccd5": {
+      "sha": "80c274d5f54f34efef2636bfc841c3081e12ccd5",
+      "author": "Rajesh Majumdar",
+      "date": "Mon Feb 27 23:31:49 2017 +0530",
+      "message": "Update brutexss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "540e16f562f6abde80e10d0f480e62fe24cae369": {
+      "sha": "540e16f562f6abde80e10d0f480e62fe24cae369",
+      "author": "Rajesh Majumdar",
+      "date": "Mon Feb 27 22:50:17 2017 +0530",
+      "message": "Update brutexss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "c91058110b2b8edc1a4775dbc1567ebad9e07ec6": {
+      "sha": "c91058110b2b8edc1a4775dbc1567ebad9e07ec6",
+      "author": "Rajesh Majumdar",
+      "date": "Mon Feb 27 22:43:23 2017 +0530",
+      "message": "Create brutexss.txt",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "Burp-Suite-Certified-Practitioner-Exam-Study": {
+    "1c4d97aae4b5b0d1519ef92f6b292c5d8fb74cb2": {
+      "sha": "1c4d97aae4b5b0d1519ef92f6b292c5d8fb74cb2",
+      "author": "Juan Botes",
+      "date": "Mon Jan 16 08:04:38 2023 +0200",
+      "message": "Create stored-xss-blog-post.png",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "chrome_headless_xss": {
+    "e27ae8bce13fcae5b7e065892240f46b1b903d03": {
+      "sha": "e27ae8bce13fcae5b7e065892240f46b1b903d03",
+      "author": "neverlovelynn",
+      "date": "Wed Jul 18 00:48:59 2018 +0800",
+      "message": "rm .ds_store add requirements.txt,fixed False Positives in xss level 1 by Dom.outHtml",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "aebb009b738b8a87869fd2d4b55760c0d319af5a": {
+      "sha": "aebb009b738b8a87869fd2d4b55760c0d319af5a",
+      "author": "neverlovelynn",
+      "date": "Wed Jul 18 00:20:50 2018 +0800",
+      "message": "rm .ds_store add requirements.txt,fixed False Positives in xss level 1 by Dom.outHtml",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "160edcc0cc4b96e596feb50f894793069c1701d7": {
+      "sha": "160edcc0cc4b96e596feb50f894793069c1701d7",
+      "author": "neverlovelynn",
+      "date": "Fri Jul 13 16:35:16 2018 +0800",
+      "message": "update readme about add check_message of chrome_headless_xss",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "3983d801347ae79557844471c3c966f392010766": {
+      "sha": "3983d801347ae79557844471c3c966f392010766",
+      "author": "neverlovelynn",
+      "date": "Fri Jul 13 16:30:15 2018 +0800",
+      "message": "fixed a false positive of url_location.py  added a json response case of chrome_headless_xss",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "e786af5afdc69f5eccb978dcc70440d4b45364db": {
+      "sha": "e786af5afdc69f5eccb978dcc70440d4b45364db",
+      "author": "neverlovelynn",
+      "date": "Thu Jul 12 01:15:33 2018 +0800",
+      "message": "Merge branch 'master' of https://github.com/neverlovelynn/chrome_headless_xss",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "compaXSS": {
+    "4d667249bb1759aced34179d638b70dd52d2708c": {
+      "sha": "4d667249bb1759aced34179d638b70dd52d2708c",
+      "author": "JosÃ© Pino",
+      "date": "Sat Jan 18 11:51:58 2014 -0500",
+      "message": "Update compaxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "cefcf1cb160f66d87555b7b8f2750ebeb2257874": {
+      "sha": "cefcf1cb160f66d87555b7b8f2750ebeb2257874",
+      "author": "JosÃ© Pino",
+      "date": "Tue Dec 10 12:52:15 2013 -0500",
+      "message": "Update compaxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "dff310ae11b72df33fb2c60df0acda9065618465": {
+      "sha": "dff310ae11b72df33fb2c60df0acda9065618465",
+      "author": "JosÃ© Pino",
+      "date": "Tue Dec 10 12:15:21 2013 -0500",
+      "message": "Update compaxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "b1d7195d46a1d096a9fabe162ebcb38a4b7f149b": {
+      "sha": "b1d7195d46a1d096a9fabe162ebcb38a4b7f149b",
+      "author": "JosÃ© Pino",
+      "date": "Tue Dec 10 12:00:09 2013 -0500",
+      "message": "Update compaxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "cec8669960fdfe42b91761f77e9bae94b0fe5e4a": {
+      "sha": "cec8669960fdfe42b91761f77e9bae94b0fe5e4a",
+      "author": "JosÃ© Pino",
+      "date": "Tue Dec 10 09:30:31 2013 -0500",
+      "message": "Update compaxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "1bab8e31c3703b587f2942f6864afcaa098ba6d5": {
+      "sha": "1bab8e31c3703b587f2942f6864afcaa098ba6d5",
+      "author": "JosÃ© Pino",
+      "date": "Tue Dec 10 02:35:50 2013 -0500",
+      "message": "compaxss.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "cookie-stealer": {
+    "4fa45db28f4f3b4cbc58f656136889e1668ba815": {
+      "sha": "4fa45db28f4f3b4cbc58f656136889e1668ba815",
+      "author": "Khaled Nassar",
+      "date": "Sat Sep 7 18:26:44 2019 +0200",
+      "message": "Update xss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "d20b8de6b838a490155218b2306c87f6060713a6": {
+      "sha": "d20b8de6b838a490155218b2306c87f6060713a6",
+      "author": "Khaled Nassar",
+      "date": "Sat Aug 17 21:22:39 2019 +0200",
+      "message": "Update xss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "33993d2dca4259e574211b8fa84032894b278bb0": {
+      "sha": "33993d2dca4259e574211b8fa84032894b278bb0",
+      "author": "Khaled Nassar",
+      "date": "Fri Aug 16 20:53:17 2019 +0200",
+      "message": "Update xss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "cf20934502abb454f2f127a0a307af00de6e0136": {
+      "sha": "cf20934502abb454f2f127a0a307af00de6e0136",
+      "author": "Khaled Nassar",
+      "date": "Fri Aug 16 20:28:17 2019 +0200",
+      "message": "Update xss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "4015aff87d47927f2d527b3071f09b9aaf732d05": {
+      "sha": "4015aff87d47927f2d527b3071f09b9aaf732d05",
+      "author": "Khaled Nassar",
+      "date": "Fri Aug 16 20:27:01 2019 +0200",
+      "message": "Update xss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "f89875a106cac251e066535823c3fada522a7ae1": {
+      "sha": "f89875a106cac251e066535823c3fada522a7ae1",
+      "author": "Khaled Nassar",
+      "date": "Fri Aug 16 20:14:25 2019 +0200",
+      "message": "Update xss.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "CVE-2019-3396_EXP": {
+    "36ba5d2213539caa19ae33736d2f43845ab3f309": {
+      "sha": "36ba5d2213539caa19ae33736d2f43845ab3f309",
+      "author": "BinAry",
+      "date": "Wed Apr 10 10:30:16 2019 +0800",
+      "message": "Create RCE_exp.py",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "CVE-2021-35042": {
+    "29d294bdb9d53f074b3d7fd846001de9617e1887": {
+      "sha": "29d294bdb9d53f074b3d7fd846001de9617e1887",
+      "author": "YouGina",
+      "date": "Sat Jul 10 13:06:25 2021 +0000",
+      "message": "Force overwrite",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "cve-2022-41352-zimbra-rce": {
+    "3115ad413d0df3772a5ad70a867e07266c803515": {
+      "sha": "3115ad413d0df3772a5ad70a867e07266c803515",
+      "author": "crackcat",
+      "date": "Sat Nov 12 00:54:16 2022 +0100",
+      "message": "Delete zimbra-rce-demo-cve-2022-41352.mp4",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "CVE-2023-38831-RaRCE": {
+    "d5e54f484134ed3db1dce29349adc99538dd780f": {
+      "sha": "d5e54f484134ed3db1dce29349adc99538dd780f",
+      "author": "Ata HakÃ§Ä±l",
+      "date": "Mon Aug 28 01:17:56 2023 +0300",
+      "message": "Force update shields from cache",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "CVE-2023-46747-RCE": {
+    "e67efa428a9db0d70b9202f4bacb65690d5399c2": {
+      "sha": "e67efa428a9db0d70b9202f4bacb65690d5399c2",
+      "author": "W01fh4cker",
+      "date": "Sun Oct 20 18:27:37 2024 +0800",
+      "message": "Update CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "079b04cc51d639c4216faccb17f259095b3e5563": {
+      "sha": "079b04cc51d639c4216faccb17f259095b3e5563",
+      "author": "W01fh4cker",
+      "date": "Thu Dec 7 11:10:06 2023 +0800",
+      "message": "Update CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "ea7096eba1f5a3ea86111dbf5b387504a274f89f": {
+      "sha": "ea7096eba1f5a3ea86111dbf5b387504a274f89f",
+      "author": "W01fh4cker",
+      "date": "Thu Dec 7 11:09:17 2023 +0800",
+      "message": "Update CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "67e5a2043cf983cf95995fe1fd237ddf709c689e": {
+      "sha": "67e5a2043cf983cf95995fe1fd237ddf709c689e",
+      "author": "W01fh4cker",
+      "date": "Thu Dec 7 11:08:29 2023 +0800",
+      "message": "Update CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "b19770b7ddc466fb56436e9b18dac2481d6e68e6": {
+      "sha": "b19770b7ddc466fb56436e9b18dac2481d6e68e6",
+      "author": "W01fh4cker",
+      "date": "Fri Nov 10 10:12:38 2023 +0800",
+      "message": "æ›´æ–° CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "b1ff847d17c9fb8e1295ee9f4f1e10e108a4d38b": {
+      "sha": "b1ff847d17c9fb8e1295ee9f4f1e10e108a4d38b",
+      "author": "W01fh4cker",
+      "date": "Fri Nov 10 09:59:33 2023 +0800",
+      "message": "Update CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "26d39a8e8c50def777151f0fc1ab736dd3ab2b5b": {
+      "sha": "26d39a8e8c50def777151f0fc1ab736dd3ab2b5b",
+      "author": "W01fh4cker",
+      "date": "Fri Nov 10 09:58:35 2023 +0800",
+      "message": "æ›´æ–° CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "fb58b80c3e5031a6d7219fa39d7b5563d61a1394": {
+      "sha": "fb58b80c3e5031a6d7219fa39d7b5563d61a1394",
+      "author": "W01fh4cker",
+      "date": "Fri Nov 10 09:41:49 2023 +0800",
+      "message": "Update CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "a01a99da737fd109041661c67d6632d3740d0f44": {
+      "sha": "a01a99da737fd109041661c67d6632d3740d0f44",
+      "author": "W01fh4cker",
+      "date": "Fri Nov 10 08:37:05 2023 +0800",
+      "message": "Update CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "1b9a85f15ff34a4e207b107001edf10168f68d8e": {
+      "sha": "1b9a85f15ff34a4e207b107001edf10168f68d8e",
+      "author": "W01fh4cker",
+      "date": "Tue Nov 7 18:44:01 2023 +0800",
+      "message": "fix some bugs. https://github.com/W01fh4cker/CVE-2023-46747-RCE/issues/2",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c6f7492e87f3a3da0d75eeb8803c9046ab8fb5c9": {
+      "sha": "c6f7492e87f3a3da0d75eeb8803c9046ab8fb5c9",
+      "author": "W01fh4cker",
+      "date": "Fri Nov 3 19:47:26 2023 +0800",
+      "message": "Update CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "79ddc22cca591fdf74973df81e7627bbd707097e": {
+      "sha": "79ddc22cca591fdf74973df81e7627bbd707097e",
+      "author": "W01fh4cker",
+      "date": "Fri Nov 3 19:46:50 2023 +0800",
+      "message": "Update CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "528e6a97aae598935755ae70daa2b3d0c2ce3a10": {
+      "sha": "528e6a97aae598935755ae70daa2b3d0c2ce3a10",
+      "author": "W01fh4cker",
+      "date": "Fri Nov 3 19:40:24 2023 +0800",
+      "message": "Update CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "bb27222461303944455761e006b9aea0a0a1e135": {
+      "sha": "bb27222461303944455761e006b9aea0a0a1e135",
+      "author": "W01fh4cker",
+      "date": "Fri Nov 3 19:22:14 2023 +0800",
+      "message": "Update CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "0270ef0e7ed48654d729191e3ee847f888cfa411": {
+      "sha": "0270ef0e7ed48654d729191e3ee847f888cfa411",
+      "author": "W01fh4cker",
+      "date": "Thu Nov 2 15:19:18 2023 +0800",
+      "message": "Update CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "e4844a5f2c850e30af9d6035b278ea75f4727c4a": {
+      "sha": "e4844a5f2c850e30af9d6035b278ea75f4727c4a",
+      "author": "W01fh4cker",
+      "date": "Thu Nov 2 14:43:10 2023 +0800",
+      "message": "Update CVE-2023-46747-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "CVE-2024-21683-RCE": {
+    "6d8921bb9966d4a2ff9dfa5b1726c8960023d69b": {
+      "sha": "6d8921bb9966d4a2ff9dfa5b1726c8960023d69b",
+      "author": "W01fh4cker",
+      "date": "Mon May 27 11:47:36 2024 +0800",
+      "message": "fix: https://github.com/W01fh4cker/CVE-2024-21683-RCE/issues/2",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "CVE-2024-22120-RCE": {
+    "343bb6c22c4e4485b97281be3c71346cfbba3832": {
+      "sha": "343bb6c22c4e4485b97281be3c71346cfbba3832",
+      "author": "Blitztide",
+      "date": "Tue May 21 10:41:54 2024 +0100",
+      "message": "Extended RCE Set injection to do '1' + (SLEEP(10) + '1' to not generate errors on underlying SQL server Nicer printing of signing key as it gets generated, (allows users to follow along) Added functionality to support prefix URLs such as http://127.0.0.1/zabbix/api_jsrpc.php",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "0327d21dbc7aa79cd75113a17800b3278535a946": {
+      "sha": "0327d21dbc7aa79cd75113a17800b3278535a946",
+      "author": "W01fh4cker",
+      "date": "Mon May 20 17:49:51 2024 +0800",
+      "message": "update: rce script",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "6782b0d3d728631e92b8b04973a43dd9627617ea": {
+      "sha": "6782b0d3d728631e92b8b04973a43dd9627617ea",
+      "author": "W01fh4cker",
+      "date": "Mon May 20 17:41:04 2024 +0800",
+      "message": "update: rce script",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "CVE-2024-27198-RCE": {
+    "4560e9f5c79c699cba6cbe95cde149bba7c17908": {
+      "sha": "4560e9f5c79c699cba6cbe95cde149bba7c17908",
+      "author": "W01fh4cker",
+      "date": "Wed Mar 6 13:08:41 2024 +0800",
+      "message": "Update CVE-2024-27198-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "ec5f04bae183f8eee58afed1d5f23eb15b4f91fb": {
+      "sha": "ec5f04bae183f8eee58afed1d5f23eb15b4f91fb",
+      "author": "W01fh4cker",
+      "date": "Wed Mar 6 13:05:38 2024 +0800",
+      "message": "Update CVE-2024-27198-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "53c34ff888c8b1caf68176b2e30a2f309ca64fa1": {
+      "sha": "53c34ff888c8b1caf68176b2e30a2f309ca64fa1",
+      "author": "W01fh4cker",
+      "date": "Wed Mar 6 13:04:46 2024 +0800",
+      "message": "Update CVE-2024-27198-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "20d3b6a5eff30a71cae1a35eab485c10bfb3b883": {
+      "sha": "20d3b6a5eff30a71cae1a35eab485c10bfb3b883",
+      "author": "W01fh4cker",
+      "date": "Wed Mar 6 12:40:35 2024 +0800",
+      "message": "Update CVE-2024-27198-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "663d22d5c7095092b4318be393a5904d01ae8b47": {
+      "sha": "663d22d5c7095092b4318be393a5904d01ae8b47",
+      "author": "W01fh4cker",
+      "date": "Wed Mar 6 12:39:05 2024 +0800",
+      "message": "Update CVE-2024-27198-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "8b318f745e0f69d057eaffcfb10a9d652e509a09": {
+      "sha": "8b318f745e0f69d057eaffcfb10a9d652e509a09",
+      "author": "W01fh4cker",
+      "date": "Wed Mar 6 12:03:40 2024 +0800",
+      "message": "TeamCity Auth Bypass to RCE v0.0.1",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "DeepLearning-for-sql-injection": {
+    "66216306313c301cff405d501dee30d226932cdf": {
+      "sha": "66216306313c301cff405d501dee30d226932cdf",
+      "author": "wangfang",
+      "date": "Tue Apr 3 14:04:23 2018 +0800",
+      "message": "DeepLearning for SQL Injection Detection",
+      "keyword": [
+        "sql injection"
+      ]
+    }
+  },
+  "DeepPATH": {
+    "84505459f298b2e722a7831eca454f0968f74c4b": {
+      "sha": "84505459f298b2e722a7831eca454f0968f74c4b",
+      "author": "ncoudray",
+      "date": "Thu Jan 4 11:53:16 2018 -0500",
+      "message": "print per tile percent selected",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "e11f2adb45bc0c84a51d5831dee1de8af5c01f54": {
+      "sha": "e11f2adb45bc0c84a51d5831dee1de8af5c01f54",
+      "author": "ncoudray",
+      "date": "Tue Sep 26 15:14:22 2017 -0400",
+      "message": "percentage of images adjusted",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "cf1ad7c6674bf17fff8dcd09f237d05d5f5eecf8": {
+      "sha": "cf1ad7c6674bf17fff8dcd09f237d05d5f5eecf8",
+      "author": "ncoudray",
+      "date": "Tue Sep 12 08:53:45 2017 -0400",
+      "message": "force labels to be sorted in alphabetical order",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "Detect-Sql-Injection-by-Machine-Learning": {
+    "db76fa15ec5503823a1300475b835dd8d600e728": {
+      "sha": "db76fa15ec5503823a1300475b835dd8d600e728",
+      "author": "Scott-Park",
+      "date": "Wed Apr 19 17:32:22 2017 +0900",
+      "message": "Detect sql injection with machine learning",
+      "keyword": [
+        "sql injection"
+      ]
+    }
+  },
+  "discuz-ml-rce": {
+    "3f816a0f0b7f041027fe14d0681821144767e1b9": {
+      "sha": "3f816a0f0b7f041027fe14d0681821144767e1b9",
+      "author": "thelsa",
+      "date": "Tue Jul 16 12:02:23 2019 +0800",
+      "message": "Merge branch 'master' of github.com:theLSA/discuz-ml-rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "3ed08582fb7238088aa7ba24191a61e57763899f": {
+      "sha": "3ed08582fb7238088aa7ba24191a61e57763899f",
+      "author": "thelsa",
+      "date": "Tue Jul 16 01:45:32 2019 +0800",
+      "message": "Merge branch 'master' of github.com:theLSA/discuz-ml-rce",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "django-pattern-library": {
+    "16e05f8a9e97f2bb54ff951a2f12510fce3011c4": {
+      "sha": "16e05f8a9e97f2bb54ff951a2f12510fce3011c4",
+      "author": "Thibaud Colas",
+      "date": "Tue Apr 8 13:38:13 2025 +0100",
+      "message": "Force regenerate Poetry lockfile",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "96f9dfbfb7829ae2d696820354dba6a5c1146a40": {
+      "sha": "96f9dfbfb7829ae2d696820354dba6a5c1146a40",
+      "author": "Ben Dickinson",
+      "date": "Wed Jul 29 10:45:04 2020 +0100",
+      "message": "Merge pull request #83 from torchbox/feature/remove-forced-patterns",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "acac7bb417601c688e48f86e413f8ea645bc089a": {
+      "sha": "acac7bb417601c688e48f86e413f8ea645bc089a",
+      "author": "Ben Dickinson",
+      "date": "Mon Jul 30 17:29:17 2018 +0100",
+      "message": "Don't include static source in wheels",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "DSXS": {
+    "77f75974c8a511bd196325680fd6e14bc0567715": {
+      "sha": "77f75974c8a511bd196325680fd6e14bc0567715",
+      "author": "Miroslav Stampar",
+      "date": "Wed Nov 26 01:28:11 2014 +0100",
+      "message": "Adding a support for DOM XSS",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "dumpxss": {
+    "567049e96457d2a2be9dfe0a1e5653e09b6e1a9a": {
+      "sha": "567049e96457d2a2be9dfe0a1e5653e09b6e1a9a",
+      "author": "Stonzyy",
+      "date": "Wed Apr 13 20:06:21 2022 +0300",
+      "message": "Update dumpxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "41e462e8ce7d7dae43c9b2e7e8faf697d505bb21": {
+      "sha": "41e462e8ce7d7dae43c9b2e7e8faf697d505bb21",
+      "author": "Stonzyy",
+      "date": "Wed Apr 13 19:54:38 2022 +0300",
+      "message": "Update dumpxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "007c5d44ba99c39b36a8d07bd08a1b3603d41928": {
+      "sha": "007c5d44ba99c39b36a8d07bd08a1b3603d41928",
+      "author": "Stonzyy",
+      "date": "Fri Apr 8 17:33:19 2022 +0300",
+      "message": "Update dumpxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "46238cf8afcedc05cb2fb07cb6c19fdfb81ed0fc": {
+      "sha": "46238cf8afcedc05cb2fb07cb6c19fdfb81ed0fc",
+      "author": "Stonzyy",
+      "date": "Fri Apr 8 17:31:02 2022 +0300",
+      "message": "Update and rename dumpx.py to dumpxss.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "easyXssPayload": {
+    "f84fd9e10c917e25b9a995c54812c4323cf41ed8": {
+      "sha": "f84fd9e10c917e25b9a995c54812c4323cf41ed8",
+      "author": "é¸­çŽ‹",
+      "date": "Mon Jan 6 10:53:10 2020 +0800",
+      "message": "Update easyXssPayload.txt",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "be8a7e03399c7df36a7b562761417fd11b153793": {
+      "sha": "be8a7e03399c7df36a7b562761417fd11b153793",
+      "author": "é¸­çŽ‹",
+      "date": "Thu Sep 5 19:36:23 2019 +0800",
+      "message": "Update easyXssPayload.txt",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "22d7a03901e4d47a83804991916e3515a9ca957c": {
+      "sha": "22d7a03901e4d47a83804991916e3515a9ca957c",
+      "author": "é¸­çŽ‹",
+      "date": "Sun May 5 14:03:15 2019 +0800",
+      "message": "Update easyXssPayload.txt",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "cb88b422bccea3fccb783e7eeb7ebfeccb9f5379": {
+      "sha": "cb88b422bccea3fccb783e7eeb7ebfeccb9f5379",
+      "author": "é¸­çŽ‹",
+      "date": "Sat Apr 27 18:29:37 2019 +0800",
+      "message": "Update xss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "787380acda1a3b19adaf6ecd8f18d46148db698a": {
+      "sha": "787380acda1a3b19adaf6ecd8f18d46148db698a",
+      "author": "é¸­çŽ‹",
+      "date": "Sat Apr 27 18:28:54 2019 +0800",
+      "message": "easyXssPayload",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "Exploit-Joomla": {
+    "09d241e8a4bee6b774d5290fe31eaf9dbd2bebce": {
+      "sha": "09d241e8a4bee6b774d5290fe31eaf9dbd2bebce",
+      "author": "lucas",
+      "date": "Sun Nov 19 15:03:05 2017 -0200",
+      "message": "Add joomla 3.7.0 and 37.1 source codes",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "game-patches": {
+    "da01be252fe23df5732d054a0654ea17679920ca": {
+      "sha": "da01be252fe23df5732d054a0654ea17679920ca",
+      "author": "illusion0001",
+      "date": "Wed Dec 18 00:24:35 2024 -0600",
+      "message": "Enforce lf on patch files",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "628ac65004548ff1ce2c7ba2bfa2193b4481c981": {
+      "sha": "628ac65004548ff1ce2c7ba2bfa2193b4481c981",
+      "author": "Margen67",
+      "date": "Tue Feb 15 14:59:01 2022 -0800",
+      "message": "Add source to dron_3's Batman patches",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "d02b7059f67c5663a11a5bb502f7860158d720bd": {
+      "sha": "d02b7059f67c5663a11a5bb502f7860158d720bd",
+      "author": "illusion0001",
+      "date": "Wed May 5 11:36:28 2021 +0900",
+      "message": "Skate2: add force 60fps patch",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "ghauri": {
+    "d5f3c408b0e8a25ff4ad385ab0ad32bd5d3f2df0": {
+      "sha": "d5f3c408b0e8a25ff4ad385ab0ad32bd5d3f2df0",
+      "author": "r0oth3x49",
+      "date": "Tue Oct 11 15:35:18 2022 +0500",
+      "message": "updated code, added function to check '>', 'IN' and '=' operators/function before extracting characters, this way we will know exactly which method to choose for characters guessing in case of boolean/time based SQL injections..",
+      "keyword": [
+        "sql injection"
+      ]
+    },
+    "070ea36c1e6a8acbc6001599e92f4cd23856647e": {
+      "sha": "070ea36c1e6a8acbc6001599e92f4cd23856647e",
+      "author": "r0oth3x49",
+      "date": "Sat Oct 1 16:53:56 2022 +0500",
+      "message": "Ghauri v1.0#stable, an advanced SQL injection detection & exploitation tool.",
+      "keyword": [
+        "sql injection"
+      ]
+    }
+  },
+  "gitlab_RCE": {
+    "853b1e1e7265e6dad6f789303a1d1f05eadbe84a": {
+      "sha": "853b1e1e7265e6dad6f789303a1d1f05eadbe84a",
+      "author": "dotPY-hax",
+      "date": "Wed Dec 16 19:13:27 2020 +0100",
+      "message": "Update gitlab_rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "b9fa7ec318b11d4c044036a314044c8f3977f70e": {
+      "sha": "b9fa7ec318b11d4c044036a314044c8f3977f70e",
+      "author": "dotPY-hax",
+      "date": "Sun Dec 13 14:05:21 2020 +0100",
+      "message": "Update gitlab_rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "f4d76cc20803c4549797e732948b768c6e78434a": {
+      "sha": "f4d76cc20803c4549797e732948b768c6e78434a",
+      "author": "pyrat3",
+      "date": "Sun Dec 13 02:26:40 2020 +0100",
+      "message": "Update gitlab_rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "13dbc3bcad9a0fe103f71544a6f121a87bdd96e5": {
+      "sha": "13dbc3bcad9a0fe103f71544a6f121a87bdd96e5",
+      "author": "pyrat3",
+      "date": "Sun Dec 13 01:49:32 2020 +0100",
+      "message": "Create gitlab_rce.py",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "hackable": {
+    "53fa429cfbaee5730d3929fcab511f2b3faed5e0": {
+      "sha": "53fa429cfbaee5730d3929fcab511f2b3faed5e0",
+      "author": "root",
+      "date": "Sun Nov 6 13:22:04 2016 -0500",
+      "message": "Now vulnerable to XSS attacks",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "hacksys_xss": {
+    "ab2c57042c74780c711efd2051f9fe41bfb5f4c9": {
+      "sha": "ab2c57042c74780c711efd2051f9fe41bfb5f4c9",
+      "author": "hacksys-hub",
+      "date": "Wed Sep 11 15:32:41 2024 +0530",
+      "message": "Delete xss.txt",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "32e7926fe5db8f77bd42b3e061bcfddf58f23e32": {
+      "sha": "32e7926fe5db8f77bd42b3e061bcfddf58f23e32",
+      "author": "hacksys-hub",
+      "date": "Wed Sep 11 15:29:28 2024 +0530",
+      "message": "Rename test.py to hacksys_xss.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "Hacktoberfest_Pattern_Making": {
+    "2ac460e1ff94f71ef2a8f921e2832193e8e32fc8": {
+      "sha": "2ac460e1ff94f71ef2a8f921e2832193e8e32fc8",
+      "author": "Shubh Rai",
+      "date": "Sat Oct 1 21:15:55 2022 +0530",
+      "message": "added codeforces solutions to CPP",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "hakuin": {
+    "87ce450a75ee2df7eb2e4639068a0ecd8b557a8e": {
+      "sha": "87ce450a75ee2df7eb2e4639068a0ecd8b557a8e",
+      "author": "Jakub Pruzinec",
+      "date": "Thu Jul 25 19:38:25 2024 +0200",
+      "message": "simplify force-include",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "Helios": {
+    "d38b4a649b9ea95af438bf6000fb006b41bd834e": {
+      "sha": "d38b4a649b9ea95af438bf6000fb006b41bd834e",
+      "author": "Stuub",
+      "date": "Tue Jul 23 02:08:06 2024 +0100",
+      "message": "Better WAF detect | Fixed DOM XSS a little",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "bde300b130bc22c301bb9bb725bf1a4c90abdeb7": {
+      "sha": "bde300b130bc22c301bb9bb725bf1a4c90abdeb7",
+      "author": "Stuub",
+      "date": "Mon Jul 22 22:10:53 2024 +0100",
+      "message": "Added chromium browser support + validation of brower install | Parralel requests for higher speeds | SQL Injection validation in responses | Detection Summaries",
+      "keyword": [
+        "sql injection"
+      ]
+    }
+  },
+  "IIV-Final": {
+    "e88fc851713aaa1a1f5f06702519fedc7ef46dee": {
+      "sha": "e88fc851713aaa1a1f5f06702519fedc7ef46dee",
+      "author": "ç™½å“²éŠ˜",
+      "date": "Mon Dec 12 23:28:58 2022 +0800",
+      "message": "1.create the resource conflict graph edge  according to the slide_6 p42 rule(a)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "ec4abe63c4ca093d0c827381d50bc1f3d82e71fd": {
+      "sha": "ec4abe63c4ca093d0c827381d50bc1f3d82e71fd",
+      "author": "ç™½å“²éŠ˜",
+      "date": "Mon Dec 12 22:43:49 2022 +0800",
+      "message": "1.create the resource conflict graph node according to the graph.edges",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "immunio-xss-fuzzer": {
+    "2f2cce5f03344d6c4721c20988acb91ef98e2fc5": {
+      "sha": "2f2cce5f03344d6c4721c20988acb91ef98e2fc5",
+      "author": "Ajin Abraham",
+      "date": "Thu Sep 24 16:08:39 2015 +0530",
+      "message": "XSS Fuzzer",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "Joomla-3.4.6-RCE": {
+    "43f3bd848f99581fecd482428f1928c4736d1656": {
+      "sha": "43f3bd848f99581fecd482428f1928c4736d1656",
+      "author": "momika233",
+      "date": "Wed Jan 31 09:28:58 2024 +0800",
+      "message": "Create Joomla-3.4.6-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "92929790f00ac37b5786c637765c448241e7663b": {
+      "sha": "92929790f00ac37b5786c637765c448241e7663b",
+      "author": "momika233",
+      "date": "Thu Oct 10 10:00:51 2019 +0800",
+      "message": "Delete Joomla-3.4.6-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "0b4bc14b8816f306872100bd5409a58d25c89cc8": {
+      "sha": "0b4bc14b8816f306872100bd5409a58d25c89cc8",
+      "author": "momika233",
+      "date": "Tue Oct 8 14:44:17 2019 +0800",
+      "message": "Create Joomla-3.4.6-RCE.py",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "JShell": {
+    "ee3c92df7731c6d7541deb36bc328ccbff017e5e": {
+      "sha": "ee3c92df7731c6d7541deb36bc328ccbff017e5e",
+      "author": "whitesource-bolt-for-github[bot]",
+      "date": "Sun May 5 15:49:40 2019 +0000",
+      "message": "Initial WhiteSource configuration file",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "KnowPAT": {
+    "4b246c314fe724a7597cd96942cbf2ab81ec9b28": {
+      "sha": "4b246c314fe724a7597cd96942cbf2ab81ec9b28",
+      "author": "Zhang-Each",
+      "date": "Fri Apr 19 16:09:39 2024 +0800",
+      "message": "upload new open-source datasets",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "kubelet-anon-rce": {
+    "5649222f513e6abd56d682e739767b3473b25a38": {
+      "sha": "5649222f513e6abd56d682e739767b3473b25a38",
+      "author": "alxk",
+      "date": "Mon Jan 14 10:49:15 2019 +0000",
+      "message": "Update kubelet-anon-rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "49d03018519c0c2ce49eefa7ca255bca09822597": {
+      "sha": "49d03018519c0c2ce49eefa7ca255bca09822597",
+      "author": "alxk",
+      "date": "Fri Jan 11 09:54:18 2019 +0000",
+      "message": "Update kubelet-anon-rce.py",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "LazyXss": {
+    "7405de8f96976bdeaad989f0390fdfc5458760b2": {
+      "sha": "7405de8f96976bdeaad989f0390fdfc5458760b2",
+      "author": "Unixtz",
+      "date": "Sat Apr 5 09:28:00 2025 -0800",
+      "message": "Update lazyxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "84b33f4288b490d484b956a6383002dac36bb492": {
+      "sha": "84b33f4288b490d484b956a6383002dac36bb492",
+      "author": "Unixtz",
+      "date": "Sat Apr 5 07:22:53 2025 -0800",
+      "message": "Update lazyxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "36863383a28d2b5a48f729d26083de8522ff04fa": {
+      "sha": "36863383a28d2b5a48f729d26083de8522ff04fa",
+      "author": "Unixtz",
+      "date": "Fri Jan 17 15:51:33 2025 -0500",
+      "message": "Update lazyxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "8fff1406c353838c0aeea3d72e8f8fd7a40bd570": {
+      "sha": "8fff1406c353838c0aeea3d72e8f8fd7a40bd570",
+      "author": "Unixtz",
+      "date": "Mon Jan 13 09:25:16 2025 -0500",
+      "message": "Update lazyxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "2fe6852d6e04e6bebf8cf37cce8f5bf90e825b07": {
+      "sha": "2fe6852d6e04e6bebf8cf37cce8f5bf90e825b07",
+      "author": "Unixtz",
+      "date": "Tue Sep 17 03:12:29 2024 -0400",
+      "message": "Update lazyxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "5633c8f88b3464765a896a6e3cf11f4fe66cc1ba": {
+      "sha": "5633c8f88b3464765a896a6e3cf11f4fe66cc1ba",
+      "author": "Unixtz",
+      "date": "Tue Sep 17 03:04:28 2024 -0400",
+      "message": "Delete lazyxss.png",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "a556bc10eecbf40f843f8e6009a92b952b27af79": {
+      "sha": "a556bc10eecbf40f843f8e6009a92b952b27af79",
+      "author": "Unixtz",
+      "date": "Tue Sep 10 03:46:03 2024 -0400",
+      "message": "Create lazyxssrecon.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "ffab1f82e246eae4f243fc7f98f4b787cb036676": {
+      "sha": "ffab1f82e246eae4f243fc7f98f4b787cb036676",
+      "author": "Unixtz",
+      "date": "Sat Sep 7 07:18:31 2024 -0400",
+      "message": "Update lazyxss.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "log4j-scan": {
+    "4f2ba54af3ea48f61a485847e23c09ed57a5fe89": {
+      "sha": "4f2ba54af3ea48f61a485847e23c09ed57a5fe89",
+      "author": "Mazin Ahmed",
+      "date": "Wed Dec 15 16:23:34 2021 +0400",
+      "message": "fixed bug with allow-redirects, disable cert verification for interact to help running the tool in networks with SSL interception",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "LoginCrack": {
+    "ce7c48880d89d502a6b7d1fa09a6ded1a4586737": {
+      "sha": "ce7c48880d89d502a6b7d1fa09a6ded1a4586737",
+      "author": "Ruben Ventura [tr3w]",
+      "date": "Sun Aug 20 10:33:22 2023 -0600",
+      "message": "Added support to add more crypto functions via source-code",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "loxs": {
+    "6f1a7a714a4fc5051777bab1ce3a2946effde727": {
+      "sha": "6f1a7a714a4fc5051777bab1ce3a2946effde727",
+      "author": "haq",
+      "date": "Mon Oct 28 23:25:45 2024 +0530",
+      "message": "XSS Scanner Speed Improved to 10x, A Patch in CRLF Scanner",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "46a762dd0981c3f8e1826026ddd799e981aa187c": {
+      "sha": "46a762dd0981c3f8e1826026ddd799e981aa187c",
+      "author": "haq",
+      "date": "Tue Oct 15 23:32:00 2024 +0530",
+      "message": "Update xss.txt",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "250a30b87f5debee73af141a5107a2ec260ef7e1": {
+      "sha": "250a30b87f5debee73af141a5107a2ec260ef7e1",
+      "author": "coffin",
+      "date": "Sun Sep 29 22:58:21 2024 -0500",
+      "message": "Delete xsspollygots.txt",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "499f5357ccbdb19f9d3eb0cce416721a3a99195e": {
+      "sha": "499f5357ccbdb19f9d3eb0cce416721a3a99195e",
+      "author": "coffin",
+      "date": "Sun Sep 29 22:58:10 2024 -0500",
+      "message": "Delete xss.txt",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "Nacos_Rce": {
+    "ec395c9dbaacf9779aa90603ffb1cc37f08ae053": {
+      "sha": "ec395c9dbaacf9779aa90603ffb1cc37f08ae053",
+      "author": "fkalis",
+      "date": "Wed Jul 17 14:06:13 2024 +0800",
+      "message": "Update Nacos_Rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "de550e68bf3e69825c8c7c64e85612f4eb263501": {
+      "sha": "de550e68bf3e69825c8c7c64e85612f4eb263501",
+      "author": "fkalis",
+      "date": "Wed Jul 17 13:51:15 2024 +0800",
+      "message": "Update Nacos_Rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "bec0357633498b279630c951b6ab920bea331b3c": {
+      "sha": "bec0357633498b279630c951b6ab920bea331b3c",
+      "author": "fkalis",
+      "date": "Wed Jul 17 13:50:16 2024 +0800",
+      "message": "Update Nacos_Rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "a73a715f69b21db0f7a07180dc5266b93aab5e33": {
+      "sha": "a73a715f69b21db0f7a07180dc5266b93aab5e33",
+      "author": "fkalis",
+      "date": "Tue Jul 16 16:51:40 2024 +0800",
+      "message": "Update Nacos_Rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c81aed07be5fed5c4982bcca3544dfe83f5ac341": {
+      "sha": "c81aed07be5fed5c4982bcca3544dfe83f5ac341",
+      "author": "fkalis",
+      "date": "Tue Jul 16 16:23:51 2024 +0800",
+      "message": "Update Nacos_Rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "14214502a9698ee9b59deb67f188e4d84a4ace2f": {
+      "sha": "14214502a9698ee9b59deb67f188e4d84a4ace2f",
+      "author": "fkalis",
+      "date": "Tue Jul 16 16:13:41 2024 +0800",
+      "message": "Update Nacos_Rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c22001288876fb1612ef1f85b1cc7b94b8674e7e": {
+      "sha": "c22001288876fb1612ef1f85b1cc7b94b8674e7e",
+      "author": "fkalis",
+      "date": "Tue Jul 16 13:43:25 2024 +0800",
+      "message": "æ›´æ–° Nacos_Rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "9592390185b7b9d01330441b7d840a83878f571e": {
+      "sha": "9592390185b7b9d01330441b7d840a83878f571e",
+      "author": "fkalis",
+      "date": "Mon Jul 15 22:04:28 2024 +0800",
+      "message": "Update Nacos_Rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c0bc62db5f80e65c3534bbe028cf0fde208ac236": {
+      "sha": "c0bc62db5f80e65c3534bbe028cf0fde208ac236",
+      "author": "fkalis",
+      "date": "Mon Jul 15 21:40:14 2024 +0800",
+      "message": "Update Nacos_Rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "fd8ed4248824112890474b61a198af76f0f31b42": {
+      "sha": "fd8ed4248824112890474b61a198af76f0f31b42",
+      "author": "fkalis",
+      "date": "Mon Jul 15 21:11:42 2024 +0800",
+      "message": "æ›´æ–° Nacos_Rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "1039e478030844ee1dac03f880c5231a9a351220": {
+      "sha": "1039e478030844ee1dac03f880c5231a9a351220",
+      "author": "fkalis",
+      "date": "Mon Jul 15 20:00:45 2024 +0800",
+      "message": "Create Nacos_Rce.py",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "NoXss": {
+    "3ccdcb4c039448fc0895fb78e4164f864b6a0a5a": {
+      "sha": "3ccdcb4c039448fc0895fb78e4164f864b6a0a5a",
+      "author": "longwenzhang",
+      "date": "Thu Jan 16 16:39:49 2020 +0800",
+      "message": "fix error in xsstag regex",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "09a1fd81fda004609fe64cb52d1c6a5c3f444ff2": {
+      "sha": "09a1fd81fda004609fe64cb52d1c6a5c3f444ff2",
+      "author": "longwenzhang",
+      "date": "Thu Jan 16 16:05:24 2020 +0800",
+      "message": "fix error in xsstag regex",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "6b8dbe1124ed061d22114b301fcd8cb93406e8fa": {
+      "sha": "6b8dbe1124ed061d22114b301fcd8cb93406e8fa",
+      "author": "longwenzhang",
+      "date": "Thu Jan 16 16:04:54 2020 +0800",
+      "message": "fix error in xsstag regex",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "e8cbb4ce31eb692344ac5b8986d6a46614fe2668": {
+      "sha": "e8cbb4ce31eb692344ac5b8986d6a46614fe2668",
+      "author": "longwenzhang",
+      "date": "Thu Jan 16 15:03:03 2020 +0800",
+      "message": "add new payload: xss</script>",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "bcdd6edb353e7707bd8d91d66a37fa917b30dac3": {
+      "sha": "bcdd6edb353e7707bd8d91d66a37fa917b30dac3",
+      "author": "longwenzhang",
+      "date": "Thu Dec 19 12:45:41 2019 +0800",
+      "message": "Merge branch 'master' of https://github.com/lwzSoviet/NoXss",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "ObjectPath": {
+    "63f8f0cfad73ceff89975729e7709f7031b85bc9": {
+      "sha": "63f8f0cfad73ceff89975729e7709f7031b85bc9",
+      "author": "Adrian Kalbarczyk",
+      "date": "Tue Jun 17 23:55:00 2014 +0200",
+      "message": "cleaned source file and URL handling",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "fd5b044c5e8757f98322780471ded956c83d9309": {
+      "sha": "fd5b044c5e8757f98322780471ded956c83d9309",
+      "author": "Adrian.Kalbarczyk",
+      "date": "Sat Apr 26 01:43:05 2014 +0800",
+      "message": "added support for URL document sources",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "oobiqoo": {
+    "2c51ae250d7b067ec9397086534594ad26d233e6": {
+      "sha": "2c51ae250d7b067ec9397086534594ad26d233e6",
+      "author": "Noel Maersk",
+      "date": "Fri Nov 10 20:44:24 2017 +0200",
+      "message": "contracts: minor, remove TODO - sources available.",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "320c5af74e96dcbf83fb2334cfc24d1a77dad394": {
+      "sha": "320c5af74e96dcbf83fb2334cfc24d1a77dad394",
+      "author": "Noel Maersk",
+      "date": "Wed Sep 27 21:37:22 2017 +0300",
+      "message": "contracts: rename contracts in source + add stubs to registry.",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "OWASP-Xenotix-XSS-Exploit-Framework": {
+    "3931cb603efea144610d6aec814e8cca9f3c2770": {
+      "sha": "3931cb603efea144610d6aec814e8cca9f3c2770",
+      "author": "Ajin Abraham",
+      "date": "Mon Jun 23 21:33:27 2014 +0530",
+      "message": "Delete OWASP_Xenotix_XSS_Exploit_Framework_V5.rar",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "a3104de12de6f871fe165ccaaba67093359f5212": {
+      "sha": "a3104de12de6f871fe165ccaaba67093359f5212",
+      "author": "Ajin Abraham",
+      "date": "Mon Jun 23 03:58:17 2014 +0530",
+      "message": "Xenotix XSS Exploit Framework v5.0",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "PAT": {
+    "408799793023806bf072b4c6956780c7352104fe": {
+      "sha": "408799793023806bf072b4c6956780c7352104fe",
+      "author": "asonje",
+      "date": "Mon Jul 6 10:28:17 2015 -0700",
+      "message": "Merge pull request #7 from mircea/master",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "patator": {
+    "41fd71b8bd7d2168909aef6d4741aab9ada7371c": {
+      "sha": "41fd71b8bd7d2168909aef6d4741aab9ada7371c",
+      "author": "s0i37",
+      "date": "Wed Oct 9 02:19:56 2024 +0500",
+      "message": "added DCERPC enum/bruteforce/fuzzing",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "patch-apk": {
+    "ccfea29deecfea8f8fbcf0c8e31c8ae116a55016": {
+      "sha": "ccfea29deecfea8f8fbcf0c8e31c8ae116a55016",
+      "author": "nickyb",
+      "date": "Thu Apr 29 00:26:21 2021 +0100",
+      "message": "Enforce --use-aapt2 with apktool newer than 2.4.2",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "628f2346fd4eb24026fc5a7d10ba2355b380f3f9": {
+      "sha": "628f2346fd4eb24026fc5a7d10ba2355b380f3f9",
+      "author": "NickstaDB",
+      "date": "Mon Mar 30 14:25:52 2020 +0100",
+      "message": "Hack to remove duplicate entries from res/values/styles.xml. Bugfix for dummy resource name resolution.",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "Patch-NetVLAD": {
+    "125164190b9c83c7cab5798ec692e7683cd229ab": {
+      "sha": "125164190b9c83c7cab5798ec692e7683cd229ab",
+      "author": "Nicolas Soncini",
+      "date": "Fri Apr 14 09:31:44 2023 -0300",
+      "message": "Fix bounds on faiss search to never go out of bounds",
+      "keyword": [
+        "out of bounds"
+      ]
+    }
+  },
+  "patcherex": {
+    "4257390781711eb1623433ba19d7cc226c078a4c": {
+      "sha": "4257390781711eb1623433ba19d7cc226c078a4c",
+      "author": "Moritz Eckert",
+      "date": "Tue Mar 17 16:32:41 2020 +0100",
+      "message": "Countdown: Add support for multiple jump sources",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "patchman": {
+    "23ee057ed1dcc29817fa0d4e5e0a48ba5ad804df": {
+      "sha": "23ee057ed1dcc29817fa0d4e5e0a48ba5ad804df",
+      "author": "Marcus Furlong",
+      "date": "Thu Feb 6 22:22:10 2025 -0500",
+      "message": "additional errata sources and processing",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "e6bed2684e98c899f58bd689bb020363236acbdd": {
+      "sha": "e6bed2684e98c899f58bd689bb020363236acbdd",
+      "author": "Marcus Furlong",
+      "date": "Tue Nov 13 15:27:18 2018 -0500",
+      "message": "use Packages instead of Sources",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c3564a1191d700107a04c9ae0fe7f540a5b6b8c1": {
+      "sha": "c3564a1191d700107a04c9ae0fe7f540a5b6b8c1",
+      "author": "Marcus Furlong",
+      "date": "Thu Jun 23 14:57:01 2016 +0000",
+      "message": "only permit authenticated sources use API",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "fba391adaac51c1ae82b62302f8cc0d3192f03e2": {
+      "sha": "fba391adaac51c1ae82b62302f8cc0d3192f03e2",
+      "author": "Marcus Furlong",
+      "date": "Tue Nov 13 13:11:49 2012 +1100",
+      "message": "fix sourceforge repos a better way",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "PatchMixer": {
+    "93d5e0ac9db167325defbaca0efa6b5dbb841086": {
+      "sha": "93d5e0ac9db167325defbaca0efa6b5dbb841086",
+      "author": "Zeying-Gong",
+      "date": "Tue May 7 16:08:38 2024 +0800",
+      "message": "Update source code",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "patchwork": {
+    "84069c41215cb8ffaeca65c87835875d4fcb44e2": {
+      "sha": "84069c41215cb8ffaeca65c87835875d4fcb44e2",
+      "author": "TY",
+      "date": "Fri Sep 13 18:15:54 2024 +0800",
+      "message": "Force git adds (#820)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "507e494f0263118edb7f6c01a4b5146e138bed03": {
+      "sha": "507e494f0263118edb7f6c01a4b5146e138bed03",
+      "author": "Asankhaya Sharma",
+      "date": "Thu May 9 17:14:18 2024 +0800",
+      "message": "update configs default to force push commits (#80)",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "pathlib2": {
+    "3927cb357df386701e090e885c9b4ff3a57cd106": {
+      "sha": "3927cb357df386701e090e885c9b4ff3a57cd106",
+      "author": "Matthias C. M. Troffaes",
+      "date": "Thu Apr 19 10:58:31 2018 +0100",
+      "message": "Reinclude tests with source dist.",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c17955d896328177ef3440b4254930ea9418a202": {
+      "sha": "c17955d896328177ef3440b4254930ea9418a202",
+      "author": "Matthias C. M. Troffaes",
+      "date": "Mon Jan 9 08:49:55 2017 +0000",
+      "message": "Add license to all source files (see issue #14).",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "04474c9a078a1bce8a228e274ce4a6b08647998c": {
+      "sha": "04474c9a078a1bce8a228e274ce4a6b08647998c",
+      "author": "Matthias C. M. Troffaes",
+      "date": "Fri Jan 6 08:57:11 2017 +0000",
+      "message": "Check for str instance (instead of basestring) when force-casting to str now that unicode is handled separately for Python 2 anyway.",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "pathml": {
+    "e449a61421340d48c55c2c367db0d65b3814f206": {
+      "sha": "e449a61421340d48c55c2c367db0d65b3814f206",
+      "author": "Varun Ullanat",
+      "date": "Fri Apr 5 20:15:21 2024 +0000",
+      "message": "docs/source/",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "3642f037daa87c28eb8f0c5c97c1de48b7bd7cda": {
+      "sha": "3642f037daa87c28eb8f0c5c97c1de48b7bd7cda",
+      "author": "Jacob Rosenthal",
+      "date": "Mon Jan 25 23:13:10 2021 -0500",
+      "message": "tests for transforms. Also some reorganizing of test code to match source file structure",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "a3eb69b5314f11ad725e155eb9688f0139c62144": {
+      "sha": "a3eb69b5314f11ad725e155eb9688f0139c62144",
+      "author": "ryanccarelli",
+      "date": "Wed Jan 20 08:37:55 2021 -0500",
+      "message": "enforce h5 filestructure facilitating easy merging of attributes of slidedata, small debugging",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "pathos": {
+    "45bfd7fde6b4e0c34a2f14658b10cb4aefba1d06": {
+      "sha": "45bfd7fde6b4e0c34a2f14658b10cb4aefba1d06",
+      "author": "mmckerns",
+      "date": "Fri May 9 16:34:12 2014 +0000",
+      "message": "added 'builtin' to getsource to account for calls to getimport for builtins; better detection of bad repr in getimport -- catch '<>' in dicts, lists, etc; better resiliance in importable -- if getimport fails getsource and vice versa; reverted getimportable to point to importable",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "042bfe339de474704ecd89827c9786b58abe0162": {
+      "sha": "042bfe339de474704ecd89827c9786b58abe0162",
+      "author": "mmckerns",
+      "date": "Thu Apr 3 13:33:55 2014 +0000",
+      "message": "pathos: add pp-1.5.7-pathos-3 using getimportable instead of getsource dill: add 'explicit' to getimportable and likely_import for builtin functions",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "55b54ec79ba28881f35633a9c5bdf83d6b2d1ff7": {
+      "sha": "55b54ec79ba28881f35633a9c5bdf83d6b2d1ff7",
+      "author": "mmckerns",
+      "date": "Fri Jan 24 03:21:46 2014 +0000",
+      "message": "moved code that writes imports in klepto.archives to klepto.archives._import; _import code chooses not to import from __main__; more cleaning of _import; correctly handle str(obj.__class__) in pox.utils.likely_import; handle lambdas and sometimes None in likely_import, also fix recursive issue; dill.source._get_name to dill.source.getname; pox optionally uses dill",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "8bb6213e5032555aac0587b1916e858089359faa": {
+      "sha": "8bb6213e5032555aac0587b1916e858089359faa",
+      "author": "mmckerns",
+      "date": "Mon Jun 3 18:49:47 2013 +0000",
+      "message": "don't force pp maps to barf on kwds; fix: fixed imports in pp_map",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "5d14a8da44957411b2c3380be6024d2a959ae8ae": {
+      "sha": "5d14a8da44957411b2c3380be6024d2a959ae8ae",
+      "author": "mmckerns",
+      "date": "Mon May 20 14:24:47 2013 +0000",
+      "message": "extended pp-1.5.7-pathos to use dill.source to pickle functions and lambdas",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "PathPicker": {
+    "4da31001ae82b2e76c47dea58c021f1f5822cd2a": {
+      "sha": "4da31001ae82b2e76c47dea58c021f1f5822cd2a",
+      "author": "Ruslan Sayfutdinov",
+      "date": "Sun Feb 21 00:14:39 2021 +0000",
+      "message": "Enforce copyright line (#386)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "99513649415d5d79d96464b58f465a9e69ff80f3": {
+      "sha": "99513649415d5d79d96464b58f465a9e69ff80f3",
+      "author": "Ruslan Sayfutdinov",
+      "date": "Sat Feb 20 23:47:41 2021 +0000",
+      "message": "Enforce f-strings (#385)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "8d5736731092deddedecb588930d13baa96dab34": {
+      "sha": "8d5736731092deddedecb588930d13baa96dab34",
+      "author": "Ruslan Sayfutdinov",
+      "date": "Sat Feb 13 21:25:05 2021 +0000",
+      "message": "Move python sources to pathpicker module",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "b40c84bafcbf4a827330caca271a9f55fc0afbcc": {
+      "sha": "b40c84bafcbf4a827330caca271a9f55fc0afbcc",
+      "author": "Peter Cottle",
+      "date": "Thu Jan 18 08:12:18 2018 -0800",
+      "message": "Resolves #276 -- match percents in filenames + test coverage",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "2eb7640463e5d052dccfa02ef7a55afc0f056580": {
+      "sha": "2eb7640463e5d052dccfa02ef7a55afc0f056580",
+      "author": "Nick Gavalas",
+      "date": "Tue Jan 19 12:15:23 2016 -0800",
+      "message": "add a command-line flag to force non-interactive mode for the subshell that runs the follow-up commands",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "0d12fef0bcfd3e2c4ac2e4e72af7f35041931c7e": {
+      "sha": "0d12fef0bcfd3e2c4ac2e4e72af7f35041931c7e",
+      "author": "Peter Cottle",
+      "date": "Fri May 8 17:16:58 2015 -0700",
+      "message": "Big alias support update -- source files with alias expansion if present, Resolves #51 Resolves #59",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "paths2openscad": {
+    "7e9dca9b793284b69acd1a4a9d0975162be84304": {
+      "sha": "7e9dca9b793284b69acd1a4a9d0975162be84304",
+      "author": "Juergen Weigert",
+      "date": "Mon Mar 20 23:15:03 2017 +0100",
+      "message": "pep8 forces me into a real syntax error. Reverting this one. We intentionally violate pep8 here, as there is no apparent way how to stay within 80 characters when printing a long string. My conclusion is that pep8 is badly designed, as it can only be satisfied with illegal python syntax.",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "17ddbff5e0a352eeab0eb9d0f4e7ca2044bfcde6": {
+      "sha": "17ddbff5e0a352eeab0eb9d0f4e7ca2044bfcde6",
+      "author": "Victor Engmark",
+      "date": "Sat Aug 17 13:56:03 2013 +0200",
+      "message": "Add source and copyright details",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "pathway": {
+    "39c25ce10cca3d8126cb65e028a2389edb954e2a": {
+      "sha": "39c25ce10cca3d8126cb65e028a2389edb954e2a",
+      "author": "Kamil Piechowiak",
+      "date": "Thu Mar 20 13:00:44 2025 +0100",
+      "message": "fix key-id mapping in brute force index (#8443)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "e3bd71f6a96427d727dd1cbcca85f09711816036": {
+      "sha": "e3bd71f6a96427d727dd1cbcca85f09711816036",
+      "author": "Jakub Kowalski",
+      "date": "Wed Feb 19 15:34:04 2025 +0100",
+      "message": "Suppress pkg_resources related warnings (#8259)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "e84640ac86cbc698bbff1a49af32ee3d8db8d2d0": {
+      "sha": "e84640ac86cbc698bbff1a49af32ee3d8db8d2d0",
+      "author": "berkecanrizai",
+      "date": "Wed Sep 18 10:03:00 2024 +0300",
+      "message": "indexf sensible defaults & tests, add _coerce_sync to udf utils (#7342)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c752bba3fa3210f46b4267a93442da62ba71b7d8": {
+      "sha": "c752bba3fa3210f46b4267a93442da62ba71b7d8",
+      "author": "Sergey Kulik",
+      "date": "Wed Sep 11 18:19:32 2024 +0200",
+      "message": "support full_refresh sources in airbyte connector (#7247)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "fed4bbe8b7766022d8d54967e6fc22bc3a50f7d2": {
+      "sha": "fed4bbe8b7766022d8d54967e6fc22bc3a50f7d2",
+      "author": "Szymon Dudycz",
+      "date": "Mon Sep 9 09:02:20 2024 +0200",
+      "message": "Fix BruteForceKnn error when empty (#7271)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "64f3fb9d976d5864fad17f353c9c3abb09d44779": {
+      "sha": "64f3fb9d976d5864fad17f353c9c3abb09d44779",
+      "author": "Szymon Dudycz",
+      "date": "Wed Sep 4 11:36:47 2024 +0200",
+      "message": "Expose BruteForceKnnMetricKind and USearchMetricKind (#7251)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "7e8978594f13dfb2f5ed76583102ecc0184658b5": {
+      "sha": "7e8978594f13dfb2f5ed76583102ecc0184658b5",
+      "author": "krzysiek-pathway",
+      "date": "Thu Jul 11 17:42:39 2024 +0200",
+      "message": "brute force knn, additional parametrization and public api (#6886)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "a04e7543e8bcc6f10cb682856e5c53c4ce73675c": {
+      "sha": "a04e7543e8bcc6f10cb682856e5c53c4ce73675c",
+      "author": "krzysiek-pathway",
+      "date": "Tue Jun 25 15:34:53 2024 +0200",
+      "message": "Krzysiek/brute force knn (#6617)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "3334140277fbd28b592dcc41c204aad34c599697": {
+      "sha": "3334140277fbd28b592dcc41c204aad34c599697",
+      "author": "Jakub Kowalski",
+      "date": "Thu May 16 17:11:10 2024 +0200",
+      "message": "Add license key to trace resource (#6455)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "945e7a24b1daee05a06031bb0e8a9591dbe2598a": {
+      "sha": "945e7a24b1daee05a06031bb0e8a9591dbe2598a",
+      "author": "Claire Nouet",
+      "date": "Tue May 14 11:15:54 2024 +0200",
+      "message": "License.txt updates: adding enterprise features as source-available (#6349)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "a8ed451db9311fa675739a8244484f70729e7d34": {
+      "sha": "a8ed451db9311fa675739a8244484f70729e7d34",
+      "author": "Kamil Piechowiak",
+      "date": "Mon Apr 29 12:26:06 2024 +0200",
+      "message": "enable logging source file that produced the log (#6345)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "0823a9c03fa8e59438ac9af0e6d7a27a140edf2b": {
+      "sha": "0823a9c03fa8e59438ac9af0e6d7a27a140edf2b",
+      "author": "Jakub Kowalski",
+      "date": "Wed Mar 13 15:04:34 2024 +0100",
+      "message": "Resource attributes tweak (#5918)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "a97ef161377f7432168e12170e080421078822b8": {
+      "sha": "a97ef161377f7432168e12170e080421078822b8",
+      "author": "MichaÅ‚ Bartoszkiewicz",
+      "date": "Fri Jan 26 11:42:41 2024 +0100",
+      "message": "More precise checking for warning source (#5506)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "a21b9807f55abf6db1b33fc7c512ace930fe951a": {
+      "sha": "a21b9807f55abf6db1b33fc7c512ace930fe951a",
+      "author": "Mateusz Lewandowski",
+      "date": "Fri Jan 12 22:32:13 2024 +0100",
+      "message": "Add github source to api docs (#5423)",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "patool": {
+    "ff2b54aafbe7aca6d41a54ee93625ab52382d416": {
+      "sha": "ff2b54aafbe7aca6d41a54ee93625ab52382d416",
+      "author": "wummel",
+      "date": "Sat Feb 15 20:25:33 2025 +0100",
+      "message": "Merge pull request #180 from parona-source/7zip-without-rar",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "43a82e342d0d10f740f3ca7de0d68fcaf890fd70": {
+      "sha": "43a82e342d0d10f740f3ca7de0d68fcaf890fd70",
+      "author": "wummel",
+      "date": "Fri Feb 14 19:12:29 2025 +0100",
+      "message": "Merge pull request #173 from parona-source/file-rar-mime",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "95297a853a74953314eae8bb87ce165a99f91a9c": {
+      "sha": "95297a853a74953314eae8bb87ce165a99f91a9c",
+      "author": "wummel",
+      "date": "Fri Feb 14 19:00:37 2025 +0100",
+      "message": "Merge pull request #174 from parona-source/file-alz-support",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "458925f59d0fb516503ba039867e19276283c87a": {
+      "sha": "458925f59d0fb516503ba039867e19276283c87a",
+      "author": "Bastian Kleineidam",
+      "date": "Wed Jun 19 07:47:51 2024 +0200",
+      "message": "Replace percent string formatting",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "4438984ec4a227cc7749d962e7983aa9f5bf0857": {
+      "sha": "4438984ec4a227cc7749d962e7983aa9f5bf0857",
+      "author": "Bastian Kleineidam",
+      "date": "Mon Nov 6 22:15:24 2023 +0100",
+      "message": "Test --force-local on all platforms, and special case windows tar for compression support",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "cd91db84489e88db0a4ed1eb6ec838da01ec2835": {
+      "sha": "cd91db84489e88db0a4ed1eb6ec838da01ec2835",
+      "author": "wummel",
+      "date": "Wed Oct 25 17:47:07 2023 +0000",
+      "message": "Merge pull request #133 from parona-source/include_test_data",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "538f6c102b2f5825a4a11a58dcd646b690876742": {
+      "sha": "538f6c102b2f5825a4a11a58dcd646b690876742",
+      "author": "Bastian Kleineidam",
+      "date": "Wed Oct 25 19:13:48 2023 +0200",
+      "message": "test if tar supports --force-local on macos",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "06e48af83eff7343f42778cfcb0633371d3ff98d": {
+      "sha": "06e48af83eff7343f42778cfcb0633371d3ff98d",
+      "author": "wummel",
+      "date": "Tue Oct 24 18:37:15 2023 +0000",
+      "message": "Merge pull request #131 from parona-source/file_sandbox",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "ba34dd883b86c3091312ff25a256e296d5d6b715": {
+      "sha": "ba34dd883b86c3091312ff25a256e296d5d6b715",
+      "author": "Jack Cherng",
+      "date": "Mon Mar 27 11:36:28 2023 +0800",
+      "message": "Fix Windows tar doesn't use --force-local",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c412699f66aec0b6d22b576bc97e9a6ee01f6e43": {
+      "sha": "c412699f66aec0b6d22b576bc97e9a6ee01f6e43",
+      "author": "Yaroslav Halchenko",
+      "date": "Tue Sep 11 23:31:49 2018 -0400",
+      "message": "BF: add --force-local ONLY to tar invocation",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "0ba32e8e21dfc366d16478431dcc103cdfb66d66": {
+      "sha": "0ba32e8e21dfc366d16478431dcc103cdfb66d66",
+      "author": "Bastian Kleineidam",
+      "date": "Fri Mar 29 11:12:37 2013 +0100",
+      "message": "Add web page source.",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "2ba54ee73a6ae3443e190a0b37065055025478c9": {
+      "sha": "2ba54ee73a6ae3443e190a0b37065055025478c9",
+      "author": "Bastian Kleineidam",
+      "date": "Thu May 17 11:27:03 2012 +0200",
+      "message": "Allow specification of source file for archive tests.",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "0c652e63c32a4f38c1d89ae2b656e010b4e48ea2": {
+      "sha": "0c652e63c32a4f38c1d89ae2b656e010b4e48ea2",
+      "author": "Bastian Kleineidam",
+      "date": "Mon Apr 9 12:05:26 2012 +0200",
+      "message": "Add changelog script to close Sourceforge bugs.",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "PatrowlEngines": {
+    "1f33e107270777d34417175fdf92cb612338cfd0": {
+      "sha": "1f33e107270777d34417175fdf92cb612338cfd0",
+      "author": "MaKyOtOx",
+      "date": "Wed May 26 16:48:33 2021 +0200",
+      "message": "Owl_dns: no bruteforce on wildcard domains",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "50a08f19a956ee5e0cc527f0c55de7b8b482b14d": {
+      "sha": "50a08f19a956ee5e0cc527f0c55de7b8b482b14d",
+      "author": "Nicolas Mattiocco",
+      "date": "Mon Nov 30 13:51:03 2020 +0100",
+      "message": "Merge pull request #113 from Patrowl/nmap-fixrce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "9babfee438ca7eab1cb689ad10c3131e5e05c373": {
+      "sha": "9babfee438ca7eab1cb689ad10c3131e5e05c373",
+      "author": "SÃ©bastien COLL",
+      "date": "Fri Nov 13 17:30:59 2020 +0100",
+      "message": "Fix RCE",
+      "keyword": [
+        "fix rce",
+        "rce"
+      ]
+    },
+    "b6a26eb185beae3a67c283447eaefe62c61bb1af": {
+      "sha": "b6a26eb185beae3a67c283447eaefe62c61bb1af",
+      "author": "Nicolas BÃ©guier",
+      "date": "Thu Sep 17 16:39:21 2020 +0200",
+      "message": "Fix: validate extra_args option to avoid RCE ;)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "b4590f549974ec7eddd37d781af88e94308d89a5": {
+      "sha": "b4590f549974ec7eddd37d781af88e94308d89a5",
+      "author": "Harduino",
+      "date": "Fri Feb 21 17:33:21 2020 +0300",
+      "message": "openvas :: force to use urllib.parse due to python3 is used anyway",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "PatrowlHears": {
+    "3b0aa5625908eac7faee5b102bdaadc543f7258f": {
+      "sha": "3b0aa5625908eac7faee5b102bdaadc543f7258f",
+      "author": "Marius",
+      "date": "Wed Dec 15 14:19:35 2021 +0100",
+      "message": "Remove xss",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "pattern": {
+    "326de056c57c830dc1afcd8b84ad64866862e37c": {
+      "sha": "326de056c57c830dc1afcd8b84ad64866862e37c",
+      "author": "Tom De Smedt",
+      "date": "Fri Oct 4 14:18:58 2013 +0200",
+      "message": "pattern.vector SLP (single-layer averaged perceptron) classifier (beta)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "4267236f3f6bd6abae6a7c4f24c0cc18467ba104": {
+      "sha": "4267236f3f6bd6abae6a7c4f24c0cc18467ba104",
+      "author": "Tom De Smedt",
+      "date": "Mon Jul 8 01:58:21 2013 +0200",
+      "message": "Support PP-chunks with multiple prepositions (such as, in between, parce que, ...) + clean up comments",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "d9ba1a0ed307402f4a09d495f35b5426c124e391": {
+      "sha": "d9ba1a0ed307402f4a09d495f35b5426c124e391",
+      "author": "Tom De Smedt",
+      "date": "Thu Jun 20 15:17:17 2013 -0700",
+      "message": "Merge pull request #37 from BarcelonaMedia-ViL/term_weightings",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "fd9a6ea73ae6ce460b14db2ef20b301b427b3563": {
+      "sha": "fd9a6ea73ae6ce460b14db2ef20b301b427b3563",
+      "author": "Tom De Smedt",
+      "date": "Tue Jun 4 15:26:50 2013 +0200",
+      "message": "better source code comments",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "44dbb52206434f941ac5e259c60641ebad1b3335": {
+      "sha": "44dbb52206434f941ac5e259c60641ebad1b3335",
+      "author": "Tom De Smedt",
+      "date": "Tue Feb 21 23:52:21 2012 +0100",
+      "message": "pylint source code quality updates",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "PwnXSS": {
+    "933ebc1299f6ddc8106a9fe72561439da57c2a58": {
+      "sha": "933ebc1299f6ddc8106a9fe72561439da57c2a58",
+      "author": "RAVIPRAJ",
+      "date": "Sat Nov 28 11:12:00 2020 +0530",
+      "message": "xss url in file save",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "47179a3eb57444b6136085c0fe81c59919534843": {
+      "sha": "47179a3eb57444b6136085c0fe81c59919534843",
+      "author": "Duck Research",
+      "date": "Wed Oct 7 16:28:14 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "64d8d80f08d05119b12481b59d69820be6a9a83d": {
+      "sha": "64d8d80f08d05119b12481b59d69820be6a9a83d",
+      "author": "Duck Research",
+      "date": "Wed Oct 7 16:28:07 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "8724c9b128811c92c90cb0b4b80a5695350c9231": {
+      "sha": "8724c9b128811c92c90cb0b4b80a5695350c9231",
+      "author": "Duck Research",
+      "date": "Tue Oct 6 17:11:34 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "1193cc02ead4aab25f48e38e88e36574e2501914": {
+      "sha": "1193cc02ead4aab25f48e38e88e36574e2501914",
+      "author": "Duck Research",
+      "date": "Tue Oct 6 17:11:26 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "14ab5f355f786dac60bbbb9dab98e4b30d4cdbe6": {
+      "sha": "14ab5f355f786dac60bbbb9dab98e4b30d4cdbe6",
+      "author": "Duck Research",
+      "date": "Mon Oct 5 04:37:08 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "761ee4b6236030159c8914b85b737394acc76cf0": {
+      "sha": "761ee4b6236030159c8914b85b737394acc76cf0",
+      "author": "Duck Research",
+      "date": "Mon Oct 5 04:36:57 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "26beb8249303841c17c675e051647779c3085a79": {
+      "sha": "26beb8249303841c17c675e051647779c3085a79",
+      "author": "Duck Research",
+      "date": "Sat Oct 3 12:40:48 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "0ad9147979527bfc0146a3a6213674ea621b78bd": {
+      "sha": "0ad9147979527bfc0146a3a6213674ea621b78bd",
+      "author": "Duck Research",
+      "date": "Sat Oct 3 12:40:36 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "054aa344b0b38f8885d6b17a7e16651775d27b13": {
+      "sha": "054aa344b0b38f8885d6b17a7e16651775d27b13",
+      "author": "Duck Research",
+      "date": "Fri Oct 2 11:02:07 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "ca63ceda2b237a07181b8197d0e83a9113dc5a8b": {
+      "sha": "ca63ceda2b237a07181b8197d0e83a9113dc5a8b",
+      "author": "Duck Research",
+      "date": "Fri Oct 2 11:01:54 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "19996198aa4ac36da2bf5f618c7deff53330425c": {
+      "sha": "19996198aa4ac36da2bf5f618c7deff53330425c",
+      "author": "Duck Research",
+      "date": "Mon Sep 28 04:41:11 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "b0a356e50f4fb73bc9418f1fa1d31d93f6a4c5b0": {
+      "sha": "b0a356e50f4fb73bc9418f1fa1d31d93f6a4c5b0",
+      "author": "Duck Research",
+      "date": "Fri Sep 25 22:15:35 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "2a1f3719448460db5ac500d3e62ceed943cc09e3": {
+      "sha": "2a1f3719448460db5ac500d3e62ceed943cc09e3",
+      "author": "Duck Research",
+      "date": "Fri Sep 25 22:15:27 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "88857bd746e2475b426b91d426d85c33181aeeaf": {
+      "sha": "88857bd746e2475b426b91d426d85c33181aeeaf",
+      "author": "Duck Research",
+      "date": "Thu Sep 17 12:04:59 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "664b43c6cedde11725639c5e0ca32b3454da97e8": {
+      "sha": "664b43c6cedde11725639c5e0ca32b3454da97e8",
+      "author": "Duck Research",
+      "date": "Thu Sep 17 12:04:42 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "cd83385bfd7c656269ab3ab6da047aaece706338": {
+      "sha": "cd83385bfd7c656269ab3ab6da047aaece706338",
+      "author": "Duck Research",
+      "date": "Wed Sep 16 13:36:53 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "11a1832cdff3eca0be6b2d66000b09a10588e459": {
+      "sha": "11a1832cdff3eca0be6b2d66000b09a10588e459",
+      "author": "Duck Research",
+      "date": "Wed Sep 16 13:36:41 2020 +0700",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "df360d85581442ba0beeb2da703ec9777ea4a008": {
+      "sha": "df360d85581442ba0beeb2da703ec9777ea4a008",
+      "author": "Duck Research",
+      "date": "Sun Sep 13 03:59:35 2020 -0400",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "80efe8d2260cb811348cc06b500af6918d22675e": {
+      "sha": "80efe8d2260cb811348cc06b500af6918d22675e",
+      "author": "Duck Research",
+      "date": "Sun Sep 13 03:58:25 2020 -0400",
+      "message": "Update pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "f01dbd105645865b121a15dba7371060e5711a13": {
+      "sha": "f01dbd105645865b121a15dba7371060e5711a13",
+      "author": "Andri Wahyudi",
+      "date": "Sun Nov 3 00:39:57 2019 +0700",
+      "message": "Rename xsscon.py to pwnxss.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "pwn_jenkins": {
+    "dad508de380382574ae6a300eddb9c6984fd630c": {
+      "sha": "dad508de380382574ae6a300eddb9c6984fd630c",
+      "author": "Guillaume QuÃ©rÃ©",
+      "date": "Tue Nov 23 14:15:56 2021 +0100",
+      "message": "[add] Cookie auth for script RCE",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "bfa29b0c2d59090745b1f10ae461eca1b37da06f": {
+      "sha": "bfa29b0c2d59090745b1f10ae461eca1b37da06f",
+      "author": "Guillaume QuÃ©rÃ©",
+      "date": "Mon May 3 19:04:46 2021 +0200",
+      "message": "[add] Force SSL option if API returns wrongful HTTP-only links",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "b9c7f365a162a19c8e8a20305e1589443ec2115b": {
+      "sha": "b9c7f365a162a19c8e8a20305e1589443ec2115b",
+      "author": "Guillaume QuÃ©rÃ©",
+      "date": "Mon Sep 16 11:59:38 2019 +0200",
+      "message": "[add] RCE in git plugin",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "2ebcb9638ab1c55b3ba717ad4f47efbe3aeb7687": {
+      "sha": "2ebcb9638ab1c55b3ba717ad4f47efbe3aeb7687",
+      "author": "Guillaume QuÃ©rÃ©",
+      "date": "Thu Aug 8 10:07:29 2019 +0200",
+      "message": "[add] Add other RCEs samples",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "PyDesignPattern": {
+    "f826ba4af81ea26ecb20f4723f9870efa60f92c7": {
+      "sha": "f826ba4af81ea26ecb20f4723f9870efa60f92c7",
+      "author": "Spencer.Luo",
+      "date": "Mon Jan 1 21:09:53 2018 +0800",
+      "message": "add the source code and project config.",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c9fc5bbf86e2be6938a0283209d08c5d85da032d": {
+      "sha": "c9fc5bbf86e2be6938a0283209d08c5d85da032d",
+      "author": "Spencer.Luo",
+      "date": "Mon Jan 1 21:04:22 2018 +0800",
+      "message": "upload the source code of <How to comprehend Design Patterns from daily life>",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "python-patterns": {
+    "ac5ea8b9380ccd27ab5ebbc58fa9de706d1443db": {
+      "sha": "ac5ea8b9380ccd27ab5ebbc58fa9de706d1443db",
+      "author": "Lucas Lois",
+      "date": "Sun Oct 2 15:45:40 2016 -0300",
+      "message": "Added expected output in source code",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "qq-pat": {
+    "748a4eac90413739cd38c3cea2486d9566f4c34c": {
+      "sha": "748a4eac90413739cd38c3cea2486d9566f4c34c",
+      "author": "Daniel Fernandez",
+      "date": "Mon Dec 7 14:04:55 2015 -0500",
+      "message": "modified:   qqpat.egg-info/PKG-INFO \tmodified:   qqpat.egg-info/SOURCES.txt \tmodified:   qqpat.egg-info/requires.txt \tmodified:   qqpat/__init__.py \tmodified:   qqpat/__init__.pyc \tmodified:   setup.py \tmodified:   test.py",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "rce": {
+    "253b907074748586995cf7fc5dbf0806997f819d": {
+      "sha": "253b907074748586995cf7fc5dbf0806997f819d",
+      "author": "Dhananjay Sathe",
+      "date": "Sun Mar 6 08:30:57 2016 +0100",
+      "message": "Update notice to deprecte RCE alpha",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "34de273b04152dc5ba46c8eda1a78da40c71f99b": {
+      "sha": "34de273b04152dc5ba46c8eda1a78da40c71f99b",
+      "author": "Dominique Hunziker",
+      "date": "Mon Jul 8 16:49:57 2013 +0200",
+      "message": "add doc on how to run measurement without rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "cf62b1894f0108de300518573902d4b385ad28b2": {
+      "sha": "cf62b1894f0108de300518573902d4b385ad28b2",
+      "author": "Dominique Hunziker",
+      "date": "Fri Jun 28 17:01:27 2013 +0200",
+      "message": "Merge branch 'measure' of github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "918c94b97f6cbc4c743ff93414df756486549d4e": {
+      "sha": "918c94b97f6cbc4c743ff93414df756486549d4e",
+      "author": "Dominique Hunziker",
+      "date": "Fri Jun 28 16:44:56 2013 +0200",
+      "message": "Merge branch 'scaling-oop' of github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "1a20bb3f27aa4501142591938bd5bca6edd34940": {
+      "sha": "1a20bb3f27aa4501142591938bd5bca6edd34940",
+      "author": "Dominique Hunziker",
+      "date": "Fri Jun 28 00:03:53 2013 +0200",
+      "message": "move rce specific lxc configuration from util/container into rce/container",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "fdd1ba7dd59340421b4565dd295ad6568534a1e4": {
+      "sha": "fdd1ba7dd59340421b4565dd295ad6568534a1e4",
+      "author": "Dominique Hunziker",
+      "date": "Fri Jun 7 13:52:43 2013 +0200",
+      "message": "update rce++",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "ad4028e1eeb62233793d4f2268c9afeb9fb31eb4": {
+      "sha": "ad4028e1eeb62233793d4f2268c9afeb9fb31eb4",
+      "author": "Dominique Hunziker",
+      "date": "Thu Jun 6 14:28:43 2013 +0200",
+      "message": "add support for interfaces of different type using the same ROS address (rce part of #33)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "3d5b3a1ab705e7c5a59dcf0e1c7428698a9c8188": {
+      "sha": "3d5b3a1ab705e7c5a59dcf0e1c7428698a9c8188",
+      "author": "Dhananjay Sathe",
+      "date": "Thu May 30 19:11:29 2013 +0200",
+      "message": "Added ability to define additional parameters to a container enabling virtual networks , resource control and sizes",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "7d4ce2382ad5bf371ec2f393706d770f17d224d3": {
+      "sha": "7d4ce2382ad5bf371ec2f393706d770f17d224d3",
+      "author": "Dominique Hunziker",
+      "date": "Sun May 19 21:49:02 2013 +0200",
+      "message": "fix bug with blocking ROS client, when rce is terminated before the client exits",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "2b08215fa1a40605d70fc044c87ca0276147960f": {
+      "sha": "2b08215fa1a40605d70fc044c87ca0276147960f",
+      "author": "Dhananjay Sathe",
+      "date": "Fri May 17 15:29:08 2013 +0200",
+      "message": "Merge branch 'bug-fix' of github.com:IDSCETHZurich/rce into bug-fix",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "b2a8334063642f5f6a45da3f485060285476e999": {
+      "sha": "b2a8334063642f5f6a45da3f485060285476e999",
+      "author": "Dhananjay Sathe",
+      "date": "Fri May 17 15:26:16 2013 +0200",
+      "message": "rce-make not exports the correct home variables to enable /root home",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c35a965a4f3e4f778b728e4f2e8743be38acb31a": {
+      "sha": "c35a965a4f3e4f778b728e4f2e8743be38acb31a",
+      "author": "Dhananjay Sathe",
+      "date": "Tue May 14 15:59:29 2013 +0200",
+      "message": "Partial fix for #9 Changes : i. rce-make params are set by introducing bashrc ii. /rce i.e $rootfs/rce is no longer used, consistent with rce maintain it uses the /tmp directory",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "21edfe65c37791f3fe2b79f1cd081f4e5e09415f": {
+      "sha": "21edfe65c37791f3fe2b79f1cd081f4e5e09415f",
+      "author": "Dhananjay Sathe",
+      "date": "Tue May 14 15:59:29 2013 +0200",
+      "message": "Partial fix for #9 Changes : i. rce-make params are set by introducing bashrc ii. /rce i.e $rootfs/rce is no longer used, consistent with rce maintain it uses the /tmp directory",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "fa93940a56a80424e4d33701b606f3023334148d": {
+      "sha": "fa93940a56a80424e4d33701b606f3023334148d",
+      "author": "Dhananjay Sathe",
+      "date": "Tue Apr 30 18:06:10 2013 +0200",
+      "message": "Added password recovery mechanism to rce-maintain",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "d383a4a7823cdcbb4aa61d5fa53ed65b28928cdb": {
+      "sha": "d383a4a7823cdcbb4aa61d5fa53ed65b28928cdb",
+      "author": "Mayank Singh",
+      "date": "Tue Apr 30 14:46:29 2013 +0200",
+      "message": "Merge branch 'master' of https://github.com/IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "142869e27d9681ac302f08cfad69032c3bb968ad": {
+      "sha": "142869e27d9681ac302f08cfad69032c3bb968ad",
+      "author": "Dhananjay Sathe",
+      "date": "Wed Apr 24 16:04:48 2013 +0200",
+      "message": "Merge branch 'master' of github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "f7169e3d630df904fcf35c2f845d511337f89a1a": {
+      "sha": "f7169e3d630df904fcf35c2f845d511337f89a1a",
+      "author": "Mayank Singh",
+      "date": "Mon Apr 22 18:59:35 2013 +0200",
+      "message": "Increase MAX_LENGTH of RCEInternalProtocol",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "b7c78718782bda1f557459b50814098f4b379c5b": {
+      "sha": "b7c78718782bda1f557459b50814098f4b379c5b",
+      "author": "Dhananjay Sathe",
+      "date": "Tue Apr 16 16:33:06 2013 +0200",
+      "message": "Merge branch 'master' of github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "4acdf69e4cd72151e277c348e1cb645331a2f287": {
+      "sha": "4acdf69e4cd72151e277c348e1cb645331a2f287",
+      "author": "Dhananjay Sathe",
+      "date": "Fri Apr 12 17:59:15 2013 +0200",
+      "message": "Merge branch 'reorder' of github.com:IDSCETHZurich/rce into reorder",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "f0e9f77f7065d4b4471ceba6adac2c76bb21b777": {
+      "sha": "f0e9f77f7065d4b4471ceba6adac2c76bb21b777",
+      "author": "Dhananjay Sathe",
+      "date": "Thu Apr 11 12:46:53 2013 +0000",
+      "message": "Merge branch 'reorder' of https://github.com/IDSCETHZurich/rce into reorder",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "56abbf4a2cdb071d747d8cc95fef570b09e8923a": {
+      "sha": "56abbf4a2cdb071d747d8cc95fef570b09e8923a",
+      "author": "Dhananjay Sathe",
+      "date": "Wed Apr 10 15:49:14 2013 +0200",
+      "message": "Update install in containerfs to install rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "b33f723c6117bf7f0fbef4f03485a984f9879b39": {
+      "sha": "b33f723c6117bf7f0fbef4f03485a984f9879b39",
+      "author": "Dhananjay Sathe",
+      "date": "Wed Apr 10 15:39:27 2013 +0200",
+      "message": "Merge branch 'reorder' of github.com:IDSCETHZurich/rce into reorder",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "59f4cff2687a8116553a57c5b4cb6d83defdf884": {
+      "sha": "59f4cff2687a8116553a57c5b4cb6d83defdf884",
+      "author": "Dhananjay Sathe",
+      "date": "Tue Mar 26 16:01:15 2013 +0100",
+      "message": "Added credits and source citation for sysinfo",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "39536d6a2a7712159caab1ed850324d25a285c53": {
+      "sha": "39536d6a2a7712159caab1ed850324d25a285c53",
+      "author": "Dhananjay Sathe",
+      "date": "Thu Mar 14 20:21:41 2013 +0100",
+      "message": "Console port now defaults to 8081 from settings, console does not import settinsg as it is independent of the cloud engine and agparse sets default to rce default",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "badbe8aca65ad3692a38a8d785080f0792ff41c5": {
+      "sha": "badbe8aca65ad3692a38a8d785080f0792ff41c5",
+      "author": "Dhananjay Sathe",
+      "date": "Thu Mar 14 18:06:35 2013 +0100",
+      "message": "Added utilities to monitor process, cgroups, resources etc . Base commit",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "73a89b77224b145568c6bd5dff38c4a71a3de8a6": {
+      "sha": "73a89b77224b145568c6bd5dff38c4a71a3de8a6",
+      "author": "Dhananjay Sathe",
+      "date": "Wed Mar 13 14:37:44 2013 +0100",
+      "message": "Fixed TODO : Now password is picked from config file and enforced",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "e282264b5e8a6bc9c6ef892088f8df148840ed69": {
+      "sha": "e282264b5e8a6bc9c6ef892088f8df148840ed69",
+      "author": "Dhananjay Sathe",
+      "date": "Thu Mar 7 20:07:41 2013 +0100",
+      "message": "Load balancer reworked, console class added , RCECredChecker implemented, Settings updated",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "50b96b38e29df7785ee0ebee09bac9f03ec31fd3": {
+      "sha": "50b96b38e29df7785ee0ebee09bac9f03ec31fd3",
+      "author": "Dhananjay Sathe",
+      "date": "Fri Feb 15 16:31:14 2013 +0100",
+      "message": "Added support for multiple network configurations and AWS. rce.util.network.getIP now supports custom DNS configurations and static global ipv4 configurations and dynamic resolution for AWS ipv4",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "9ffd5fa9486d1d8ccdaee9952c0343cc79ce5436": {
+      "sha": "9ffd5fa9486d1d8ccdaee9952c0343cc79ce5436",
+      "author": "Dominique Hunziker",
+      "date": "Mon Feb 11 22:58:58 2013 +0100",
+      "message": "Merge branch 'dev' of github.com:IDSCETHZurich/rce into dev",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "6195bda4ad7c75261be9f663efe02df8aaae4df0": {
+      "sha": "6195bda4ad7c75261be9f663efe02df8aaae4df0",
+      "author": "Dominique Hunziker",
+      "date": "Fri Feb 1 16:03:08 2013 +0100",
+      "message": "update rce++ to newest protocol version",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "96509f6a6605518184bb2467f26ec2a2547cb4cf": {
+      "sha": "96509f6a6605518184bb2467f26ec2a2547cb4cf",
+      "author": "Dominique Hunziker",
+      "date": "Wed Jan 30 15:24:08 2013 +0100",
+      "message": "Merge branch 'dev' of github.com:IDSCETHZurich/rce into dev",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "5cee4a03cfa54accea5b026e2619330769a4ab9b": {
+      "sha": "5cee4a03cfa54accea5b026e2619330769a4ab9b",
+      "author": "Dominique Hunziker",
+      "date": "Fri Jan 18 15:32:13 2013 +0100",
+      "message": "outsource config to settings.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "d4b3abdbe213be79f36c33f2a7001d3c5108d4bc": {
+      "sha": "d4b3abdbe213be79f36c33f2a7001d3c5108d4bc",
+      "author": "Dominique Hunziker",
+      "date": "Wed Jan 16 23:56:33 2013 +0100",
+      "message": "Merge branch 'dev' of github.com:IDSCETHZurich/rce into dev",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "9e17dcea0951a5f35b98e2e1dc61681af6c46ca5": {
+      "sha": "9e17dcea0951a5f35b98e2e1dc61681af6c46ca5",
+      "author": "Dominique Hunziker",
+      "date": "Mon Dec 17 21:13:36 2012 +0100",
+      "message": "Merge branch 'master' of github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "2e30037efe4f05c972eeb223e0d127b1620412f3": {
+      "sha": "2e30037efe4f05c972eeb223e0d127b1620412f3",
+      "author": "Dominique Hunziker",
+      "date": "Thu Nov 8 16:32:22 2012 +0100",
+      "message": "Merge branch 'dev' of github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c289b8932fe58e1e8cf9bd2797b523c1033bbb83": {
+      "sha": "c289b8932fe58e1e8cf9bd2797b523c1033bbb83",
+      "author": "Dominique Hunziker",
+      "date": "Wed Nov 7 14:12:29 2012 +0100",
+      "message": "Merge branch 'dev' of github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "02c3740831f010184fb78fa1fc7cbad39cfa278d": {
+      "sha": "02c3740831f010184fb78fa1fc7cbad39cfa278d",
+      "author": "Dominique Hunziker",
+      "date": "Wed Nov 7 13:52:52 2012 +0100",
+      "message": "fix rcemake",
+      "keyword": [
+        "fix rce",
+        "rce"
+      ]
+    },
+    "4291d467d0e08b1195aed4d3d58c3434951a71e3": {
+      "sha": "4291d467d0e08b1195aed4d3d58c3434951a71e3",
+      "author": "Dominique Hunziker",
+      "date": "Mon Nov 5 11:37:00 2012 +0100",
+      "message": "new rcemake",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "716e97b7e67ba0e8227eaabcd00a4a1f158cda50": {
+      "sha": "716e97b7e67ba0e8227eaabcd00a4a1f158cda50",
+      "author": "Dominique Hunziker",
+      "date": "Tue Oct 23 11:21:20 2012 +0200",
+      "message": "fix bug with rceexec",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "5a0ab6922e1eb8ed7bf0d14b9233744997d642e1": {
+      "sha": "5a0ab6922e1eb8ed7bf0d14b9233744997d642e1",
+      "author": "Dominique Hunziker",
+      "date": "Mon Oct 15 11:35:11 2012 +0000",
+      "message": "fix bug in rcemake",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "2136c3c009349a8ff23551e642d318af3f605e06": {
+      "sha": "2136c3c009349a8ff23551e642d318af3f605e06",
+      "author": "Dominique Hunziker",
+      "date": "Mon Oct 15 13:09:03 2012 +0200",
+      "message": "generalize rcemake",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "b7b84850273dab047264a68a2a6920d6e5e22074": {
+      "sha": "b7b84850273dab047264a68a2a6920d6e5e22074",
+      "author": "Dominique Hunziker",
+      "date": "Sun Oct 14 20:37:01 2012 +0200",
+      "message": "Merge branch 'master' of github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "2b7dbc081b33e7113b5873ba6990d7862534a58a": {
+      "sha": "2b7dbc081b33e7113b5873ba6990d7862534a58a",
+      "author": "Dominique Hunziker",
+      "date": "Sun Oct 14 20:36:39 2012 +0200",
+      "message": "extend rcemake for make",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "b3630ce4c062cea54439db15247e4ea1abdacd48": {
+      "sha": "b3630ce4c062cea54439db15247e4ea1abdacd48",
+      "author": "Dominique Hunziker",
+      "date": "Sun Oct 14 16:44:08 2012 +0200",
+      "message": "add basic stuff from compiling source for RCE",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "f0315d9747f575192ac1192831dae69a1d7e303f": {
+      "sha": "f0315d9747f575192ac1192831dae69a1d7e303f",
+      "author": "Dominique Hunziker",
+      "date": "Sun Oct 14 00:01:14 2012 +0200",
+      "message": "Merge branch 'master' of github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "ec9f81eb182218dea6b149d1507f35e2468e1a8c": {
+      "sha": "ec9f81eb182218dea6b149d1507f35e2468e1a8c",
+      "author": "dominiquehunziker",
+      "date": "Sun Oct 14 00:40:52 2012 +0300",
+      "message": "Update pyrce/README",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "bcce8d394ec8867b84cc1b6d7a8f4e37b882fe33": {
+      "sha": "bcce8d394ec8867b84cc1b6d7a8f4e37b882fe33",
+      "author": "Dominique Hunziker",
+      "date": "Sat Oct 6 23:27:13 2012 +0200",
+      "message": "Merge branch 'master' of github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "28eebf55076343a73befae1cbf4bd652076a6267": {
+      "sha": "28eebf55076343a73befae1cbf4bd652076a6267",
+      "author": "Dominique Hunziker",
+      "date": "Mon Sep 17 15:51:51 2012 +0200",
+      "message": "Merge branch 'master' of github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "97d6723e92b50db30b897ab509dec2a9701ce54d": {
+      "sha": "97d6723e92b50db30b897ab509dec2a9701ce54d",
+      "author": "Gajamohan Mohanarajah",
+      "date": "Fri Jun 22 17:03:24 2012 +0200",
+      "message": "Merge branch 'master' of https://github.com/IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "3c1ee3692eae195ec3f14b242b4bb545459b3343": {
+      "sha": "3c1ee3692eae195ec3f14b242b4bb545459b3343",
+      "author": "Dominique Hunziker",
+      "date": "Fri Jun 22 13:04:00 2012 +0200",
+      "message": "Merge github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "f01b59cbbf16415bbce6a8945e937de7d62c1a05": {
+      "sha": "f01b59cbbf16415bbce6a8945e937de7d62c1a05",
+      "author": "Gajamohan Mohanarajah",
+      "date": "Thu Jun 21 16:41:35 2012 +0200",
+      "message": "Merge branch 'master' of https://github.com/IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "454e2445ffd8b5ce6e993440c9a770b0541d10da": {
+      "sha": "454e2445ffd8b5ce6e993440c9a770b0541d10da",
+      "author": "Dominique Hunziker",
+      "date": "Wed Jun 20 20:36:37 2012 +0200",
+      "message": "Merge github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c7f3d87e6b38ae62890bbdfca10221716459147a": {
+      "sha": "c7f3d87e6b38ae62890bbdfca10221716459147a",
+      "author": "Gajamohan Mohanarajah",
+      "date": "Wed Jun 20 18:43:15 2012 +0200",
+      "message": "Merge branch 'master' of https://github.com/IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "8e2dfdd0ddfdb66e1223b18256d1db7b28153cd0": {
+      "sha": "8e2dfdd0ddfdb66e1223b18256d1db7b28153cd0",
+      "author": "Dominique Hunziker",
+      "date": "Wed Jun 20 18:14:32 2012 +0200",
+      "message": "Merge github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "74b99a3d3e8423fb28bfed6fcfce72f23b4ae285": {
+      "sha": "74b99a3d3e8423fb28bfed6fcfce72f23b4ae285",
+      "author": "Gajamohan Mohanarajah",
+      "date": "Wed Jun 20 11:59:12 2012 +0200",
+      "message": "Merge branch 'master' of https://github.com/IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "4b6eec284e69587ee36c55c0dbe9a6048711bdde": {
+      "sha": "4b6eec284e69587ee36c55c0dbe9a6048711bdde",
+      "author": "Dominique Hunziker",
+      "date": "Wed Jun 20 11:51:00 2012 +0200",
+      "message": "Merge github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "e74a893ccf7e3cd46723e68c5e86b39d7da8cd9b": {
+      "sha": "e74a893ccf7e3cd46723e68c5e86b39d7da8cd9b",
+      "author": "Gajamohan Mohanarajah",
+      "date": "Tue Jun 19 20:21:58 2012 +0200",
+      "message": "Merge branch 'master' of https://github.com/IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "58c98c6934501a5c42d686445d65016618e493f8": {
+      "sha": "58c98c6934501a5c42d686445d65016618e493f8",
+      "author": "Dominique Hunziker",
+      "date": "Tue Jun 19 17:08:43 2012 +0200",
+      "message": "Merge github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "0f25ed85481082e29d1b75ed7a1b9d677eab77aa": {
+      "sha": "0f25ed85481082e29d1b75ed7a1b9d677eab77aa",
+      "author": "Mohanarajah Gajamohan",
+      "date": "Tue Jun 19 14:23:27 2012 +0200",
+      "message": "Merge branch 'master' of https://github.com/IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "1a4dd41648e577c7e9fb3e01efd713ca4182fdea": {
+      "sha": "1a4dd41648e577c7e9fb3e01efd713ca4182fdea",
+      "author": "Dominique Hunziker",
+      "date": "Sun Jun 17 22:58:30 2012 +0200",
+      "message": "Merge github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "25703c455c8b2dc43fa9610ce243bd07f0aeb617": {
+      "sha": "25703c455c8b2dc43fa9610ce243bd07f0aeb617",
+      "author": "Dominique Hunziker",
+      "date": "Fri Jun 15 12:35:55 2012 +0200",
+      "message": "Merge github.com:IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c4b284db6458be7304c429aeda667694a4b8f3e1": {
+      "sha": "c4b284db6458be7304c429aeda667694a4b8f3e1",
+      "author": "Gajamohan Mohanarajah",
+      "date": "Thu Jun 14 19:09:55 2012 +0200",
+      "message": "Merge branch 'master' of https://github.com/IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "e75bf46506bfe93fb7cee9b8b4b4acf78075a7f1": {
+      "sha": "e75bf46506bfe93fb7cee9b8b4b4acf78075a7f1",
+      "author": "Gajamohan Mohanarajah",
+      "date": "Thu Jun 14 15:35:27 2012 +0200",
+      "message": "Merge branch 'master' of https://github.com/IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "e699d182e0095d85e87db373a4183ff2586762a0": {
+      "sha": "e699d182e0095d85e87db373a4183ff2586762a0",
+      "author": "Gajamohan Mohanarajah",
+      "date": "Thu Jun 14 15:27:06 2012 +0200",
+      "message": "Merge branch 'master' of https://github.com/IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "1325f36e29c60e787b9b9abcbf1e0a1a0f956ae6": {
+      "sha": "1325f36e29c60e787b9b9abcbf1e0a1a0f956ae6",
+      "author": "Gajamohan Mohanarajah",
+      "date": "Tue Jun 12 19:56:32 2012 +0200",
+      "message": "Merge branch 'master' of https://github.com/IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "55731daf879df89a3e93830cb734213e57baf490": {
+      "sha": "55731daf879df89a3e93830cb734213e57baf490",
+      "author": "gajan",
+      "date": "Mon Jun 11 17:34:58 2012 +0000",
+      "message": "Merge branch 'master' of https://github.com/IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "62cea3c31de606aa043551340ecf0b12f4b2a359": {
+      "sha": "62cea3c31de606aa043551340ecf0b12f4b2a359",
+      "author": "gajan",
+      "date": "Mon Jun 11 17:23:05 2012 +0000",
+      "message": "Merge branch 'master' of https://github.com/IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "e5a0f7b4d6772e990f40b34690aff0765af92e0c": {
+      "sha": "e5a0f7b4d6772e990f40b34690aff0765af92e0c",
+      "author": "gajan",
+      "date": "Mon Jun 11 17:15:25 2012 +0000",
+      "message": "Merge branch 'master' of https://github.com/IDSCETHZurich/rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "443e09a8fd7229f15ae742b5c6eef7ff083dc9cb": {
+      "sha": "443e09a8fd7229f15ae742b5c6eef7ff083dc9cb",
+      "author": "Dominique Hunziker",
+      "date": "Mon Jun 11 15:33:22 2012 +0200",
+      "message": "rename reappengine -> rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c7e99e14ce72ac441a463e752c5d0ee254160668": {
+      "sha": "c7e99e14ce72ac441a463e752c5d0ee254160668",
+      "author": "Dominique Hunziker",
+      "date": "Fri Jun 8 23:16:03 2012 +0200",
+      "message": "update ROS resource Loader",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "0804eb10c8d9765a8159fe04c81bb375c7f551dc": {
+      "sha": "0804eb10c8d9765a8159fe04c81bb375c7f551dc",
+      "author": "Dominique Hunziker",
+      "date": "Fri Jun 8 20:34:52 2012 +0200",
+      "message": "add new ROS resource loader",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "RCE-0-day-for-GhostScript-9.50": {
+    "7dcf313679f87ea472f5c51e906a99c9a7eb076c": {
+      "sha": "7dcf313679f87ea472f5c51e906a99c9a7eb076c",
+      "author": "duc-nt",
+      "date": "Sun Sep 5 22:13:49 2021 +0700",
+      "message": "Update IM-RCE-via-GhostScript-9.5.py",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "RCE-Exploit-in-BIG-IP": {
+    "1f5f3328a7b11424f407955908b8b3154617adf3": {
+      "sha": "1f5f3328a7b11424f407955908b8b3154617adf3",
+      "author": "mateuszz0000",
+      "date": "Mon Apr 26 09:29:42 2021 +0200",
+      "message": "Update f5_rce.py",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "rce-finder": {
+    "f4cb9063ad9c2c0f58f03175d2eeaa53c1de8056": {
+      "sha": "f4cb9063ad9c2c0f58f03175d2eeaa53c1de8056",
+      "author": "plenumlab",
+      "date": "Thu Feb 10 22:18:10 2022 +0100",
+      "message": "RCE finder first and final commit",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "RCEScanner": {
+    "13b4a4f52b4935486a1d3587a14b397f22704cef": {
+      "sha": "13b4a4f52b4935486a1d3587a14b397f22704cef",
+      "author": "mhaskar",
+      "date": "Thu Mar 22 19:52:02 2018 +0200",
+      "message": "push RCEScanner",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "redfish-ansible-module": {
+    "796e28f018f1b9262ad75d511e7ca5c0b1f20181": {
+      "sha": "796e28f018f1b9262ad75d511e7ca5c0b1f20181",
+      "author": "Jose Delarosa",
+      "date": "Wed Feb 14 13:55:34 2018 -0600",
+      "message": "Replaced 'API' with 'resource' when a resource is not found.",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "redis-rce": {
+    "be3ba0f7677c193af35ace6ec9a93259dddfe12b": {
+      "sha": "be3ba0f7677c193af35ace6ec9a93259dddfe12b",
+      "author": "Evi1cg",
+      "date": "Thu Aug 22 12:43:44 2019 +0800",
+      "message": "Update redis-rce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "abbff7afec5f9ba1dd06703bd76d933854969b3b": {
+      "sha": "abbff7afec5f9ba1dd06703bd76d933854969b3b",
+      "author": "Evi1cg",
+      "date": "Mon Jul 8 22:07:18 2019 +0800",
+      "message": "redis rce",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "ru-dev-path-py": {
+    "40b69a78fd13f0a7b13c8ce3e23e502aa7c6a150": {
+      "sha": "40b69a78fd13f0a7b13c8ce3e23e502aa7c6a150",
+      "author": "Andrew Brookins",
+      "date": "Mon Nov 16 10:23:56 2020 -0800",
+      "message": "Merge pull request #39 from redislabs-training/add-windows-resources-to-readme",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "22a9735978f5b9f3570592966797d2057494a3f5": {
+      "sha": "22a9735978f5b9f3570592966797d2057494a3f5",
+      "author": "Simon Prickett",
+      "date": "Mon Nov 16 14:58:52 2020 +0000",
+      "message": "Added some Windows installation resources for Redis.",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "runpod-worker-oobabooga": {
+    "4d10a1ca7417840ce1c6071cfffb6e8651de1cfb": {
+      "sha": "4d10a1ca7417840ce1c6071cfffb6e8651de1cfb",
+      "author": "Ashley Kleynhans",
+      "date": "Wed Jul 19 19:31:01 2023 +0200",
+      "message": "Added Postman collection and additional resources",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "scant3r": {
+    "1ff87c7dcfa8219ef80ee456c8cfde501b98010e": {
+      "sha": "1ff87c7dcfa8219ef80ee456c8cfde501b98010e",
+      "author": "Khaled Nassar",
+      "date": "Sat Jun 11 21:50:09 2022 +0200",
+      "message": "Add XSS mod",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "6375e3d3956719a4b656f96e4f2cc36cc954ab23": {
+      "sha": "6375e3d3956719a4b656f96e4f2cc36cc954ab23",
+      "author": "Khaled Nassar",
+      "date": "Sat Jun 11 21:40:56 2022 +0200",
+      "message": "XSS Wordlists",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "9a0f8818c4afdb4f42ad7a69c2e64119a7ddc8fd": {
+      "sha": "9a0f8818c4afdb4f42ad7a69c2e64119a7ddc8fd",
+      "author": "Khaled Nassar",
+      "date": "Mon Jun 6 02:09:25 2022 +0200",
+      "message": "Add XSS",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "7b1f2854a4752f401904474523d5c549dafaa5e6": {
+      "sha": "7b1f2854a4752f401904474523d5c549dafaa5e6",
+      "author": "Khaled Nassar",
+      "date": "Thu Jun 2 19:21:21 2022 +0200",
+      "message": "Fix: xss wordlist path",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "519bcac05632243d700f7281c1ea26a87cdadc28": {
+      "sha": "519bcac05632243d700f7281c1ea26a87cdadc28",
+      "author": "Khaled Nassar",
+      "date": "Sun May 29 03:00:17 2022 +0200",
+      "message": "Out-of-band resource load Module",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "413a1817cc7895405f67c54295a29ba5401b0bcb": {
+      "sha": "413a1817cc7895405f67c54295a29ba5401b0bcb",
+      "author": "Khaled Nassar",
+      "date": "Wed Jul 28 08:49:54 2021 +0200",
+      "message": "fix xss_param & add -O option",
+      "keyword": [
+        "fix xss",
+        "xss"
+      ]
+    },
+    "95116a28947031386ef086933f1ecab045de9f15": {
+      "sha": "95116a28947031386ef086933f1ecab045de9f15",
+      "author": "Khaled Nassar",
+      "date": "Mon Jul 26 22:58:34 2021 +0200",
+      "message": "add (SSTI,SSRF,XSS) Scanner for lorsrf",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "27c0482c969913e118a59fbee7f857cc7b58b3a3": {
+      "sha": "27c0482c969913e118a59fbee7f857cc7b58b3a3",
+      "author": "Khaled Nassar",
+      "date": "Mon Jul 26 21:10:35 2021 +0200",
+      "message": "add xss scanner for lorsrf module",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "cec4530e8e1fc1d359695f3838d44ea66b4a1206": {
+      "sha": "cec4530e8e1fc1d359695f3838d44ea66b4a1206",
+      "author": "Khaled Nassar",
+      "date": "Mon Jul 26 06:30:52 2021 +0200",
+      "message": "Move rce payloads from dict to yaml file",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "173021265e179b09e9d46d3dfd75240f2f143d77": {
+      "sha": "173021265e179b09e9d46d3dfd75240f2f143d77",
+      "author": "Khaled Nassar",
+      "date": "Mon Jul 26 06:16:02 2021 +0200",
+      "message": "Update RCE module",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "af90a52829c2e9c89275715e71b04338cd8980a0": {
+      "sha": "af90a52829c2e9c89275715e71b04338cd8980a0",
+      "author": "Marius Vinaschi",
+      "date": "Thu Jul 22 17:07:05 2021 +0200",
+      "message": "Show all xss & Add requirements",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "dac1d169332a5f6d6d6bd6f45d319bf845557d3c": {
+      "sha": "dac1d169332a5f6d6d6bd6f45d319bf845557d3c",
+      "author": "Marius Vinaschi",
+      "date": "Thu Jul 22 16:49:03 2021 +0200",
+      "message": "fix bug Xss with # in the url",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "80f14123d3ec8627c1839e41e97bfed752e40aa8": {
+      "sha": "80f14123d3ec8627c1839e41e97bfed752e40aa8",
+      "author": "Marius Vinaschi",
+      "date": "Wed Jul 21 13:52:27 2021 +0200",
+      "message": "clean xss_param",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "40eabccd58bd33dbf2ea393a8a867a5f6a49f513": {
+      "sha": "40eabccd58bd33dbf2ea393a8a867a5f6a49f513",
+      "author": "Marius Vinaschi",
+      "date": "Tue Jul 20 13:50:45 2021 +0200",
+      "message": "Update Structure & Naming Convention Rce",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "bccad990d71f89c0f34d7433ffa462236be425bd": {
+      "sha": "bccad990d71f89c0f34d7433ffa462236be425bd",
+      "author": "Marius Vinaschi",
+      "date": "Tue Jul 20 11:59:44 2021 +0200",
+      "message": "Add indication Func Force_insert_to_params",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "50004de6f108962b142288d9e5e7052c93e33bb6": {
+      "sha": "50004de6f108962b142288d9e5e7052c93e33bb6",
+      "author": "Marius Vinaschi",
+      "date": "Tue Jul 20 11:41:13 2021 +0200",
+      "message": "Update Xss Modules Structures",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "249f8e7d4e852cccc503e2a3dfd71d504d84ea0b": {
+      "sha": "249f8e7d4e852cccc503e2a3dfd71d504d84ea0b",
+      "author": "Marius Vinaschi",
+      "date": "Tue Jul 20 10:59:30 2021 +0200",
+      "message": "Update structure RCE",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "e0e5d477bb24cee7087b0f85c16541bcd363b7d1": {
+      "sha": "e0e5d477bb24cee7087b0f85c16541bcd363b7d1",
+      "author": "Marius Vinaschi",
+      "date": "Mon Jul 19 17:07:01 2021 +0200",
+      "message": "Add errors and standardisation xss",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "bf22443f2546ed29f2f2fa4c26b3817bdc52d224": {
+      "sha": "bf22443f2546ed29f2f2fa4c26b3817bdc52d224",
+      "author": "Khaled Nassar",
+      "date": "Fri Jul 16 00:34:38 2021 +0200",
+      "message": "fix xss module error with api",
+      "keyword": [
+        "fix xss",
+        "xss"
+      ]
+    },
+    "e890d0bf3e276985222ec8e8b13e36039794648e": {
+      "sha": "e890d0bf3e276985222ec8e8b13e36039794648e",
+      "author": "Khaled Nassar",
+      "date": "Wed Jul 14 09:41:59 2021 +0200",
+      "message": "remove new lines from xss_params payloads",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "c3d8120037340b31dbd481e3443464622637d713": {
+      "sha": "c3d8120037340b31dbd481e3443464622637d713",
+      "author": "Khaled Nassar",
+      "date": "Wed Jul 14 09:40:53 2021 +0200",
+      "message": "remove new lines from xss payloads",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "1e160e04579d5c50df17bc92dd8e94bf08bc4f59": {
+      "sha": "1e160e04579d5c50df17bc92dd8e94bf08bc4f59",
+      "author": "Khaled Nassar",
+      "date": "Thu Apr 1 14:37:29 2021 +0200",
+      "message": "FIX Blind XSS ERROR (KeyError: host)",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "061f84fc1ceeb2d57a2534ec7e066ec6d73c6d42": {
+      "sha": "061f84fc1ceeb2d57a2534ec7e066ec6d73c6d42",
+      "author": "Khaled Nassar",
+      "date": "Wed Mar 24 00:52:30 2021 +0200",
+      "message": "rce module",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "133c686db7ffdb5fff7a63983ad3afdd76badc00": {
+      "sha": "133c686db7ffdb5fff7a63983ad3afdd76badc00",
+      "author": "Khaled Nassar",
+      "date": "Fri Mar 19 22:00:16 2021 +0200",
+      "message": "XSS_PARAM",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "432d9a31910c4803d4563f7465ce98e319e68144": {
+      "sha": "432d9a31910c4803d4563f7465ce98e319e68144",
+      "author": "knassar702",
+      "date": "Tue Mar 16 08:00:38 2021 +0200",
+      "message": "xss new line output",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "shuriken": {
+    "ccebd7c3a9676d1f1dbeaa884cbba909352829a9": {
+      "sha": "ccebd7c3a9676d1f1dbeaa884cbba909352829a9",
+      "author": "Steven Patterson",
+      "date": "Fri Sep 15 20:53:52 2023 -0400",
+      "message": "Update shuriken_xss.py for Python 3",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "5b798536e6c2a25a3f4275f94e231161fdf9eb6b": {
+      "sha": "5b798536e6c2a25a3f4275f94e231161fdf9eb6b",
+      "author": "shogunlab",
+      "date": "Thu Aug 31 14:01:50 2017 -0400",
+      "message": "Fix arparse error, remove percent sign in help",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "75c4f27724b4a58d91d15d9305d992b65781137e": {
+      "sha": "75c4f27724b4a58d91d15d9305d992b65781137e",
+      "author": "shogunlab",
+      "date": "Wed Aug 30 23:59:19 2017 -0400",
+      "message": "Add check for populated XSS in log function",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "fc89219d529305cf9d09909cf5d9b955d6b2c3b4": {
+      "sha": "fc89219d529305cf9d09909cf5d9b955d6b2c3b4",
+      "author": "shogunlab",
+      "date": "Wed Aug 30 23:14:28 2017 -0400",
+      "message": "Add fuzzy detection of XSS with logging",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "SMBGhost_RCE_PoC": {
+    "f55e6abd47cb3a4f771c965053a5a92133a18781": {
+      "sha": "f55e6abd47cb3a4f771c965053a5a92133a18781",
+      "author": "valentina",
+      "date": "Thu Jul 2 13:49:21 2020 -0500",
+      "message": "Changing MDL flags so not to select MDL_SOURCE_NONPAGED_POOL, as per Matt Suiche's work",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "22969b6cab96b6d128e0a937d09fc1a0b54a75b7": {
+      "sha": "22969b6cab96b6d128e0a937d09fc1a0b54a75b7",
+      "author": "chompie",
+      "date": "Tue Jun 2 11:31:05 2020 -0500",
+      "message": "bug fix Merge branch 'master' of https://github.com/chompie1337/SMBGhost_RCE_PoC",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "SQL-XSS": {
+    "50406460f14d8d5e295beab5513412f1efc58de9": {
+      "sha": "50406460f14d8d5e295beab5513412f1efc58de9",
+      "author": "toxic",
+      "date": "Thu May 25 08:21:06 2017 -0700",
+      "message": "Delete xss.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "sqli-lfi-xss-rce-dorker-and-auto-exploiter-Python-": {
+    "8634c545af08cc6760364e9e09af8f737cebbf41": {
+      "sha": "8634c545af08cc6760364e9e09af8f737cebbf41",
+      "author": "3NCRYP73D_GH057",
+      "date": "Mon Feb 18 11:39:32 2019 +0600",
+      "message": "Update SQLI-LFI-XSS-RCE-Dorker.py",
+      "keyword": [
+        "rce",
+        "xss"
+      ]
+    },
+    "d89780d78ab6b168ca8c8f6d7023b855e9b3e678": {
+      "sha": "d89780d78ab6b168ca8c8f6d7023b855e9b3e678",
+      "author": "3NCRYP73D_GH057",
+      "date": "Sun Feb 17 20:35:01 2019 +0600",
+      "message": "Update SQLI-LFI-XSS-RCE-Dorker.py",
+      "keyword": [
+        "rce",
+        "xss"
+      ]
+    },
+    "39e06d8c9854117154f08e3b1eefbe338d5ff267": {
+      "sha": "39e06d8c9854117154f08e3b1eefbe338d5ff267",
+      "author": "3NCRYP73D_GH057",
+      "date": "Sun Feb 17 20:33:26 2019 +0600",
+      "message": "Update SQLI-LFI-XSS-RCE-Dorker.py",
+      "keyword": [
+        "rce",
+        "xss"
+      ]
+    }
+  },
+  "sqlmap": {
+    "2f01cbf71fcd48bb20f9394ff6f088211305277e": {
+      "sha": "2f01cbf71fcd48bb20f9394ff6f088211305277e",
+      "author": "Miroslav Stampar",
+      "date": "Fri Apr 12 18:09:13 2024 +0200",
+      "message": "Patching some resource-related warnings",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "626b310e7e11519cceb1596293aa350512ae96ee": {
+      "sha": "626b310e7e11519cceb1596293aa350512ae96ee",
+      "author": "Miroslav Stampar",
+      "date": "Fri Mar 1 11:22:19 2024 +0100",
+      "message": "Adding support for sha256sum of source files",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "be0f7a9e0778dfc6ccd67ac7b05cb87bb8e9a41a": {
+      "sha": "be0f7a9e0778dfc6ccd67ac7b05cb87bb8e9a41a",
+      "author": "Miroslav Stampar",
+      "date": "Tue Dec 1 23:10:53 2020 +0100",
+      "message": "Update of --beep (including XSS/FI)",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "0977f6df61b437b54541b7607813780c369e1b93": {
+      "sha": "0977f6df61b437b54541b7607813780c369e1b93",
+      "author": "Miroslav Stampar",
+      "date": "Mon Nov 18 11:40:07 2019 +0100",
+      "message": "Bug fix (disable HTML decoding in XSS checks)",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "819bf47a119db31aeb4bff14f93136519266d99e": {
+      "sha": "819bf47a119db31aeb4bff14f93136519266d99e",
+      "author": "Miroslav Stampar",
+      "date": "Thu Jul 18 12:16:03 2019 +0200",
+      "message": "Minor update (storing force-partial)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "d3225136e2ca935d25ff2a978dca3133d6aad3ec": {
+      "sha": "d3225136e2ca935d25ff2a978dca3133d6aad3ec",
+      "author": "Miroslav Stampar",
+      "date": "Tue May 21 14:39:30 2019 +0200",
+      "message": "Minor patch (different drive letter)",
+      "keyword": [
+        "drive letter"
+      ]
+    },
+    "44a8242d2f8e662094b8a39597acd072ec298194": {
+      "sha": "44a8242d2f8e662094b8a39597acd072ec298194",
+      "author": "Miroslav Stampar",
+      "date": "Wed Jan 23 21:07:51 2019 +0100",
+      "message": "Dummy commit to force md5-resum",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "509bb41b06114d6d953dfaa6ac82c9dad9bc3253": {
+      "sha": "509bb41b06114d6d953dfaa6ac82c9dad9bc3253",
+      "author": "Miroslav Stampar",
+      "date": "Tue Apr 17 17:08:57 2018 +0200",
+      "message": "Adding (hidden) switch '--force-pivoting' (Issue #3032)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "a2d465aa4a4c569065db0ad65c7f75bc2606798d": {
+      "sha": "a2d465aa4a4c569065db0ad65c7f75bc2606798d",
+      "author": "Miroslav Stampar",
+      "date": "Wed Oct 11 14:43:03 2017 +0200",
+      "message": "Moving doc/COPYING to LICENSE (as per open-source community standards)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c871cedae4d9ccc8ba4bc1c51389b01cb0afd2da": {
+      "sha": "c871cedae4d9ccc8ba4bc1c51389b01cb0afd2da",
+      "author": "Miroslav Stampar",
+      "date": "Mon Aug 28 12:30:42 2017 +0200",
+      "message": "Adding hidden option '--force-dbms' to skip fingerprinting",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "b4bb4c393b26072b9a47f787be134888b983af60": {
+      "sha": "b4bb4c393b26072b9a47f787be134888b983af60",
+      "author": "Aikes",
+      "date": "Sat Feb 27 00:10:32 2016 +0800",
+      "message": "Fixes file path traversal issue on win platform.",
+      "keyword": [
+        "path traversal"
+      ]
+    },
+    "38541b021a06b88b8af761d2310e5976272db366": {
+      "sha": "38541b021a06b88b8af761d2310e5976272db366",
+      "author": "Miroslav Stampar",
+      "date": "Sat Sep 26 00:09:17 2015 +0200",
+      "message": "Implementing hidden switch '--force-threads' on request (to force multi-threading in time-based SQLi)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "401564898df95945eb1216cd92586a712e70c5fd": {
+      "sha": "401564898df95945eb1216cd92586a712e70c5fd",
+      "author": "Miroslav Stampar",
+      "date": "Mon Aug 31 14:43:41 2015 +0200",
+      "message": "Adding support for 'empty' POST body (if forced by --method)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "383929c0c2b9008d9eaca3ed797b440e2f4519da": {
+      "sha": "383929c0c2b9008d9eaca3ed797b440e2f4519da",
+      "author": "Bernardo Damele",
+      "date": "Sat Feb 21 13:12:03 2015 +0000",
+      "message": "if the user forces the DBMS, then sort the tests accordingly to perform first the DBMS-specific tests, then the others",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "8c9014c39fb3c21c703d50f1fc57f33d0fa35ea2": {
+      "sha": "8c9014c39fb3c21c703d50f1fc57f33d0fa35ea2",
+      "author": "Miroslav Stampar",
+      "date": "Wed Oct 1 13:31:48 2014 +0200",
+      "message": "Adding a dummy (auxiliary) XSS check",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "e3a02f56e6c266103e5f642daf90e0dd602583b1": {
+      "sha": "e3a02f56e6c266103e5f642daf90e0dd602583b1",
+      "author": "stamparm",
+      "date": "Wed Apr 24 12:35:39 2013 +0200",
+      "message": "Just in case for --force-ssl (if url is returned in e.g. refresh toward the target)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "840ee26a14ef81713f772a574f6bf99d2c54d979": {
+      "sha": "840ee26a14ef81713f772a574f6bf99d2c54d979",
+      "author": "Miroslav Stampar",
+      "date": "Mon Apr 15 18:42:26 2013 +0200",
+      "message": "If SQLAlchemy is available and it has problems while connecting then it should be smarter to not force the other (standard) method - if available",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "4b5335a323bd5979b20c5db63e5aa3c85d36a525": {
+      "sha": "4b5335a323bd5979b20c5db63e5aa3c85d36a525",
+      "author": "Miroslav Stampar",
+      "date": "Tue Apr 2 17:18:21 2013 +0200",
+      "message": "Moving --force-ssl from [Request] to [General] options",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "52264f544e384e1dbc9edea3535c583f1562508d": {
+      "sha": "52264f544e384e1dbc9edea3535c583f1562508d",
+      "author": "Bernardo Damele",
+      "date": "Thu Feb 14 17:16:49 2013 +0000",
+      "message": "minor fix for Windows file paths, do not strip the windows drive letter",
+      "keyword": [
+        "drive letter"
+      ]
+    },
+    "c8d1020a135eef783fe5281870116798ed5f09aa": {
+      "sha": "c8d1020a135eef783fe5281870116798ed5f09aa",
+      "author": "Bernardo Damele",
+      "date": "Thu Feb 7 14:19:58 2013 +0000",
+      "message": "re-enabled brute-force test cases",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "4c4cb856ff72bb8229f0f5f4bbd6808c930f5eeb": {
+      "sha": "4c4cb856ff72bb8229f0f5f4bbd6808c930f5eeb",
+      "author": "Bernardo Damele",
+      "date": "Fri Dec 14 15:52:35 2012 +0000",
+      "message": "minor bug fix to the /scan/<taskid>output method, forced each taskid to have its own temporary folder for output - issue #297",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "3d9779ffd495ca3546d555653adf1075bc052b88": {
+      "sha": "3d9779ffd495ca3546d555653adf1075bc052b88",
+      "author": "Bernardo Damele",
+      "date": "Fri Dec 14 12:15:04 2012 +0000",
+      "message": "further improvements to RESTful API: enforce security headers across all HTTP responses properly and make consistent responses across methods (#297)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "42f4c2bac9c0aacd9ad03f9418529c142d98111e": {
+      "sha": "42f4c2bac9c0aacd9ad03f9418529c142d98111e",
+      "author": "Miroslav Stampar",
+      "date": "Mon Dec 10 11:42:10 2012 +0100",
+      "message": "Minor fix when --dbms is enforced",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "6bc5f44b2018bfe2cda4791c35c16ed2668586e7": {
+      "sha": "6bc5f44b2018bfe2cda4791c35c16ed2668586e7",
+      "author": "Miroslav Stampar",
+      "date": "Tue Sep 25 15:09:07 2012 +0200",
+      "message": "Minor just in case update for an Issue #195 (safer behavior on forced charsets)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "f55ad4611995449d0c2b118149b439f54ae15f94": {
+      "sha": "f55ad4611995449d0c2b118149b439f54ae15f94",
+      "author": "Bernardo Damele",
+      "date": "Mon Feb 20 11:06:55 2012 +0000",
+      "message": "Use %TEMP% environment variable as temporary directory (--tmp-path overwrites this btw) folder with direct connection (-d). Via SQL injection, env variables do not work apparently",
+      "keyword": [
+        "sql injection"
+      ]
+    },
+    "6bedb80ffa6e69c74e5730742cc6d372a21b324f": {
+      "sha": "6bedb80ffa6e69c74e5730742cc6d372a21b324f",
+      "author": "Miroslav Stampar",
+      "date": "Wed Feb 8 09:11:57 2012 +0000",
+      "message": "adding --force-ssl switch (most useful in combination with -r)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "a0e4d27bad9f55c9c1382f02ecd490807151b43e": {
+      "sha": "a0e4d27bad9f55c9c1382f02ecd490807151b43e",
+      "author": "Miroslav Stampar",
+      "date": "Wed Jan 11 15:32:30 2012 +0000",
+      "message": "replacing leftovers of sqlmap.sourceforge.net with www.sqlmap.org",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "SQLViking": {
+    "3c4fe1afe1be2512fe2950ecbd4bd8f47697706a": {
+      "sha": "3c4fe1afe1be2512fe2950ecbd4bd8f47697706a",
+      "author": "relotnek",
+      "date": "Sat Dec 20 12:47:46 2014 -0500",
+      "message": "added Basic SQL server vagrant from open source project and box for demo",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "stock-pattern": {
+    "41d80ec3727e39f40ef99046543ba4c6d993f051": {
+      "sha": "41d80ec3727e39f40ef99046543ba4c6d993f051",
+      "author": "Benny Thadikaran",
+      "date": "Wed Nov 13 16:14:43 2024 +0530",
+      "message": "Retracements are calculated to nearest Fib percentages.",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "aa149cc1c06507915f6cebc37d94fad99d326418": {
+      "sha": "aa149cc1c06507915f6cebc37d94fad99d326418",
+      "author": "Benny Thadikaran",
+      "date": "Sat Oct 5 17:28:09 2024 +0530",
+      "message": "Simplified user input validation",
+      "keyword": [
+        "input validation"
+      ]
+    },
+    "9514129d503cf170197207547103a47a9e73985e": {
+      "sha": "9514129d503cf170197207547103a47a9e73985e",
+      "author": "Benny Thadikaran",
+      "date": "Wed Sep 4 00:37:28 2024 +0530",
+      "message": "Fix: IndexError trying access out of bounds index position. Fixes GH issue #63",
+      "keyword": [
+        "out of bounds"
+      ]
+    },
+    "3bc15fdf018d18aa30b62d39d8c7c63a4e5af789": {
+      "sha": "3bc15fdf018d18aa30b62d39d8c7c63a4e5af789",
+      "author": "Benny Thadikaran",
+      "date": "Fri Feb 2 10:45:25 2024 +0530",
+      "message": "Fix: KeyError if date out of bounds of current DataFrame",
+      "keyword": [
+        "out of bounds"
+      ]
+    },
+    "77be9ab853087c3e938fbb87e833a0fab2e260d8": {
+      "sha": "77be9ab853087c3e938fbb87e833a0fab2e260d8",
+      "author": "Benny Thadikaran",
+      "date": "Wed Dec 13 12:34:14 2023 +0530",
+      "message": "- exit if `--date` value falls on weekend - Warn user once, if `--date` value is a possible trading holiday - utils.find removed - added new defs: `findHNS`, `findReverseHNS`, `findPennant`, `getPrevIndex` - `generate_trend_line` returns additional slope and y-intercept in a tuple - removed limits on pivots length - changed getMaxMin function signature and minor changes within - Rule changes to head & shoulder and reverse head & shoulder - other minor changes and added documentation",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "stream2chromecast": {
+    "8b2209a42dbaf36869066066841342beef3c6db4": {
+      "sha": "8b2209a42dbaf36869066066841342beef3c6db4",
+      "author": "Pat Carter",
+      "date": "Tue Nov 1 20:18:01 2016 +0000",
+      "message": "allow transcoding from HTTP sources such as internet radio streams",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "svg.path": {
+    "1f84b117f00c66b69b8a0c41f8694b9608cddde4": {
+      "sha": "1f84b117f00c66b69b8a0c41f8694b9608cddde4",
+      "author": "Lennart Regebro",
+      "date": "Sat Apr 29 17:31:56 2023 +0200",
+      "message": "Moved tests to outside of source directory (#99)",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "053ee3ccf473a635aed1cf7acdc2f7a51d7b54bf": {
+      "sha": "053ee3ccf473a635aed1cf7acdc2f7a51d7b54bf",
+      "author": "Justin",
+      "date": "Sat Nov 1 00:59:19 2014 -0400",
+      "message": "Fixed the Quadratic Bezier curve.  Current code made implemented it as a Cubic Bezier with the second and third control points equal to the second Quadratic control point.  This is incorrect (see: http://fontforge.sourceforge.net/bezier.html).",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "tongda_rce": {
+    "31d9b3998f155a3b76600c0ff5dbe93dcf5efaf5": {
+      "sha": "31d9b3998f155a3b76600c0ff5dbe93dcf5efaf5",
+      "author": "è…¹é»‘",
+      "date": "Wed Mar 18 14:19:56 2020 +0800",
+      "message": "Update tongda_rce.py",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "toxssin": {
+    "75a739f7703abb19656edbbd98044489fc019808": {
+      "sha": "75a739f7703abb19656edbbd98044489fc019808",
+      "author": "Panagiotis Chartas",
+      "date": "Sun Jan 19 17:24:50 2025 +0100",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "dd584edba5be635f4978471b087f3cdb401144f3": {
+      "sha": "dd584edba5be635f4978471b087f3cdb401144f3",
+      "author": "Panagiotis Chartas",
+      "date": "Sun Jan 19 17:21:05 2025 +0100",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "0a89fcebec3129cd219a5461363e71a4a4d5bade": {
+      "sha": "0a89fcebec3129cd219a5461363e71a4a4d5bade",
+      "author": "Panagiotis Chartas",
+      "date": "Sun Jan 19 17:19:35 2025 +0100",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "162421f50a9f7f46bddf69460de865d891508d88": {
+      "sha": "162421f50a9f7f46bddf69460de865d891508d88",
+      "author": "Panagiotis Chartas",
+      "date": "Mon Dec 30 14:42:37 2024 +0100",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "88c00dbb514215e943d30496df8e1ae3d7840dde": {
+      "sha": "88c00dbb514215e943d30496df8e1ae3d7840dde",
+      "author": "Panagiotis Chartas",
+      "date": "Sun May 7 17:25:58 2023 +0200",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "1c4acc62df88bd4ff474198b770d20d622a0d31c": {
+      "sha": "1c4acc62df88bd4ff474198b770d20d622a0d31c",
+      "author": "Panagiotis Chartas",
+      "date": "Tue Jan 10 20:05:40 2023 +0100",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "329518c18a83f01ecb0fc9da5e29bb368ee88e23": {
+      "sha": "329518c18a83f01ecb0fc9da5e29bb368ee88e23",
+      "author": "Panagiotis Chartas",
+      "date": "Fri Sep 16 17:49:12 2022 +0300",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "f45d34f83cac0eb1ceb328b9672953c302faf397": {
+      "sha": "f45d34f83cac0eb1ceb328b9672953c302faf397",
+      "author": "Panagiotis Chartas",
+      "date": "Thu Jun 23 16:38:39 2022 +0200",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "2b2a55e13f9f46c60431b1c9530153a4e0779112": {
+      "sha": "2b2a55e13f9f46c60431b1c9530153a4e0779112",
+      "author": "Panagiotis Chartas",
+      "date": "Thu Jun 23 16:29:34 2022 +0200",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "228710649a605000171cc10f0f393ec6e9fb9c75": {
+      "sha": "228710649a605000171cc10f0f393ec6e9fb9c75",
+      "author": "Panagiotis Chartas",
+      "date": "Wed Jun 22 18:57:06 2022 +0200",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "1e757500d11488557ffa55eac1a08615f3fab030": {
+      "sha": "1e757500d11488557ffa55eac1a08615f3fab030",
+      "author": "Panagiotis Chartas",
+      "date": "Tue Jun 21 00:27:12 2022 +0200",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "8baa5745466082d9f13572a6488f959861437d47": {
+      "sha": "8baa5745466082d9f13572a6488f959861437d47",
+      "author": "Panagiotis Chartas",
+      "date": "Tue Jun 21 00:24:53 2022 +0200",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "40357540d4ce23b5d4881cf02058aed423e06bce": {
+      "sha": "40357540d4ce23b5d4881cf02058aed423e06bce",
+      "author": "Panagiotis Chartas",
+      "date": "Mon Jun 20 15:07:26 2022 +0200",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "015b53d2d6a3be91969cce078a94912a8f6850dd": {
+      "sha": "015b53d2d6a3be91969cce078a94912a8f6850dd",
+      "author": "Panagiotis Chartas",
+      "date": "Sun Jun 19 22:22:52 2022 +0200",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "c01d86112bb828edfb2d8bed388df266ff734dfc": {
+      "sha": "c01d86112bb828edfb2d8bed388df266ff734dfc",
+      "author": "Panagiotis Chartas",
+      "date": "Tue Jun 14 12:22:30 2022 +0200",
+      "message": "Update toxssin.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "traxss": {
+    "5692756ad90f75064dbcc1c6edd50852a08b0f3d": {
+      "sha": "5692756ad90f75064dbcc1c6edd50852a08b0f3d",
+      "author": "Chr0nicT",
+      "date": "Fri Oct 11 21:01:42 2019 +0000",
+      "message": "Diff-Source to accept non-alert XSS",
+      "keyword": [
+        "rce",
+        "xss"
+      ]
+    },
+    "fb5b7b83e7f87ecf7617df594714cf9c9d4c155a": {
+      "sha": "fb5b7b83e7f87ecf7617df594714cf9c9d4c155a",
+      "author": "Chr0nicT",
+      "date": "Fri Oct 11 18:49:51 2019 +0000",
+      "message": "Merge branch 'master' of https://github.com/m4cs/traxss",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "trim_patcher": {
+    "d711e2b2abc3b5a0fa4afc7580b64b0355502214": {
+      "sha": "d711e2b2abc3b5a0fa4afc7580b64b0355502214",
+      "author": "Loic Nageleisen",
+      "date": "Wed Mar 7 10:27:05 2018 +0100",
+      "message": "Reference trimforce",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "universal_pathlib": {
+    "68f83698902f54ddc3abda71371456ad35d89954": {
+      "sha": "68f83698902f54ddc3abda71371456ad35d89954",
+      "author": "Andreas Poehlmann",
+      "date": "Sat Jun 15 18:17:11 2024 +0200",
+      "message": "upath._flavour_sources: update flavours (#224)",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "V3n0M-Scanner": {
+    "16b629fcc6c18ea46b514329171c352033a5c9d9": {
+      "sha": "16b629fcc6c18ea46b514329171c352033a5c9d9",
+      "author": "Katt Stof",
+      "date": "Fri Jul 28 15:05:27 2023 -0500",
+      "message": "Merge pull request #240 from v3n0m-Scanner/dependabot/pip/src/modules/xss-strike/certifi-2023.7.22",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "60baba7ab3045a6ac681917765aa755844440917": {
+      "sha": "60baba7ab3045a6ac681917765aa755844440917",
+      "author": "dependabot[bot]",
+      "date": "Tue Jul 25 21:12:14 2023 +0000",
+      "message": "Bump certifi from 2022.12.7 to 2023.7.22 in /src/modules/xss-strike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "dc73d33d81bcb483a8c17f81402cee3e5145e5ce": {
+      "sha": "dc73d33d81bcb483a8c17f81402cee3e5145e5ce",
+      "author": "Katt Stof",
+      "date": "Wed Feb 8 00:04:53 2023 -0600",
+      "message": "Merge pull request #234 from v3n0m-Scanner/dependabot/pip/src/modules/xss-strike/certifi-2022.12.7",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "a4f35ffb24626d78015e5aabc95e16f425dcd2ad": {
+      "sha": "a4f35ffb24626d78015e5aabc95e16f425dcd2ad",
+      "author": "dependabot[bot]",
+      "date": "Thu Dec 8 14:33:48 2022 +0000",
+      "message": "Bump certifi from 2021.10.8 to 2022.12.7 in /src/modules/xss-strike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "a98c2b3f8956b1ac32ec4cee4c5119ace3732ee7": {
+      "sha": "a98c2b3f8956b1ac32ec4cee4c5119ace3732ee7",
+      "author": "vittring",
+      "date": "Tue Apr 5 01:54:49 2022 -0400",
+      "message": "Update src/modules/xss-strike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "7e3b084b424f8b2e4c4c41046785fd3055b23126": {
+      "sha": "7e3b084b424f8b2e4c4c41046785fd3055b23126",
+      "author": "Katt Stof",
+      "date": "Sat Sep 12 10:29:18 2020 -0700",
+      "message": "Create xsstrike.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "31addb1fcf2a88cb1a93894369b031589d2e9c11": {
+      "sha": "31addb1fcf2a88cb1a93894369b031589d2e9c11",
+      "author": "Katt Stof",
+      "date": "Sat Sep 12 12:27:34 2020 -0500",
+      "message": "getting ready for xsstrike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "05385faebcbd3398135c967b99467547145a8303": {
+      "sha": "05385faebcbd3398135c967b99467547145a8303",
+      "author": "NovaCygni",
+      "date": "Wed Oct 12 17:56:00 2016 +0100",
+      "message": "Minor changes, LFI/RCE flagged broken as being rewritten for Asyncio based method.",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "5ebce63012dc605b603f22a05a3d823001b4e4df": {
+      "sha": "5ebce63012dc605b603f22a05a3d823001b4e4df",
+      "author": "NovaCygni",
+      "date": "Wed Oct 12 17:53:25 2016 +0100",
+      "message": "Minor changes, LFI/RCE flagged broken as being rewritten for Asyncio based method.",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "0de4b8fa3cc9a801699563c9ee69a0f8b39f5101": {
+      "sha": "0de4b8fa3cc9a801699563c9ee69a0f8b39f5101",
+      "author": "antisec",
+      "date": "Mon Aug 15 17:40:58 2016 +0100",
+      "message": "Fixed bug stopping XSS and other scan options: Fixed Import for datetime module for Kali-Rolling users: Tweaked Timer for better output",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "d0a2b7f1cddd243714b82262af252055fedfa069": {
+      "sha": "d0a2b7f1cddd243714b82262af252055fedfa069",
+      "author": "antisec",
+      "date": "Mon Aug 15 16:39:32 2016 +0100",
+      "message": "Fixed bug stopping XSS and other scan options: Fixed Import for datetime module for Kali-Rolling users:",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "d03693f1c02f626acc12009add4fde28bb6374f6": {
+      "sha": "d03693f1c02f626acc12009add4fde28bb6374f6",
+      "author": "antisec",
+      "date": "Mon Aug 15 16:36:59 2016 +0100",
+      "message": "Fixed bug stopping XSS and other scan options: Fixed Import for datetime module for Kali-Rolling users:",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "9d4a6fdc1afe7e7826d4c3a2129a6fa163a85352": {
+      "sha": "9d4a6fdc1afe7e7826d4c3a2129a6fa163a85352",
+      "author": "antisec",
+      "date": "Mon Aug 15 16:30:34 2016 +0100",
+      "message": "Fixed bug stopping XSS and other scan options: Fixed Import for datetime module for Kali-Rolling users:",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "0a5b9b792082d6a5178ffe4ad9402120f7fd7438": {
+      "sha": "0a5b9b792082d6a5178ffe4ad9402120f7fd7438",
+      "author": "antisec",
+      "date": "Sun Aug 14 14:12:43 2016 +0100",
+      "message": "Re-added: LFI/RFI/XSS Features, Automated GET SQLi attack.",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "1c8624b8d74ada6d009d742892da7844314859b0": {
+      "sha": "1c8624b8d74ada6d009d742892da7844314859b0",
+      "author": "antisec",
+      "date": "Sun Aug 14 14:10:06 2016 +0100",
+      "message": "Re-added: LFI/RFI/XSS Features, Automated GET SQLi attack.",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "fe8d117ffeacb958362702f565e609f64cfa7fe6": {
+      "sha": "fe8d117ffeacb958362702f565e609f64cfa7fe6",
+      "author": "d4rkcat",
+      "date": "Thu Dec 5 03:59:44 2013 +0000",
+      "message": "xss tweak",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "80c623e6692764f8e8fac377fca8794049d61d85": {
+      "sha": "80c623e6692764f8e8fac377fca8794049d61d85",
+      "author": "d4rkcat",
+      "date": "Thu Dec 5 03:52:21 2013 +0000",
+      "message": "xss tweak",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "942ece018865e45d09ee9f61362fb737996b6ecc": {
+      "sha": "942ece018865e45d09ee9f61362fb737996b6ecc",
+      "author": "d4rkcat",
+      "date": "Wed Dec 4 12:13:42 2013 +0000",
+      "message": "xss improvements",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "5e7e18a9d174f2a415fa9c4e5792d6e1306a45c8": {
+      "sha": "5e7e18a9d174f2a415fa9c4e5792d6e1306a45c8",
+      "author": "d4rkcat",
+      "date": "Fri Oct 25 14:54:24 2013 +0100",
+      "message": "added filter evading XSS payloads",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "WHOISxss": {
+    "e8128e32f2d01679fcf9db7da78f3add764be047": {
+      "sha": "e8128e32f2d01679fcf9db7da78f3add764be047",
+      "author": "TheBinitGhimire",
+      "date": "Fri Jul 10 08:39:33 2020 +0545",
+      "message": "WHOISxss README Updates!",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "46bd6ac4f2c644feadf01c84066fe241f81a78ba": {
+      "sha": "46bd6ac4f2c644feadf01c84066fe241f81a78ba",
+      "author": "Binit Ghimire",
+      "date": "Sat Jun 27 19:12:10 2020 +0545",
+      "message": "WHOISxss Colorful Interface!",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "bc52ea985280a1cb4badd8088fbdcb17e29462d8": {
+      "sha": "bc52ea985280a1cb4badd8088fbdcb17e29462d8",
+      "author": "Binit Ghimire",
+      "date": "Sat Jun 27 19:10:46 2020 +0545",
+      "message": "WHOISxss Contributors Section Inclusion in README.md!",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "42f1271319383a892b36fc1f32979e4342de64ae": {
+      "sha": "42f1271319383a892b36fc1f32979e4342de64ae",
+      "author": "TheBinitGhimire",
+      "date": "Sat Jun 27 01:05:41 2020 +0545",
+      "message": "WHOISxss README.md Upgrades!",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "e50dcab101dd2142a7ee0e7d6ea5eda38623386c": {
+      "sha": "e50dcab101dd2142a7ee0e7d6ea5eda38623386c",
+      "author": "Binit Ghimire",
+      "date": "Fri Jun 26 08:50:28 2020 +0545",
+      "message": "WHOISxss README.md Modification!",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "76f816e60b12c2a9e2ea808d15ae4555f947b669": {
+      "sha": "76f816e60b12c2a9e2ea808d15ae4555f947b669",
+      "author": "Binit Ghimire",
+      "date": "Fri Jun 26 08:41:08 2020 +0545",
+      "message": "WHOISxss README.md Modification!",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "4daa66f9050bcf5ded456732b218d14cc5445f52": {
+      "sha": "4daa66f9050bcf5ded456732b218d14cc5445f52",
+      "author": "Binit Ghimire",
+      "date": "Fri Jun 26 08:39:32 2020 +0545",
+      "message": "WHOISxss Initial Upgrades!",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "0ef0b2f1f93884bdca600d7c99e6791dd950676d": {
+      "sha": "0ef0b2f1f93884bdca600d7c99e6791dd950676d",
+      "author": "Binit Ghimire",
+      "date": "Fri Jun 26 08:37:16 2020 +0545",
+      "message": "WHOISxss Initial Upgrades!",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "33514f4f98d1f161d9609b26b907416579035817": {
+      "sha": "33514f4f98d1f161d9609b26b907416579035817",
+      "author": "Binit Ghimire",
+      "date": "Fri Jun 26 06:30:50 2020 +0545",
+      "message": "WHOISxss First Commit on GitHub!",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "X-Recon": {
+    "acb7c1b8d869ef6b356bbebf4fc43026ceb9f358": {
+      "sha": "acb7c1b8d869ef6b356bbebf4fc43026ceb9f358",
+      "author": "joshkar",
+      "date": "Sat Nov 11 17:46:13 2023 +0330",
+      "message": "Added XSS scanning module and improved data storage structure",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XanXSS": {
+    "a0d7ac196226d79ce9a7947df671b6bd4c3f676f": {
+      "sha": "a0d7ac196226d79ce9a7947df671b6bd4c3f676f",
+      "author": "ekultek",
+      "date": "Wed Nov 7 16:48:59 2018 -0600",
+      "message": "initial commit of XanXSS",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "xiaomi-m365-firmware-patcher": {
+    "b5836d0c6948d84df6d4852fcece1e50d0a163d3": {
+      "sha": "b5836d0c6948d84df6d4852fcece1e50d0a163d3",
+      "author": "BotoX",
+      "date": "Sat Dec 8 00:33:21 2018 +0100",
+      "message": "Add ESC<->BMS baud rate patch for open source BMS.",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "xira": {
+    "52e01f022549c3c398a9de5aa6769450b5785965": {
+      "sha": "52e01f022549c3c398a9de5aa6769450b5785965",
+      "author": "imadhrit",
+      "date": "Sat May 29 15:46:08 2021 +0530",
+      "message": "payload + github.com/xadhrit/xss-hacker",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "41a0d4f024b8f720e5756927186d2f228265aaa8": {
+      "sha": "41a0d4f024b8f720e5756927186d2f228265aaa8",
+      "author": "xadhrit",
+      "date": "Thu Apr 15 06:35:52 2021 -0400",
+      "message": "clone xss-hacker",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "xmir-patcher": {
+    "b1e2c7bf433e44b70005c56dd6b9f92b1b1329b8": {
+      "sha": "b1e2c7bf433e44b70005c56dd6b9f92b1b1329b8",
+      "author": "remittor",
+      "date": "Sun Oct 22 13:52:55 2023 +0300",
+      "message": "[xmir_base] Forced used modules from dir \"xmir_base\"",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "df111abf22717dde645615deaf7a6249b838b8b0": {
+      "sha": "df111abf22717dde645615deaf7a6249b838b8b0",
+      "author": "remittor",
+      "date": "Fri Nov 26 11:55:23 2021 +0300",
+      "message": "Set forced flush mode for print",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "872cc74978daf2170c544ff6e395d64e54819ef2": {
+      "sha": "872cc74978daf2170c544ff6e395d64e54819ef2",
+      "author": "remittor",
+      "date": "Sun Oct 31 19:40:23 2021 +0300",
+      "message": "Change syslog source",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "XSS-Automation-Tool": {
+    "2865e4887f2e5fb2228b0bb2f9903832faeaf25f": {
+      "sha": "2865e4887f2e5fb2228b0bb2f9903832faeaf25f",
+      "author": "Shashi Raj",
+      "date": "Sat Jul 27 00:39:48 2024 +0530",
+      "message": "Update xss_payloads.txt",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "a45f9b536e418b4ba7fcf8e0e7f94ffc273b5f0e": {
+      "sha": "a45f9b536e418b4ba7fcf8e0e7f94ffc273b5f0e",
+      "author": "Shashi Raj",
+      "date": "Mon Mar 18 23:50:05 2024 +0530",
+      "message": "Update xss_scanner.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "e8136edd342378e7135cf6d58f7f3feb4bab0b88": {
+      "sha": "e8136edd342378e7135cf6d58f7f3feb4bab0b88",
+      "author": "EmperialX",
+      "date": "Mon Jan 9 05:55:43 2023 +0530",
+      "message": "git pull origin main Merge branch 'main' of https://github.com/EmperialX/XSS-Automation-Tool",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XSS-Catcher": {
+    "3262a4f2b0c19a53567659254a30df2c24dc0492": {
+      "sha": "3262a4f2b0c19a53567659254a30df2c24dc0492",
+      "author": "daxAKAhackerman",
+      "date": "Thu May 14 17:43:00 2020 -0400",
+      "message": "Merge branch 'master' of https://github.com/daxAKAhackerman/XSS-Catcher",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "2eade66498f2e3d6be5dead6461fc1ca5dfb6fa9": {
+      "sha": "2eade66498f2e3d6be5dead6461fc1ca5dfb6fa9",
+      "author": "daxAKAhackerman",
+      "date": "Mon Mar 30 17:01:23 2020 -0400",
+      "message": "Merge branch 'master' of https://github.com/daxAKAhackerman/XSS-Catcher",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "947fe1ebbf036c6be227e773d9dde40b984a0a62": {
+      "sha": "947fe1ebbf036c6be227e773d9dde40b984a0a62",
+      "author": "daxAKAhackerman",
+      "date": "Wed Mar 18 12:28:07 2020 -0400",
+      "message": "fixed xss not showing and capture of empty data",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "ad939482fccbd043ce86073eb1f719093195e734": {
+      "sha": "ad939482fccbd043ce86073eb1f719093195e734",
+      "author": "daxAKAhackerman",
+      "date": "Tue Mar 10 20:14:20 2020 -0400",
+      "message": "Source IP now checks X-Forwarded-For",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "d1fa3afd39c0d66d159b1bfb00f76d2ea52d3556": {
+      "sha": "d1fa3afd39c0d66d159b1bfb00f76d2ea52d3556",
+      "author": "daxAKAhackerman",
+      "date": "Tue Mar 10 20:03:47 2020 -0400",
+      "message": "Source IP now checks X-Forwarded-For",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "598c819e77dd995ea3c2eb86e34c9f58d528eb9e": {
+      "sha": "598c819e77dd995ea3c2eb86e34c9f58d528eb9e",
+      "author": "daxAKAhackerman",
+      "date": "Tue Mar 10 19:35:32 2020 -0400",
+      "message": "Source IP now checks X-Forwarded-For",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "xss-cookie-stealer": {
+    "c319cb7e9124ad43777e0d6f5ad422a0a3ca8857": {
+      "sha": "c319cb7e9124ad43777e0d6f5ad422a0a3ca8857",
+      "author": "Tyler Ramsbey",
+      "date": "Tue Jan 28 09:38:04 2025 -0600",
+      "message": "Update xss-cookie-stealer.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "94963ac9131349e1502e5ed1529be0e70d8acae4": {
+      "sha": "94963ac9131349e1502e5ed1529be0e70d8acae4",
+      "author": "Tyler Ramsbey",
+      "date": "Fri Sep 27 16:51:22 2024 -0500",
+      "message": "Create xss-cookie-stealer.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "xss-demo": {
+    "a88f8a35a17a52f9a84e8161af7e2c9584ca449e": {
+      "sha": "a88f8a35a17a52f9a84e8161af7e2c9584ca449e",
+      "author": "Omar Kohl",
+      "date": "Sat Mar 12 23:14:13 2016 +0100",
+      "message": "Extend README with acknowledgements and 'Stored XSS' example",
+      "keyword": [
+        "stored xss",
+        "xss"
+      ]
+    },
+    "87b2f23b08a1d547dab0b105e38bbdea557f5a34": {
+      "sha": "87b2f23b08a1d547dab0b105e38bbdea557f5a34",
+      "author": "Omar Kohl",
+      "date": "Sat Mar 12 22:30:45 2016 +0100",
+      "message": "Extend README with setup instructions and 'Reflected XSS' example",
+      "keyword": [
+        "reflected xss",
+        "xss"
+      ]
+    },
+    "4345df3fe889d7c8300dcd2636d2625952e90300": {
+      "sha": "4345df3fe889d7c8300dcd2636d2625952e90300",
+      "author": "Omar Kohl",
+      "date": "Wed Mar 9 15:58:55 2016 +0100",
+      "message": "Add small script to receive XSS data (e.g. cookies)",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "72c28d3e3903f92f423b7eb8c1f4bf34201d13c7": {
+      "sha": "72c28d3e3903f92f423b7eb8c1f4bf34201d13c7",
+      "author": "Omar Kohl",
+      "date": "Wed Mar 9 12:28:18 2016 +0100",
+      "message": "Prevent comment body from being encoding (enable XSS)",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XSS-FINDER": {
+    "b77c3eb4747958573500ade9f0ad59f1bd1b9d31": {
+      "sha": "b77c3eb4747958573500ade9f0ad59f1bd1b9d31",
+      "author": "capture0x",
+      "date": "Wed Mar 17 11:04:12 2021 +0000",
+      "message": "Update xss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "684f0ef1ede86bf9329fc1f2b7829f349a5fb6ca": {
+      "sha": "684f0ef1ede86bf9329fc1f2b7829f349a5fb6ca",
+      "author": "capture0x",
+      "date": "Thu Jan 28 18:12:27 2021 +0000",
+      "message": "Update xss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "1104761500da7383cd1693f063985617ea04a78f": {
+      "sha": "1104761500da7383cd1693f063985617ea04a78f",
+      "author": "capture0x",
+      "date": "Thu Jan 28 17:28:50 2021 +0000",
+      "message": "Update xss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "6ae0427cf7791295463da413674d0c024e87bb01": {
+      "sha": "6ae0427cf7791295463da413674d0c024e87bb01",
+      "author": "capture0x",
+      "date": "Mon Jan 18 15:57:42 2021 +0000",
+      "message": "Update xss.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "811b51a7482f753eb6b3ff29a7a6e85d12a99f67": {
+      "sha": "811b51a7482f753eb6b3ff29a7a6e85d12a99f67",
+      "author": "capture0x",
+      "date": "Mon Jan 18 15:43:31 2021 +0000",
+      "message": "Delete xss.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XSS-Freak": {
+    "bc4ed7e7a507f98ed4593a635df69dab091e9fb7": {
+      "sha": "bc4ed7e7a507f98ed4593a635df69dab091e9fb7",
+      "author": "hacker900123",
+      "date": "Mon Nov 25 10:36:07 2019 -0500",
+      "message": "Delete XSS-Freak.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "xss2png": {
+    "9665796a9940fa8070ed9d7087acf45fe73831a6": {
+      "sha": "9665796a9940fa8070ed9d7087acf45fe73831a6",
+      "author": "Kamil Vavra",
+      "date": "Sun Aug 25 18:39:09 2019 +0200",
+      "message": "Update xss2png.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "8096852ebb74050ca6911c8854902cb6192928ea": {
+      "sha": "8096852ebb74050ca6911c8854902cb6192928ea",
+      "author": "Kamil Vavra",
+      "date": "Fri Aug 23 15:20:45 2019 +0200",
+      "message": "Update xss2png.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "0c1092c3175c15e3763f18890b40f1ae8f35cee8": {
+      "sha": "0c1092c3175c15e3763f18890b40f1ae8f35cee8",
+      "author": "Kamil Vavra",
+      "date": "Fri Aug 23 00:26:40 2019 +0200",
+      "message": "xss2png v0.1",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "647758a526fb34ff403599b4b8b34d6b11fb4d18": {
+      "sha": "647758a526fb34ff403599b4b8b34d6b11fb4d18",
+      "author": "Kamil Vavra",
+      "date": "Fri Aug 23 00:23:47 2019 +0200",
+      "message": "xss2png v0.1",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "2447d4c91f9a76722db9f08eb36c68ed86e993f0": {
+      "sha": "2447d4c91f9a76722db9f08eb36c68ed86e993f0",
+      "author": "Kamil Vavra",
+      "date": "Fri Aug 23 00:18:02 2019 +0200",
+      "message": "xss2png v0.1",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "xss2shell": {
+    "38967541cde1cfe5f96e90a2b79d45375fbb6642": {
+      "sha": "38967541cde1cfe5f96e90a2b79d45375fbb6642",
+      "author": "Prochainezo",
+      "date": "Thu Dec 11 16:11:46 2014 -0500",
+      "message": "Merge branch 'master' of https://github.com/Prochainezo/xss2shell",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "b60997ffd5b33946857424ecd346c151a4f55fea": {
+      "sha": "b60997ffd5b33946857424ecd346c151a4f55fea",
+      "author": "Prochainezo",
+      "date": "Wed Jul 30 17:03:39 2014 -0400",
+      "message": "Create xss2shell.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XsSCan": {
+    "3435567a78969997a46eaf7c7b4350ebf9fc5a00": {
+      "sha": "3435567a78969997a46eaf7c7b4350ebf9fc5a00",
+      "author": "The404Hacking",
+      "date": "Thu Nov 2 19:58:44 2017 +0330",
+      "message": "XsSCan Screenshot",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "6977e07701edf175258aececb2e1d61af75720f8": {
+      "sha": "6977e07701edf175258aececb2e1d61af75720f8",
+      "author": "The404Hacking",
+      "date": "Thu Nov 2 19:03:53 2017 +0330",
+      "message": "Update XsSCan.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "e7ed9c5af1be56e6e63efb131c3c25c41eef2a8d": {
+      "sha": "e7ed9c5af1be56e6e63efb131c3c25c41eef2a8d",
+      "author": "The404Hacking",
+      "date": "Thu Nov 2 19:00:00 2017 +0330",
+      "message": "Update XsSCan.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "f213e9d8378029b82b1305c8d897c2735a3394ec": {
+      "sha": "f213e9d8378029b82b1305c8d897c2735a3394ec",
+      "author": "The404Hacking",
+      "date": "Thu Nov 2 18:55:38 2017 +0330",
+      "message": "Update XsSCan.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "15f7e15b1d8c3747ecdd764c3dea3357315fb871": {
+      "sha": "15f7e15b1d8c3747ecdd764c3dea3357315fb871",
+      "author": "The404Hacking",
+      "date": "Thu Nov 2 18:42:11 2017 +0330",
+      "message": "Update XsSCan.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XSSCon": {
+    "4f9b304a1052f07e806542ca43389e8878cdca94": {
+      "sha": "4f9b304a1052f07e806542ca43389e8878cdca94",
+      "author": "menkrep1337",
+      "date": "Sun Aug 25 07:43:26 2019 +0700",
+      "message": "Update xsscon.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "f6485b7b786039069c36a656ac4dd7f5bb0782ad": {
+      "sha": "f6485b7b786039069c36a656ac4dd7f5bb0782ad",
+      "author": "Fatjerry",
+      "date": "Thu Jun 27 16:27:31 2019 +0800",
+      "message": "Update xsscon.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "6a2f5683cddbb232b8bb0417f5e8bd3975e6f85b": {
+      "sha": "6a2f5683cddbb232b8bb0417f5e8bd3975e6f85b",
+      "author": "root",
+      "date": "Sat Jun 8 17:04:29 2019 +0700",
+      "message": "Merge branch 'master' of https://github.com/menkrep1337/XSSCon",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "2b0088c46597d6ea331a7bd5bcd1ec7e39d2fa7b": {
+      "sha": "2b0088c46597d6ea331a7bd5bcd1ec7e39d2fa7b",
+      "author": "menkrep1337",
+      "date": "Wed May 29 13:38:39 2019 +0700",
+      "message": "Update xsscon.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "350ee1183b03a3815960d95652bd921b942ed402": {
+      "sha": "350ee1183b03a3815960d95652bd921b942ed402",
+      "author": "root",
+      "date": "Wed May 22 11:21:17 2019 +0700",
+      "message": "Merge branch 'master' of https://github.com/menkrep1337/XSSCon",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "00fc5c156194d5d1b5535312c48fa879d0630e41": {
+      "sha": "00fc5c156194d5d1b5535312c48fa879d0630e41",
+      "author": "root",
+      "date": "Sun May 19 18:43:28 2019 +0700",
+      "message": "Merge branch 'master' of https://github.com/menkrep1337/XSSCon",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "xsscrapy": {
+    "318527271bb5cd2afa14e604c660837191c90da1": {
+      "sha": "318527271bb5cd2afa14e604c660837191c90da1",
+      "author": "Dan McInerney",
+      "date": "Wed Dec 17 12:16:43 2014 -0700",
+      "message": "Merge branch 'master' of https://github.com/DanMcInerney/xsscrapy",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "a22f2e413238dd7c52a19cfc4701f9738cfdc7be": {
+      "sha": "a22f2e413238dd7c52a19cfc4701f9738cfdc7be",
+      "author": "Dan McInerney",
+      "date": "Wed Dec 17 11:47:32 2014 -0700",
+      "message": "Update xss_spider.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "ea5950bdebcde5e1e4c348fea0d284f9ff5e82db": {
+      "sha": "ea5950bdebcde5e1e4c348fea0d284f9ff5e82db",
+      "author": "Dan McInerney",
+      "date": "Sat Dec 13 18:40:23 2014 -0700",
+      "message": "added url path xss detection, refactored url param functions",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "0070a91759d894d8015eeb7b516b707164cc3655": {
+      "sha": "0070a91759d894d8015eeb7b516b707164cc3655",
+      "author": "Dan McInerney",
+      "date": "Thu Nov 13 08:30:23 2014 -0700",
+      "message": "Merge branch 'master' of https://github.com/DanMcInerney/xsscrapy",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "27d40716cb79274dd6e5ea8c7912c37ac7ac9f6f": {
+      "sha": "27d40716cb79274dd6e5ea8c7912c37ac7ac9f6f",
+      "author": "Dan McInerney",
+      "date": "Mon Sep 8 05:27:03 2014 -0400",
+      "message": "removed lots of code from xss_spider.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "7a58800fbbcecc3a9c8358611bcecb27de98398c": {
+      "sha": "7a58800fbbcecc3a9c8358611bcecb27de98398c",
+      "author": "Chad Seaman",
+      "date": "Tue Aug 26 12:12:03 2014 -0700",
+      "message": "Added shell script for use in /usr/bin/ to make calling xsscrapy easy from everywhere on the system",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "8a61b888d7d46acf3d754b2e476466f51f6814fb": {
+      "sha": "8a61b888d7d46acf3d754b2e476466f51f6814fb",
+      "author": "Dan McInerney",
+      "date": "Tue Aug 26 05:51:32 2014 -0400",
+      "message": "better UA payloading logic, added html comment xss testing",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "7789127d1819e3011daa13dbfa9ba7bbae69f673": {
+      "sha": "7789127d1819e3011daa13dbfa9ba7bbae69f673",
+      "author": "Dan McInerney",
+      "date": "Sun Aug 24 06:08:35 2014 -0400",
+      "message": "Cookie XSS testing working!! Finally.",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "525bc14ff1ec8dfe6afec03ab13d41259286ea76": {
+      "sha": "525bc14ff1ec8dfe6afec03ab13d41259286ea76",
+      "author": "Dan McInerney",
+      "date": "Fri Aug 22 06:09:57 2014 -0400",
+      "message": "XSS vulnerable test pages updated",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "45c1dc457cb31fa2e4a17a9ef1a36a9fdbf3038c": {
+      "sha": "45c1dc457cb31fa2e4a17a9ef1a36a9fdbf3038c",
+      "author": "Dan McInerney",
+      "date": "Fri Aug 22 06:09:35 2014 -0400",
+      "message": "XSS vulnerable test pages updated",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "a60b66f993aca803a7ff5fc1c2233044e4828fd6": {
+      "sha": "a60b66f993aca803a7ff5fc1c2233044e4828fd6",
+      "author": "Dan McInerney",
+      "date": "Fri Aug 22 05:46:57 2014 -0400",
+      "message": "getting closer to cookie xss detection...",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "472feea8bb87fa440eaed58d5220ac98276290ff": {
+      "sha": "472feea8bb87fa440eaed58d5220ac98276290ff",
+      "author": "Dan McInerney",
+      "date": "Thu Aug 21 09:59:49 2014 -0400",
+      "message": "getting closer to cookie xss injection working",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "415f7b072cee7ce084993daf33f3841de43df8d8": {
+      "sha": "415f7b072cee7ce084993daf33f3841de43df8d8",
+      "author": "Dan McInerney",
+      "date": "Thu Aug 21 09:56:48 2014 -0400",
+      "message": "getting closer to testing for cookie xss",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "ffcff465360ee6c9f3b9883458238a6a4f4b1611": {
+      "sha": "ffcff465360ee6c9f3b9883458238a6a4f4b1611",
+      "author": "Dan McInerney",
+      "date": "Tue Aug 19 04:29:44 2014 -0400",
+      "message": "improved xss-testing payload and logic",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "e9e78261903006769932d695922193e3df2c8293": {
+      "sha": "e9e78261903006769932d695922193e3df2c8293",
+      "author": "Dan McInerney",
+      "date": "Tue Aug 19 04:29:31 2014 -0400",
+      "message": "improved xss-testing payload and logic",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "350cc15a7e038d453439de633dcd1a8568f1cc13": {
+      "sha": "350cc15a7e038d453439de633dcd1a8568f1cc13",
+      "author": "Dan McInerney",
+      "date": "Tue Aug 19 04:28:57 2014 -0400",
+      "message": "improved xss-testing payload and logic",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "30c3360f6fd1b4ce83e45db805d08dc3709986aa": {
+      "sha": "30c3360f6fd1b4ce83e45db805d08dc3709986aa",
+      "author": "Dan McInerney",
+      "date": "Mon Aug 18 06:33:43 2014 -0400",
+      "message": "added test for XSS at end of url",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "530c1751949dac4de9be29f8af4647663a8bd3e6": {
+      "sha": "530c1751949dac4de9be29f8af4647663a8bd3e6",
+      "author": "DanMcInerney",
+      "date": "Fri Jul 11 05:13:36 2014 -0400",
+      "message": "added http header xss testing",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "cf039e2adfe04aa988dd197c6fd73e9214942be0": {
+      "sha": "cf039e2adfe04aa988dd197c6fd73e9214942be0",
+      "author": "DanMcInerney",
+      "date": "Mon Jun 30 23:43:08 2014 -0400",
+      "message": "better xss logic",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "xssdynagen": {
+    "2b2fc441861ae323de4cc3f576278a6dcf3d7e2d": {
+      "sha": "2b2fc441861ae323de4cc3f576278a6dcf3d7e2d",
+      "author": "dimitris-cybersec",
+      "date": "Fri Dec 20 01:32:23 2024 +0200",
+      "message": "Merge branch 'main' of https://github.com/Cybersecurity-Ethical-Hacker/xssdynagen",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "c98c75a3b71a0edf322f17d056d6364a45147b0a": {
+      "sha": "c98c75a3b71a0edf322f17d056d6364a45147b0a",
+      "author": "dimitris-cybersec",
+      "date": "Fri Dec 20 01:32:09 2024 +0200",
+      "message": "Update xssdynagen.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "xsser": {
+    "2c824ddc7e6ad655d3bf5bc69fdd29484877d9a5": {
+      "sha": "2c824ddc7e6ad655d3bf5bc69fdd29484877d9a5",
+      "author": "Varbaek",
+      "date": "Sun Nov 13 12:51:51 2016 -0500",
+      "message": "Full version 2.5 deployment of XSSER from Black Hat Europe (London) 2016. See CHANGELOG for additional details. Some changes have been tracked inside the files as well with comments.",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "xssfinder": {
+    "e5cda7fb97a32c79b052d624dab6a1a9a90cb1c3": {
+      "sha": "e5cda7fb97a32c79b052d624dab6a1a9a90cb1c3",
+      "author": "Damian Schwyrz",
+      "date": "Tue Jul 24 08:11:53 2018 +0200",
+      "message": "enhancement #10, https://github.com/Damian89/xssfinder/issues/10",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "d2759d75cd0db8ae7e06c74210fd1edcbfc09ba8": {
+      "sha": "d2759d75cd0db8ae7e06c74210fd1edcbfc09ba8",
+      "author": "Damian Schwyrz",
+      "date": "Sun Jun 17 16:48:09 2018 +0200",
+      "message": "Adding wait argument (use it to force sleeping between requests)",
+      "keyword": [
+        "rce"
+      ]
+    }
+  },
+  "XSSight": {
+    "bb8df4ddb80abdf0ccfee4b1afa5c4ecec7bdf9d": {
+      "sha": "bb8df4ddb80abdf0ccfee4b1afa5c4ecec7bdf9d",
+      "author": "UltimateHackers",
+      "date": "Mon Mar 27 20:44:21 2017 +0530",
+      "message": "Update xssight.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "cca83d1c2a989d24e5c72dea4e2e366f15970bcd": {
+      "sha": "cca83d1c2a989d24e5c72dea4e2e366f15970bcd",
+      "author": "UltimateHackers",
+      "date": "Mon Mar 27 20:17:58 2017 +0530",
+      "message": "Update xssight.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "xssless": {
+    "f9b4c89fb2bed4690c34332586f3fbe382adf12c": {
+      "sha": "f9b4c89fb2bed4690c34332586f3fbe382adf12c",
+      "author": "Matthew Bryant",
+      "date": "Fri Dec 20 16:58:08 2013 -0500",
+      "message": "Added URL to xssless banner",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XSSor": {
+    "8cf0dbec6d6867997b2f5dc6d22207063a13e8c9": {
+      "sha": "8cf0dbec6d6867997b2f5dc6d22207063a13e8c9",
+      "author": "Barak Tawily",
+      "date": "Thu Aug 11 18:59:13 2016 -0600",
+      "message": "XSSor first commit",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XSSPayloadGenerator": {
+    "6937e9a15fcaafcc03fd0f9a606c005a969c11c3": {
+      "sha": "6937e9a15fcaafcc03fd0f9a606c005a969c11c3",
+      "author": "jphetphoumy",
+      "date": "Sat Oct 1 16:32:55 2016 +0200",
+      "message": "Update the XSSGen.py Script",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "11d739ef23fd905c9da97ba0d35dfae9fd214160": {
+      "sha": "11d739ef23fd905c9da97ba0d35dfae9fd214160",
+      "author": "jphetphoumy",
+      "date": "Sat Oct 1 16:16:15 2016 +0200",
+      "message": "Added XSSGen.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "xsspwn": {
+    "80e6129b84169c7de7c91c3e196a81c47378d889": {
+      "sha": "80e6129b84169c7de7c91c3e196a81c47378d889",
+      "author": "Krypt0mux",
+      "date": "Fri Nov 9 20:04:40 2018 -0500",
+      "message": "Update bruteforce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "5a52cf11a68181fe9021a3e62e01b8ca24990cf8": {
+      "sha": "5a52cf11a68181fe9021a3e62e01b8ca24990cf8",
+      "author": "Krypt0mux",
+      "date": "Fri Nov 9 03:31:01 2018 -0500",
+      "message": "Update xsspwn.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "54c273b7ab00a4ead8cc22b419855bea074fdb8f": {
+      "sha": "54c273b7ab00a4ead8cc22b419855bea074fdb8f",
+      "author": "Krypt0mux",
+      "date": "Fri Nov 9 03:30:17 2018 -0500",
+      "message": "Update bruteforce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "b6c9e122665d84199b6777e4f50603f4e379cad7": {
+      "sha": "b6c9e122665d84199b6777e4f50603f4e379cad7",
+      "author": "Krypt0mux",
+      "date": "Fri Nov 9 03:27:42 2018 -0500",
+      "message": "Update bruteforce.py",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "22147efa5202803f575a9e5677a9f06b7e782689": {
+      "sha": "22147efa5202803f575a9e5677a9f06b7e782689",
+      "author": "Krypt0mux",
+      "date": "Fri Nov 9 17:53:54 2018 +1100",
+      "message": "Update xsspwn.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XssPy": {
+    "7bde4444a808225d370101d7d5e8da173efa8edd": {
+      "sha": "7bde4444a808225d370101d7d5e8da173efa8edd",
+      "author": "Matthew Brener",
+      "date": "Sun Feb 5 17:10:58 2017 +1100",
+      "message": "Improve formatting for \"Xss found\" message",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "7ee457a801e8b5926b4e1d98225d1c67730b03f1": {
+      "sha": "7ee457a801e8b5926b4e1d98225d1c67730b03f1",
+      "author": "Faizan Ahmad",
+      "date": "Sat May 14 17:50:05 2016 +0500",
+      "message": "Update XssPy.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "eb2020e52d207b6d81742222fae0971ef8a62ade": {
+      "sha": "eb2020e52d207b6d81742222fae0971ef8a62ade",
+      "author": "alessandro",
+      "date": "Fri May 13 23:10:19 2016 +0100",
+      "message": "Update XssPy.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "0090d624176be5098f5e3ed1762a9bf13316edc5": {
+      "sha": "0090d624176be5098f5e3ed1762a9bf13316edc5",
+      "author": "Faizan Ahmad",
+      "date": "Mon Mar 7 21:19:58 2016 +0500",
+      "message": "Update XssPy.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "fbabc1ffeaa570059bc2e2c2c992831693c80958": {
+      "sha": "fbabc1ffeaa570059bc2e2c2c992831693c80958",
+      "author": "Faizan Ahmad",
+      "date": "Mon Mar 7 21:03:45 2016 +0500",
+      "message": "Update XssPy.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "ff4ea9be5c9aefd078c5fa4d90d25d3bc2dbf378": {
+      "sha": "ff4ea9be5c9aefd078c5fa4d90d25d3bc2dbf378",
+      "author": "Faizan Ahmad",
+      "date": "Mon Mar 7 20:59:14 2016 +0500",
+      "message": "Create XssPy.Py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XSSRadare": {
+    "544d913a4947ea7c5661b6bfe09ba20471f42115": {
+      "sha": "544d913a4947ea7c5661b6bfe09ba20471f42115",
+      "author": "guestx86",
+      "date": "Sat Oct 26 12:27:06 2019 +0200",
+      "message": "- It is possible to test with long list of XSS payloads(666) or with the default of 20 payloads with the new option --full",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XSSRecon": {
+    "da245c2fb04f96ce4f30fd806bd412749884d1af": {
+      "sha": "da245c2fb04f96ce4f30fd806bd412749884d1af",
+      "author": "Ak",
+      "date": "Thu Dec 12 09:41:08 2019 +0100",
+      "message": "Update xssrecon.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "962736522d502ab27fe21e62b30fac46921d5224": {
+      "sha": "962736522d502ab27fe21e62b30fac46921d5224",
+      "author": "Ak",
+      "date": "Thu Dec 12 09:29:18 2019 +0100",
+      "message": "Update xssrecon.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "dd64c97ebb3a1bfe89cf1ca0567e3d6cc0fa3e84": {
+      "sha": "dd64c97ebb3a1bfe89cf1ca0567e3d6cc0fa3e84",
+      "author": "Ak",
+      "date": "Thu Dec 12 09:25:19 2019 +0100",
+      "message": "Update xssrecon.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "aa6be45114bbaf45421810564a7bc62bbe7e70dd": {
+      "sha": "aa6be45114bbaf45421810564a7bc62bbe7e70dd",
+      "author": "Ak",
+      "date": "Wed Nov 20 13:55:54 2019 +0100",
+      "message": "Create xss_payloads.txt",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "d0cb46a2872136abbca3ed9214d9d97ed6ebc5a2": {
+      "sha": "d0cb46a2872136abbca3ed9214d9d97ed6ebc5a2",
+      "author": "Ak",
+      "date": "Wed Nov 20 13:35:33 2019 +0100",
+      "message": "Update xssrecon.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XssScaner": {
+    "01063a56fb8a5109a608fe0ce335073702246bc6": {
+      "sha": "01063a56fb8a5109a608fe0ce335073702246bc6",
+      "author": "coderc",
+      "date": "Sun Mar 10 12:49:31 2013 +0800",
+      "message": "xssScaner",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XSSTracer": {
+    "f2ed21a50d5ee09c5cd2303ea309c2a1e4a2f524": {
+      "sha": "f2ed21a50d5ee09c5cd2303ea309c2a1e4a2f524",
+      "author": "root",
+      "date": "Sat Jan 23 11:28:19 2016 -0500",
+      "message": "XSSTracer 1.3a by 1N3@CrowdShield",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "aa84fcc570e40925758c1f814abed30c37a004ea": {
+      "sha": "aa84fcc570e40925758c1f814abed30c37a004ea",
+      "author": "1N3",
+      "date": "Wed Oct 14 11:21:35 2015 -0400",
+      "message": "XSSTracer v1.3 by 1N3 @ CrowdShield",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "cdf621decf8f4fc5adfb5e8ce45cd9120fa73290": {
+      "sha": "cdf621decf8f4fc5adfb5e8ce45cd9120fa73290",
+      "author": "1N3",
+      "date": "Wed Oct 14 11:19:29 2015 -0400",
+      "message": "XSSTracer v1.3 by 1N3 @ CrowdShield",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "c19dbb2a8dc038f242c733a69926f0f2a2ceb5c1": {
+      "sha": "c19dbb2a8dc038f242c733a69926f0f2a2ceb5c1",
+      "author": "1N3",
+      "date": "Sun Sep 6 10:53:25 2015 -0400",
+      "message": "XSSTracer v1.3 by 1N3 @ CrowdShield",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "39a03c05a4081787762120bea9b07accdd59d65a": {
+      "sha": "39a03c05a4081787762120bea9b07accdd59d65a",
+      "author": "1N3",
+      "date": "Tue Mar 17 15:32:02 2015 -0400",
+      "message": "XSSTracer v1.2",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XSStrike": {
+    "f63c6cedcb55c17094eaf91878bcec2d3870ba87": {
+      "sha": "f63c6cedcb55c17094eaf91878bcec2d3870ba87",
+      "author": "s0md3v",
+      "date": "Sun Mar 20 15:38:46 2022 +0530",
+      "message": "Merge branch 'master' of https://github.com/s0md3v/XSStrike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "1736a8b68778988c3ec840bb46a8efbdd4e04218": {
+      "sha": "1736a8b68778988c3ec840bb46a8efbdd4e04218",
+      "author": "Seqrity",
+      "date": "Fri Aug 27 03:31:27 2021 -0500",
+      "message": "Update xsstrike.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "ac69f60adc038c8864ea09d905b6632d1bf5123e": {
+      "sha": "ac69f60adc038c8864ea09d905b6632d1bf5123e",
+      "author": "Somdev Sangwan",
+      "date": "Sat Jun 8 06:23:48 2019 +0530",
+      "message": "Delete .whitesource",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "7cd06e02f84bc3e234f1ce5c0b63015c7e682ba8": {
+      "sha": "7cd06e02f84bc3e234f1ce5c0b63015c7e682ba8",
+      "author": "whitesource-bolt-for-github[bot]",
+      "date": "Sun May 5 15:49:26 2019 +0000",
+      "message": "Initial WhiteSource configuration file",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "4032e40c671ad5ad0919a9e9f2ecbd2e9edabe50": {
+      "sha": "4032e40c671ad5ad0919a9e9f2ecbd2e9edabe50",
+      "author": "Somdev Sangwan",
+      "date": "Mon Apr 8 13:56:10 2019 +0530",
+      "message": "3.1.4 (Faster crawling & negligible DOM XSS false positives)",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "a3ae92d2459d107f7cee48a16fa528f40e32408e": {
+      "sha": "a3ae92d2459d107f7cee48a16fa528f40e32408e",
+      "author": "Somdev Sangwan",
+      "date": "Tue Jan 22 05:04:26 2019 +0530",
+      "message": "Update xsstrike.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "032ff476500edb08138ed1ad3784b0c8dfbea67e": {
+      "sha": "032ff476500edb08138ed1ad3784b0c8dfbea67e",
+      "author": "Somdev Sangwan",
+      "date": "Mon Dec 31 04:34:59 2018 +0530",
+      "message": "treat all user controlled variables as sources",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "a63218929d4699f6e322cd74600bc8a64ba726bb": {
+      "sha": "a63218929d4699f6e322cd74600bc8a64ba726bb",
+      "author": "Somdev Sangwan",
+      "date": "Thu Nov 15 13:43:07 2018 +0530",
+      "message": "Added progress bar for bruteforcer",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "8be798702215034939a8721e438784134c88ba78": {
+      "sha": "8be798702215034939a8721e438784134c88ba78",
+      "author": "Somdev Sangwan",
+      "date": "Wed Nov 14 01:10:57 2018 +0530",
+      "message": "added a question about blind xss",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "bdda8c5cac0a44da7df6e24f8f77223fc632f8c0": {
+      "sha": "bdda8c5cac0a44da7df6e24f8f77223fc632f8c0",
+      "author": "Somdev Sangwan",
+      "date": "Tue Nov 13 22:28:09 2018 +0530",
+      "message": "Blind XSS Support",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "65abbd265f5cf993a14ad50c45a5ba50235bbd4e": {
+      "sha": "65abbd265f5cf993a14ad50c45a5ba50235bbd4e",
+      "author": "Somdev Sangwan",
+      "date": "Tue Nov 13 16:47:00 2018 +0530",
+      "message": "Ability to encode payloads, Fixed a bug in bruteforcer",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "3bff6d71f887a0a4613cd83a1e96ef74d94d0bc0": {
+      "sha": "3bff6d71f887a0a4613cd83a1e96ef74d94d0bc0",
+      "author": "Somdev Sangwan",
+      "date": "Mon Nov 12 21:23:29 2018 +0530",
+      "message": "added info about bruteforce feature",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "7a5cce42c7ffeb7ecbfb65891152a2ebd50e0612": {
+      "sha": "7a5cce42c7ffeb7ecbfb65891152a2ebd50e0612",
+      "author": "Somdev Sangwan",
+      "date": "Mon Nov 12 14:40:31 2018 +0530",
+      "message": "Update xsstrike.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "fddfa0fa530f1d5ae99e28d0493fcb298160377a": {
+      "sha": "fddfa0fa530f1d5ae99e28d0493fcb298160377a",
+      "author": "Somdev Sangwan",
+      "date": "Mon Nov 12 13:03:04 2018 +0530",
+      "message": "Update xsstrike.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "0e939e4557c1190b41090650ffa9e2510ce49dc2": {
+      "sha": "0e939e4557c1190b41090650ffa9e2510ce49dc2",
+      "author": "Somdev Sangwan",
+      "date": "Mon Nov 12 12:58:56 2018 +0530",
+      "message": "Update xsstrike.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "68e1373bccd1c0572c714d252fab53cd7c772ac7": {
+      "sha": "68e1373bccd1c0572c714d252fab53cd7c772ac7",
+      "author": "Somdev Sangwan",
+      "date": "Mon Nov 12 12:51:25 2018 +0530",
+      "message": "Update xsstrike.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "0dfb25bc506af76d35399b077fc3229e96eb1f9c": {
+      "sha": "0dfb25bc506af76d35399b077fc3229e96eb1f9c",
+      "author": "Somdev Sangwan",
+      "date": "Tue Oct 30 12:49:36 2018 +0530",
+      "message": "better regex for locating sources",
+      "keyword": [
+        "rce"
+      ]
+    },
+    "c377e494f54bdc7bd9c1047c0283f4cfbfe39faf": {
+      "sha": "c377e494f54bdc7bd9c1047c0283f4cfbfe39faf",
+      "author": "Somdev Sangwan",
+      "date": "Sat Oct 27 18:54:43 2018 +0530",
+      "message": "Delete xsstrike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "10c911ee5fc6a998789e161fe2915b93bb3b16a2": {
+      "sha": "10c911ee5fc6a998789e161fe2915b93bb3b16a2",
+      "author": "Somdev Sangwan",
+      "date": "Thu Oct 25 18:50:52 2018 +0530",
+      "message": "Delete xsstrike.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "c4f167ac059885cc3ed0e9861fea65460208ff4d": {
+      "sha": "c4f167ac059885cc3ed0e9861fea65460208ff4d",
+      "author": "Aan",
+      "date": "Mon Apr 2 14:53:00 2018 +0700",
+      "message": "Resetting HULK blind xss detection payload",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "5a242339169e868a00cbc4f2502dc930c4864022": {
+      "sha": "5a242339169e868a00cbc4f2502dc930c4864022",
+      "author": "Somdev Sangwan",
+      "date": "Thu Mar 1 22:36:36 2018 +0530",
+      "message": "Update xsstrike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "267599cd99cc24c90ca136c00807bfbb62cf9b33": {
+      "sha": "267599cd99cc24c90ca136c00807bfbb62cf9b33",
+      "author": "Team Ultimate",
+      "date": "Fri Jan 19 19:42:52 2018 +0530",
+      "message": "XSStrike 2.0 (Pre-Beta)",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "51070b894d0a328debab49ab6a970a91b08aaf71": {
+      "sha": "51070b894d0a328debab49ab6a970a91b08aaf71",
+      "author": "Team Ultimate",
+      "date": "Fri Jan 19 19:41:27 2018 +0530",
+      "message": "Delete xsstrike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "98306019c1c51c4807f809b22addccb92ca543cd": {
+      "sha": "98306019c1c51c4807f809b22addccb92ca543cd",
+      "author": "Ultimate Hackers",
+      "date": "Thu Aug 3 11:24:51 2017 +0530",
+      "message": "Update xsstrike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "e44cdbb2292572bd8129b3bd92454423d4a02fc5": {
+      "sha": "e44cdbb2292572bd8129b3bd92454423d4a02fc5",
+      "author": "Ultimate Hackers",
+      "date": "Tue Jul 18 12:24:28 2017 +0530",
+      "message": "Update xsstrike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "adb97872ff1ea85289d789c8fd94e6830e8c64f2": {
+      "sha": "adb97872ff1ea85289d789c8fd94e6830e8c64f2",
+      "author": "Ultimate Hackers",
+      "date": "Wed Jul 12 17:56:24 2017 +0530",
+      "message": "Update xsstrike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "e3ab59071909de2eeb663ddbe10a4ea8f768cc1b": {
+      "sha": "e3ab59071909de2eeb663ddbe10a4ea8f768cc1b",
+      "author": "Ultimate Hackers",
+      "date": "Thu Jul 6 12:36:16 2017 +0530",
+      "message": "Update xsstrike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "6ffab58b9618c0649938f9f5389b96a8cb03ea36": {
+      "sha": "6ffab58b9618c0649938f9f5389b96a8cb03ea36",
+      "author": "Ultimate Hackers",
+      "date": "Sun Jul 2 13:17:10 2017 +0530",
+      "message": "Update xsstrike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "0814281b609b2c01bb74c193f40efe78c8a39d01": {
+      "sha": "0814281b609b2c01bb74c193f40efe78c8a39d01",
+      "author": "UltimateHackers",
+      "date": "Mon Jun 26 22:32:53 2017 +0530",
+      "message": "Update xsstrike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "e9f86533286f86d856515397ebcd0b16d0748d2b": {
+      "sha": "e9f86533286f86d856515397ebcd0b16d0748d2b",
+      "author": "UltimateHackers",
+      "date": "Mon Jun 26 17:39:54 2017 +0530",
+      "message": "Update xsstrike",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "ecead83b2c511b2e2b32b09adc9fa9607f7a1f9a": {
+      "sha": "ecead83b2c511b2e2b32b09adc9fa9607f7a1f9a",
+      "author": "UltimateHackers",
+      "date": "Mon Jun 26 17:18:28 2017 +0530",
+      "message": "Update xsstrike",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "xssuccessor": {
+    "6d5e04064ac970e55f361f12302abd80a555caa7": {
+      "sha": "6d5e04064ac970e55f361f12302abd80a555caa7",
+      "author": "Dimitris Chatzidimitris",
+      "date": "Thu Dec 26 17:10:39 2024 +0200",
+      "message": "Update xss_payloads.txt",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "ed21bc0d9d88547c340105aa82983ee77d556a6d": {
+      "sha": "ed21bc0d9d88547c340105aa82983ee77d556a6d",
+      "author": "dimitris-cybersec",
+      "date": "Sat Dec 21 23:17:06 2024 +0200",
+      "message": "xss dom based support",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "487a6a54ae9fd95d65803f1f1c2bb4bceb4d8480": {
+      "sha": "487a6a54ae9fd95d65803f1f1c2bb4bceb4d8480",
+      "author": "dimitris-cybersec",
+      "date": "Fri Dec 20 01:52:08 2024 +0200",
+      "message": "Merge branch 'main' of https://github.com/Cybersecurity-Ethical-Hacker/xssuccessor",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "029a8aebc4c9393a2057f7c1d02133a575c46cd6": {
+      "sha": "029a8aebc4c9393a2057f7c1d02133a575c46cd6",
+      "author": "dimitris-cybersec",
+      "date": "Fri Dec 20 01:51:59 2024 +0200",
+      "message": "Update xssuccessor.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "7cbfe6e86ead196faeab2b0e0c849bd2fb4b9657": {
+      "sha": "7cbfe6e86ead196faeab2b0e0c849bd2fb4b9657",
+      "author": "dimitris-cybersec",
+      "date": "Fri Dec 20 01:44:10 2024 +0200",
+      "message": "Update xssuccessor.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XSSwagger": {
+    "9e4fb19999b8bf1673c9b61b072677497488cd81": {
+      "sha": "9e4fb19999b8bf1673c9b61b072677497488cd81",
+      "author": "Kamil Vavra",
+      "date": "Fri Aug 30 10:53:27 2019 +0200",
+      "message": "Update xsswagger.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "3a7c90acabb257f1e6c244b6e1363785c23ef2fb": {
+      "sha": "3a7c90acabb257f1e6c244b6e1363785c23ef2fb",
+      "author": "Kamil Vavra",
+      "date": "Fri Jul 26 19:59:56 2019 +0200",
+      "message": "XSSwagger v0.1",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "823c9047bc9fb701ee52c9a12c4a275c7ce15ee7": {
+      "sha": "823c9047bc9fb701ee52c9a12c4a275c7ce15ee7",
+      "author": "Kamil Vavra",
+      "date": "Fri Jul 26 19:59:11 2019 +0200",
+      "message": "XSSwagger v.01",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "8b1b59c225625ef6aedfe718fda63bf2687d7a6b": {
+      "sha": "8b1b59c225625ef6aedfe718fda63bf2687d7a6b",
+      "author": "Kamil Vavra",
+      "date": "Fri Jul 26 19:58:26 2019 +0200",
+      "message": "XSSwagger v0.1",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "c6af8645060693c669189c6c00a5b3618ab0777d": {
+      "sha": "c6af8645060693c669189c6c00a5b3618ab0777d",
+      "author": "Kamil Vavra",
+      "date": "Fri Jul 26 19:44:25 2019 +0200",
+      "message": "XSSwagger v0.1",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "7eb680ce3e0df1f25c075ca3c643212e51e8cb77": {
+      "sha": "7eb680ce3e0df1f25c075ca3c643212e51e8cb77",
+      "author": "Kamil Vavra",
+      "date": "Fri Jul 26 19:42:43 2019 +0200",
+      "message": "XSSwagger",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XSSYA": {
+    "899855620af412b8683696c3039b3f5bf3cf14c0": {
+      "sha": "899855620af412b8683696c3039b3f5bf3cf14c0",
+      "author": "Yehia Mamdouh",
+      "date": "Sat Sep 17 02:56:21 2016 +0400",
+      "message": "Update xssya.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "bdf9a70bfa32087848c269d74fa6e45f843b20cd": {
+      "sha": "bdf9a70bfa32087848c269d74fa6e45f843b20cd",
+      "author": "yehia-mamdouh",
+      "date": "Thu Jun 5 13:14:08 2014 +0300",
+      "message": "Create xssya.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "bd63eacbd39b69fa33257834429b9e856924c373": {
+      "sha": "bd63eacbd39b69fa33257834429b9e856924c373",
+      "author": "yehia-mamdouh",
+      "date": "Wed Jun 4 15:46:58 2014 +0300",
+      "message": "Delete xssya.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "efc2cacccc82d7e87597387c029081535ffce8dc": {
+      "sha": "efc2cacccc82d7e87597387c029081535ffce8dc",
+      "author": "yehia-mamdouh",
+      "date": "Wed Jun 4 15:46:40 2014 +0300",
+      "message": "Create xssya.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  },
+  "XSSYA-V-2.0": {
+    "d75b84d1808d01a5b286ab8c3360494e7dd14000": {
+      "sha": "d75b84d1808d01a5b286ab8c3360494e7dd14000",
+      "author": "yehia-mamdouh",
+      "date": "Mon Mar 16 17:04:56 2015 +0400",
+      "message": "Update xssya.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "6674326e645c72f0f7edb4c89453a9bb9ee517e5": {
+      "sha": "6674326e645c72f0f7edb4c89453a9bb9ee517e5",
+      "author": "yehia-mamdouh",
+      "date": "Mon Mar 16 16:46:04 2015 +0400",
+      "message": "Update xssya.py",
+      "keyword": [
+        "xss"
+      ]
+    },
+    "1e7e3bfb8131a17c5c01944896e873830179b516": {
+      "sha": "1e7e3bfb8131a17c5c01944896e873830179b516",
+      "author": "yehia-mamdouh",
+      "date": "Mon Mar 9 16:49:35 2015 +0400",
+      "message": "Create xssya.py",
+      "keyword": [
+        "xss"
+      ]
+    }
+  }
+}
