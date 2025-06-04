@@ -2,24 +2,11 @@
 
 import pandas as pd
 import os
-import requests
 import time
-import sys
 import json
-from requests_oauthlib import OAuth1Session
-from requests_oauthlib import OAuth1
-import base64
-from collections import Counter, defaultdict
-import transformers
-import random
-import datasets
-import tokenize
-import io
 import re
-import time
+import pickle
 import math
-import datetime
-
 
 def tag_vulparts(token_list, mode, tester):
     ner_tag_dict_nums = {'rce':[1, 2],
@@ -44,7 +31,6 @@ def tag_vulparts(token_list, mode, tester):
 
     return ner_tags
 
-
 def getneutralText(text):
     newtext = ''
     lines = text.split("\n")
@@ -59,38 +45,20 @@ def getneutralText(text):
                 newtext = newtext + '\n' + line
     return newtext
 
-
-def tag_vulparts_v2(token_list, mode, tester, token_dict):
-    ner_tag_dict_nums = {'rce':[1, 2],
-                         'oob':[3, 4],
-                         'xss':[5, 6],
-                         'sql':[7, 8],
-                         'iiv':[9,10],
-                         'pat':[11,12],
-                        }
-
-    num1 = ner_tag_dict_nums[mode][0]
-    num2 = ner_tag_dict_nums[mode][1]
-    word_ids = token_dict.word_ids()
-    ner_tags = []
-    i1s = []
-    i1s_idx = []
-    for idx, tok in enumerate(token_list):
-        if idx == tester[0]:
-            ner_tags.append(num1)
-            b = word_ids[idx]
-            b_idx = idx
-        elif idx in range(tester[0]+1, tester[1]+1):
-            ner_tags.append(num2)
-            i1s.append(word_ids[idx])
-            i1s_idx.append(idx)
-        else:
-            ner_tags.append(0)
-    if b in i1s:
-        for i, v in enumerate(i1s):
-            if v == b:
-                ner_tags[i1s_idx[i]] = num1
-    return ner_tags
+def extract_vulparts_from_diff(diff_text):
+    """
+    Tạo cột 'vulparts' thủ công từ diff gốc, lấy các dòng bị xóa (bắt đầu bằng '-')
+    """
+    if not diff_text:
+        return []
+    lines = diff_text.split('\n')
+    bad_lines = []
+    for line in lines:
+        line = line.strip()
+        # Bỏ qua dòng diff header bắt đầu bằng '---'
+        if line.startswith('-') and not line.startswith('---'):
+            bad_lines.append(line[1:].strip())
+    return bad_lines
 
 def shorten_data_with_windows_v2(infodict):
     '''
@@ -176,31 +144,31 @@ def shorten_data_with_windows_v2(infodict):
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-file_list = list(os.listdir('Data\\'))
+file_list = list(os.listdir('C:/Users/ACER/Downloads/do an/PyVulDet-NER-demo/improve/Data\\'))
 
 all_data = []
 
 for file in file_list:
-    with open('Data\\'+file, 'r') as infile:
+    with open('C:/Users/ACER/Downloads/do an/PyVulDet-NER-demo/improve/Data\\'+file, 'r', encoding='utf-8') as infile:
         data = json.load(infile)
     if len(data) != 0:
         print(file, len(data))
         for info in data:
+            # Tạo vulparts thủ công dựa trên orig_diff
+            info['vulparts'] = extract_vulparts_from_diff(info.get('orig_diff', ''))
             all_data.append(info)
 print(len(all_data))
 
 
-labeled_dict_list = []
-step1_dict_list = []
-toolongdict = dict()
+df_all = pd.DataFrame(all_data)
 
-slightly_cleaned_all_data = [x for x in all_data if '<html' not in x['orig_txt']]
-slightly_cleaned_all_data = [x for x in slightly_cleaned_all_data if 'Search.setIndex' not in x['orig_txt']]
-slightly_cleaned_all_data = [x for x in slightly_cleaned_all_data if 'JavaScript Library' not in x['orig_txt']]
-
-df_all = pd.DataFrame(slightly_cleaned_all_data)
 df_new = df_all.copy()
-df_new = df_new[['cwetype', 'commit', 'neutralparts', 'vulparts','orig_diff','orig_txt']]
+
+required_cols = ['cwetype', 'commit', 'neutralparts', 'vulparts','orig_diff','orig_txt']
+existing_cols = [col for col in required_cols if col in df_new.columns]
+print("Columns used for processing:", existing_cols)
+
+df_new = df_new[existing_cols]
 
 start_time = time.time()
 neutraltext = [getneutralText(x) for x in df_new.orig_diff]
@@ -225,10 +193,8 @@ df_bp = df_bp.rename(columns = {'vulparts':'parts'})
 df = df_bp.copy()
 
 #saving just in case
-import pickle
 with open('clean_dataset.pickle', 'wb') as output:
     pickle.dump(df, output)
-    
     
 df = df.explode('parts')
 df = df.fillna('')
@@ -237,7 +203,6 @@ df = df[df.parts != '']
 df = df[df.parts.str.len() > 1]
 df['len_set_parts'] = df['parts'].apply(lambda x: len(set(x.strip())))
 df = df[df.len_set_parts > 3 ]
-
 
 cwe = []
 for x in zip(df.type.tolist(), df.cwetype.tolist()):
@@ -258,7 +223,6 @@ def find_partstart(row):
         bp_index = ''
     return bp_index
 
-
 start_time = time.time()
 df['bp_index'] = df.apply(find_partstart, axis =1)
 print("Elapsed time for finding part start:", time.time() - start_time, "seconds")
@@ -267,8 +231,7 @@ start_time = time.time()
 results = []
 for x in range(0, len(df), 50000):
     print(len(df)-x)
-    df_test = df.copy()
-    df_test = df_test.iloc[x: x+50000]
+    df_test = df.iloc[x: x+50000]
     results.append(df_test.apply(shorten_data_with_windows_v2, axis =1))
 print("Elapsed time for shortening data:", time.time() - start_time, "seconds")
 
@@ -290,6 +253,5 @@ df = df.drop(columns = ['short_text'])
 df = df.rename(columns = {'short_text2':'short_text'})
 
 #saving
-import pickle
 with open('clean_dataset_short.pickle', 'wb') as output:
     pickle.dump(df, output)
