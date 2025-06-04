@@ -3,7 +3,7 @@ import sys
 import json
 import subprocess
 
-REPO_ROOT = "D:/clone1/clone"  #folder repo
+REPO_ROOT = "C:/Users/ACER/Downloads/do an/PyVulDet-NER-demo/clone"  #folder repo
 
 def check_if_have(repository, sha):
     return (
@@ -54,11 +54,8 @@ def getdiffs(repo_path):
 
     return repo_data
 
-if len(sys.argv) < 2:
-    print("Usage: python script.py <json_file>")
-    sys.exit(1)
+json_file = "C:/Users/ACER/Downloads/do an/PyVulDet-NER-demo/crawl/all_commits.json"
 
-json_file = sys.argv[1]
 
 with open(json_file, 'r', encoding='utf-8') as infile:
     repositories = json.load(infile)
