@@ -1,5 +1,3 @@
-# This script is part of a larger research project shown at https://github.com/mmeberg/PyVulDet-NER
-
 import pandas as pd
 import os
 import requests
@@ -25,6 +23,34 @@ from sklearn.model_selection import StratifiedKFold, KFold
 from sklearn.model_selection import train_test_split
 
 
+# Hàm gán tag cho phần "bad parts"
+def tag_vulparts_v2(token_list, mode, tester, token_dict):
+    ner_tag_dict_nums = {'rce': [1, 2],
+                         'oob': [3, 4],
+                         'xss': [5, 6],
+                         'sql': [7, 8],
+                         'iiv': [9, 10],
+                         'pat': [11, 12],
+                         }
+
+    num1 = ner_tag_dict_nums[mode][0]
+    num2 = ner_tag_dict_nums[mode][1]
+
+    ner_tags = [0] * len(token_list)
+    
+    # Kiểm tra xem tester có ít nhất ba phần tử không
+    if len(tester) >= 3:
+        for i in range(tester[1], tester[2]):
+            ner_tags[i] = num1
+
+        for i in range(tester[2], len(tester)):
+            ner_tags[i] = num2
+    else:
+        print("Warning: tester does not have enough elements to process. Skipping...")
+
+    return ner_tags
+
+
 def CODEBERT_tokenizer_tag_v2(row):
     mode = row.cwetype
     content = row.short_text
@@ -45,7 +71,7 @@ def CODEBERT_tokenizer_tag_v2(row):
     if row.type == 'bp':
         bp = row.parts
 
-        bp_token_dict = tokenizer(bp.strip(), truncation = False)
+        bp_token_dict = tokenizer(bp.strip(), truncation=False)
         bp_tokens = tokenizer.convert_ids_to_tokens(bp_token_dict.input_ids)
         bp_token_list = [bp_tok for bp_tok in bp_tokens if bp_tok != '<s>' and bp_tok != '<pad>' and bp_tok != '</s>']
 
@@ -57,27 +83,24 @@ def CODEBERT_tokenizer_tag_v2(row):
                     bp_token_list.pop()
 
         tester = []
-        for i in range(len(token_list)-len(bp_token_list)):
-            # Not looking at the first and last because that was causing mis-match issues
-            if token_list[i:i+len(bp_token_list)] == bp_token_list:
+        for i in range(len(token_list) - len(bp_token_list)):
+            if token_list[i:i + len(bp_token_list)] == bp_token_list:
                 tester.append(i)
-                tester.append(i+len(bp_token_list))
-
+                tester.append(i + len(bp_token_list))
 
         if tester == []:
-
-            bp_token_list[0] = 'Ġ'+bp_token_list[0]
+            bp_token_list[0] = 'Ġ' + bp_token_list[0]
             tester2 = []
-            for i in range(len(token_list)-len(bp_token_list)):
-                if token_list[i:i+len(bp_token_list)] == bp_token_list:
+            for i in range(len(token_list) - len(bp_token_list)):
+                if token_list[i:i + len(bp_token_list)] == bp_token_list:
                     tester2.append(i)
-                    tester2.append(i+len(bp_token_list))
+                    tester2.append(i + len(bp_token_list))
             if tester2 == []:
                 tester3 = []
-                for i in range(len(token_list)-len(bp_token_list)):
-                    if token_list[i+1:i+len(bp_token_list)] == bp_token_list[1:]:
+                for i in range(len(token_list) - len(bp_token_list)):
+                    if token_list[i + 1:i + len(bp_token_list) + 1] == bp_token_list:
                         tester3.append(i)
-                        tester3.append(i+len(bp_token_list))
+                        tester3.append(i + len(bp_token_list))
                 if tester3 == []:
                     return tok_results
                 else:
@@ -92,16 +115,17 @@ def CODEBERT_tokenizer_tag_v2(row):
         ner_tags.append(-100)
         ner_tags.insert(0, -100)
         tok_results.append({"ner_tags": ner_tags, 'tokens': token_list,
-                            'input_ids':input_ids, 'attention_mask':attention_mask})
+                            'input_ids': input_ids, 'attention_mask': attention_mask})
 
     else:
         token_list.append('</s>')
         token_list.insert(0, '<s>')
-        ner_tags = [0]*len(token_list)
+        ner_tags = [0] * len(token_list)
         tok_results.append({"ner_tags": ner_tags, 'tokens': token_list,
-                            'input_ids':input_ids, 'attention_mask':attention_mask})
+                            'input_ids': input_ids, 'attention_mask': attention_mask})
 
     return tok_results
+
 
 def shorten_data_with_windows_after_tokenization(infodict):
     '''
@@ -114,16 +138,22 @@ def shorten_data_with_windows_after_tokenization(infodict):
     tokens = infodict['tokens']
     attn = infodict['attention_mask']
     input_ids = infodict['input_ids']
+    
+    # Lọc ra các chỉ số có tag khác 0 và -100
     tag_indeces = [i for i, x in enumerate(tags) if x != 0 and x != -100]
 
-    # If there are more than 512 tokens
+    # Kiểm tra nếu tag_indeces trống
+    if not tag_indeces:
+        print("Warning: No valid tag indices found. Skipping this record.")
+        return new_info  # Trả về new_info rỗng nếu không có tag hợp lệ
+
+    # Nếu có dữ liệu hợp lệ trong tag_indeces, tiếp tục xử lý
     if len(tokens) >= new_size:
-        # If the indeces start and stop before 512, cut the list to 512
+        # Nếu các chỉ số bắt đầu và kết thúc trước 512, cắt danh sách đến 512
         if tag_indeces[0] < new_size and tag_indeces[-1] <= new_size:
             breaks = [i for i, x in enumerate(tokens) if '\n' in x or ')' in x or ']' in x or '}' in x or '\t' in x]
             if [m for m in breaks if m <= new_size] == []:
-                new_info.append({'new_tokens': [], 'new_tags': [],
-                            'new_attn': [], 'new_input_ids': []})
+                new_info.append({'new_tokens': [], 'new_tags': [], 'new_attn': [], 'new_input_ids': []})
                 return new_info
             else:
                 break_id_to_use = [m for m in breaks if m <= new_size][-1]
@@ -131,56 +161,51 @@ def shorten_data_with_windows_after_tokenization(infodict):
                 new_tags = tags[:break_id_to_use]
                 new_attn = attn[:break_id_to_use]
                 new_input_ids = input_ids[:break_id_to_use]
-                new_info.append({'new_tokens': new_tokens, 'new_tags': new_tags,
-                                'new_attn': new_attn, 'new_input_ids': new_input_ids})
+                new_info.append({'new_tokens': new_tokens, 'new_tags': new_tags, 'new_attn': new_attn, 'new_input_ids': new_input_ids})
 
         elif len(tag_indeces) <= new_size:
             breaks = [i for i, x in enumerate(tokens) if '\n' in x or ')' in x or ']' in x or '}' in x]
             if [m for m in breaks if m <= tag_indeces[0]] == []:
-                new_info.append({'new_tokens': [], 'new_tags': [],
-                            'new_attn': [], 'new_input_ids': []})
+                new_info.append({'new_tokens': [], 'new_tags': [], 'new_attn': [], 'new_input_ids': []})
                 return new_info
             else:
                 break_id_to_use1 = [m for m in breaks if m <= tag_indeces[0]][-1]
-                break_id_to_use2 = [m for m in breaks if m >= break_id_to_use1 and m <= break_id_to_use1+new_size][-1]
+                break_id_to_use2 = [m for m in breaks if m >= break_id_to_use1 and m <= break_id_to_use1 + new_size][-1]
                 new_tokens = tokens[break_id_to_use1:break_id_to_use2]
                 new_tags = tags[break_id_to_use1:break_id_to_use2]
                 new_attn = attn[break_id_to_use1:break_id_to_use2]
                 new_input_ids = input_ids[break_id_to_use1:break_id_to_use2]
-                new_info.append({'new_tokens': new_tokens, 'new_tags':new_tags,
-                                'new_attn': new_attn, 'new_input_ids': new_input_ids})
+                new_info.append({'new_tokens': new_tokens, 'new_tags': new_tags, 'new_attn': new_attn, 'new_input_ids': new_input_ids})
         else:
             breaks = [i for i, x in enumerate(tokens) if '\n' in x or ')' in x or ']' in x or '}' in x]
             break_ids_to_use = []
-            for i in range(math.ceil(len(tokens)/new_size)):
+            for i in range(math.ceil(len(tokens) / new_size)):
                 if i == 0:
-                    if [m for m in breaks if m <=new_size] == []:
+                    if [m for m in breaks if m <= new_size] == []:
                         break_id = breaks[0]
                     else:
-                        break_id = [m for m in breaks if m <=new_size][-1]
+                        break_id = [m for m in breaks if m <= new_size][-1]
                     chunk_start = 0
                 else:
-                    break_id = [m for m in breaks if m >= break_ids_to_use[i-1] and m <= break_ids_to_use[i-1]+new_size][-1]
-                    chunk_start = break_ids_to_use[i-1]
+                    break_id = [m for m in breaks if m >= break_ids_to_use[i - 1] and m <= break_ids_to_use[i - 1] + new_size][-1]
+                    chunk_start = break_ids_to_use[i - 1]
                 break_ids_to_use.append(break_id)
                 chunk = [chunk_start, break_id]
                 new_tokens = tokens[chunk[0]:chunk[1]]
                 new_tags = tags[chunk[0]:chunk[1]]
                 new_attn = attn[chunk[0]:chunk[1]]
                 new_input_ids = input_ids[chunk[0]:chunk[1]]
-                new_info.append({'new_tokens': new_tokens, 'new_tags':new_tags,
-                                'new_attn': new_attn, 'new_input_ids': new_input_ids})
+                new_info.append({'new_tokens': new_tokens, 'new_tags': new_tags, 'new_attn': new_attn, 'new_input_ids': new_input_ids})
 
     else:
-        ## If there are not more than 512 tokens
         new_tokens = tokens
         new_tags = tags
         new_attn = attn
         new_input_ids = input_ids
-        new_info.append({'new_tokens': new_tokens, 'new_tags':new_tags,
-                        'new_attn': new_attn, 'new_input_ids': new_input_ids})
+        new_info.append({'new_tokens': new_tokens, 'new_tags': new_tags, 'new_attn': new_attn, 'new_input_ids': new_input_ids})
 
     return new_info
+
 
 def create_labels(row):
     tags = row['ner_tags']
@@ -193,6 +218,7 @@ def create_labels(row):
         x += [0]*pad
         labels.append(x)
     return {'labels':labels}
+
 
 def change_attention(row):
     attention = row['attention_mask']
@@ -208,12 +234,12 @@ def change_attention(row):
         atts.append(x)
     return {'attention_mask':atts}
 
+
 #~~~~~~~~~~~~~~~~~~~~~
 
-clean_and_short_file = sys.argv[1]
-tokenizer_type = sys.argv[2]
-    
-#opening file
+clean_and_short_file = "C:/Users/ACER/Downloads/do an/PyVulDet-NER-demo/util/clean_dataset_short.pickle"
+tokenizer_type = 'roberta'  # or 'roberta' based on your requirement
+# opening file
 with open(clean_and_short_file, 'rb') as input:
     df = pickle.load(input)
 
@@ -223,9 +249,9 @@ elif tokenizer_type == 'roberta' or tokenizer_type == 'RoBERTa':
     tokenizer = AutoTokenizer.from_pretrained("roberta-base")
 else:
     print('error with input')
-    break
+    sys.exit()
 
-%%time
+start_time = time.time()
 df = df[~df.short_text.str.startswith('cdef')]
 df = df[~df.parts.str.strip().str.startswith('#')]
 df = df.drop_duplicates()
@@ -233,12 +259,12 @@ df_bp = df.copy()
 df_bp = df_bp[df_bp.type == 'bp']
 df_bp.reset_index(inplace=True, drop=True)
 
-%%time
+start_time = time.time()
 tag_tok_results_bp = []
 for x in range(0, len(df_bp), 50000):
     df_test = df_bp.copy()
     df_test = df_test.iloc[x: x+50000]
-    tag_tok_results_bp.append(df_test.apply(CODEBERT_tokenizer_tag_v2, axis =1))
+    tag_tok_results_bp.append(df_test.apply(CODEBERT_tokenizer_tag_v2, axis=1))
     print(len(df_bp)-x)
 
 tag_tok_results_bp_all = [y for x in tag_tok_results_bp for y in x]
@@ -259,58 +285,65 @@ for x in tag_tok_results_bp_all:
             bp_tokens.append(y['tokens'])
             bp_attention.append(y['attention_mask'])
             bp_input_ids.append(y['input_ids'])
-            
+
 df_bp['ner_tags'] = bp_ner_tags
 df_bp['tokens'] = bp_tokens
 df_bp['attention_mask'] = bp_attention
 df_bp['input_ids'] = bp_input_ids
 
-df_bp = df_bp.drop(columns = ['bp_len'])
+df_bp = df_bp.drop(columns=['bp_len'])
 df_bp = df_bp[df_bp.ner_tags != 'None']
 df_bp.reset_index(drop=True, inplace=True)
 
-#saving just in case
-import pickle
+# saving just in case
 with open('dataset_short_tag_tok_bp.pickle', 'wb') as output:
     pickle.dump(df_bp, output)
-    
-df_bp = df_bp.drop(columns = ['text'])
-df_bp = df_bp[['cwetype', 'type', 'short_text', 'parts', 'ner_tags', 'tokens', 'attention_mask','input_ids']]
 
-%%time
-results2 = []
-for x in range(0, len(df_bp), 100000):
-    print(len(df_bp)-x)
-    df_test = df_bp.copy()
-    df_test = df_test.iloc[x: x+100000]
-    results2.append(df_test.apply(shorten_data_with_windows_after_tokenization, axis =1))
+df_bp = df_bp.drop(columns=['text'])
+df_bp = df_bp[['cwetype', 'type', 'short_text', 'parts', 'ner_tags', 'tokens', 'attention_mask', 'input_ids']]
 
-short_results2 = [i for info in results2 for i in info]
+start_time = time.time()
+
+# Create df_new to hold processed data before applying shorten function
 df_new = df_bp.copy()
-df_new['short_results'] = short_results2
-df_new = df_new.explode('short_results')
-
+results2 = []
 new_ner_tags = []
 new_tokens = []
 new_attention = []
 new_input_ids = []
-for x in df_new.short_results.to_list():
-    if x['new_tags'] == []:
-        new_ner_tags.append('None')
-        new_tokens.append('None')
-        new_attention.append('None')
-        new_input_ids.append('None')
-    else:
-        if len(x['new_tags']) == len(x['new_tokens']) == len(x['new_attn']) == len(x['new_input_ids']):
-            new_ner_tags.append(x['new_tags'])
-            new_tokens.append(x['new_tokens'])
-            new_attention.append(x['new_attn'])
-            new_input_ids.append(x['new_input_ids'])
+
+# Đảm bảo rằng bạn đang làm việc với dict và không phải list
+for x in df_new.apply(shorten_data_with_windows_after_tokenization, axis=1):
+    if isinstance(x, dict) and 'new_tags' in x:
+        if isinstance(x['new_tags'], list):  # Đảm bảo rằng new_tags là list
+            if x['new_tags'] == []:
+                new_ner_tags.append('None')
+                new_tokens.append('None')
+                new_attention.append('None')
+                new_input_ids.append('None')
+            else:
+                if len(x['new_tags']) == len(x['new_tokens']) == len(x['new_attn']) == len(x['new_input_ids']):
+                    new_ner_tags.append(x['new_tags'])
+                    new_tokens.append(x['new_tokens'])
+                    new_attention.append(x['new_attn'])
+                    new_input_ids.append(x['new_input_ids'])
+                else:
+                    new_ner_tags.append('None')
+                    new_tokens.append('None')
+                    new_attention.append('None')
+                    new_input_ids.append('None')
         else:
+            print(f"Warning: 'new_tags' is not a list, it's a {type(x['new_tags'])}. Skipping this record.")
             new_ner_tags.append('None')
             new_tokens.append('None')
             new_attention.append('None')
             new_input_ids.append('None')
+    else:
+        print("Warning: Invalid structure or missing 'new_tags'. Skipping this record.")
+        new_ner_tags.append('None')
+        new_tokens.append('None')
+        new_attention.append('None')
+        new_input_ids.append('None')
 
 df_new['new_tags'] = new_ner_tags
 df_new['new_tokens'] = new_tokens
@@ -319,8 +352,8 @@ df_new['new_input_ids'] = new_input_ids
 
 df_new = df_new[df_new.new_tokens != 'None']
 df_new = df_new.reset_index(drop=True)
-df = df.drop(columns = ['short_text'])
-df = df.rename(columns = {'short_text2':'short_text'})
+df = df.drop(columns=['short_text'])
+df = df.rename(columns={'short_text2': 'short_text'})
 print(df_new.cwetype.value_counts())
 
 df_new['len_set_parts'] = df_new['parts'].apply(lambda x: len(set(x)))
@@ -335,13 +368,20 @@ df_bp_50['len_set_toks'] = df_bp_50['new_tokens'].apply(lambda x: len(x))
 
 df_final = df_bp_50.copy()
 
-#saving just in case
+# saving just in case
 import pickle
 print('saving tagsandtokens df')
 with open('df_tagsandtokens.pickle', 'wb') as output:
     pickle.dump(df_final, output)
-    
-df_final = df_final.drop(columns = ['ner_len','len_set_parts', 'parts_stripped'])
+
+# Remove unnecessary columns
+columns_to_drop = ['ner_len', 'len_set_parts', 'parts_stripped']
+
+# Chỉ xóa những cột thực sự tồn tại trong DataFrame
+columns_to_drop = [col for col in columns_to_drop if col in df_final.columns]
+
+# Xóa các cột
+df_final = df_final.drop(columns=columns_to_drop)
 
 count = Counter()
 for row in df_final.new_tags.tolist():
@@ -349,16 +389,21 @@ for row in df_final.new_tags.tolist():
         count[item] += 1
 print(count.most_common(13))
 
-%%time
-train, test = train_test_split(df_final, test_size=0.4, random_state=2023, shuffle = True, stratify = df_final.cwetype)
+# Kiểm tra nếu df_final rỗng
+if df_final.empty:
+    print("Error: df_final is empty. Please check the data processing steps.")
+    sys.exit()  # Dừng chương trình nếu df_final không có dữ liệu
+
+# Nếu df_final không rỗng, tiến hành chia dữ liệu
+train, test = train_test_split(df_final, test_size=0.4, random_state=2023, shuffle=True, stratify=df_final.cwetype)
 
 print('train counts:\n', train.cwetype.value_counts())
 train_data = datasets.Dataset.from_pandas(train)
 print('len of train data', len(train_data))
 print()
 
-valid, test2 = train_test_split(test, test_size=0.5, random_state=2023, shuffle = True, stratify = test.cwetype)
-print('test counts:\n',test2.cwetype.value_counts())
+valid, test2 = train_test_split(test, test_size=0.5, random_state=2023, shuffle=True, stratify=test.cwetype)
+print('test counts:\n', test2.cwetype.value_counts())
 test_data = datasets.Dataset.from_pandas(test2)
 print('len of test data', len(test_data))
 print()
@@ -368,10 +413,10 @@ valid_data = datasets.Dataset.from_pandas(valid)
 print('len of valid data', len(valid_data))
 print()
 
-dataset = datasets.DatasetDict({"train":train_data,'validation':valid_data, 'test':test_data})
+dataset = datasets.DatasetDict({"train": train_data, 'validation': valid_data, 'test': test_data})
 dataset_labels = dataset.map(create_labels, batched=True)
 dataset_v2 = dataset_labels.map(change_attention, batched=True)
 
 print('saving model ready data')
-with open(tokenizer_type.lower()+'_tagsandtokens.pickle', 'wb') as output:
+with open(tokenizer_type.lower() + '_tagsandtokens.pickle', 'wb') as output:
     pickle.dump(dataset_v2, output)
